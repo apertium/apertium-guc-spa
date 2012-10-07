@@ -1,0 +1,3 @@
+* text=auto !eol
+/apertium-guc-spa.guc-spa.dix -text
+dev/dict.py -text
