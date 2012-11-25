@@ -1,3 +1,4 @@
 * text=auto !eol
 /apertium-guc-spa.guc-spa.dix -text
+/apertium-guc-spa.guc.dix -text
 dev/dict.py -text

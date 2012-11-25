@@ -1,0 +1,37 @@
+<dictionary>
+  <alphabet></alphabet>
+  <sdefs>
+    <sdef n="n"       c="Nombre común"/>
+    <sdef n="m"       c="Masculino"/>
+    <sdef n="f"       c="Feminino"/>
+    <sdef n="nn"      c="Inanimado"/>
+    <sdef n="aa"      c="Animado"/>
+    <sdef n="ut"      c="No masculino"/>
+    <sdef n="sg"      c="Singular"/>
+    <sdef n="pl"      c="Plural"/>
+  </sdefs>
+  <pardefs>
+    <pardef n="ipa'__n">
+      <e><p><l></l><r><s n="n"/><s n="nn"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>irrua</l><r><s n="n"/><s n="nn"/><s n="m"/><s n="pl"/></r></p></e>
+    </pardef>
+    <pardef n="musa__n">
+      <e><p><l></l><r><s n="n"/><s n="aa"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>irrua</l><r><s n="n"/><s n="aa"/><s n="m"/><s n="pl"/></r></p></e>
+    </pardef>
+    <pardef n="kalina__n">
+      <e><p><l></l><r><s n="n"/><s n="aa"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l>irrua</l><r><s n="n"/><s n="aa"/><s n="f"/><s n="pl"/></r></p></e>
+    </pardef>
+  </pardefs>
+
+  <section id="main" type="standard">
+    <e lm="ipa'"><i>ipa'</i><par n="ipa'__n"/>
+    <e lm="wopu"><i>wopu</i><par n="ipa'__n"/>
+    <e lm="shüliuala"><i>shüliuala</i><par n="ipa'__n"/>
+    <e lm="kai"><i>kai</i><par n="ipa'__n"/>
+    <e lm="lapu'"><i>lapu'</i><par n="ipa'__n"/>
+    <e lm="musa"><i>musa</i><par n="musa__n"/>
+    <e lm="kalina"><i>kalina</i><par n="kalina__n"/>
+  </section>
+</dictionary>
