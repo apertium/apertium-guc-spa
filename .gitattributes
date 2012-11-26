@@ -2,7 +2,9 @@
 /apertium-guc-spa.guc-spa.dix -text
 /apertium-guc-spa.guc.dix -text
 /apertium-guc-spa.spa.dix -text
+dev/boreas.guc.txt -text
+dev/boreas.spa.txt -text
+dev/cuento.guc.txt -text
+dev/cuento.spa.txt -text
 dev/dict.py -text
-dev/guc.txt -text
-dev/spa.txt -text
 /spa-guc.prob -text
