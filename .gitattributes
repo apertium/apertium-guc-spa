@@ -3,4 +3,6 @@
 /apertium-guc-spa.guc.dix -text
 /apertium-guc-spa.spa.dix -text
 dev/dict.py -text
+dev/guc.txt -text
+dev/spa.txt -text
 /spa-guc.prob -text
