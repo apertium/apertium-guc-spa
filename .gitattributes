@@ -1,6 +1,12 @@
 * text=auto !eol
+/Makefile -text
 /apertium-guc-spa.guc-spa.dix -text
 /apertium-guc-spa.guc.dix -text
+/apertium-guc-spa.spa-guc.lrx -text
+/apertium-guc-spa.spa-guc.t1x -text
+/apertium-guc-spa.spa-guc.t2x -text
+/apertium-guc-spa.spa-guc.t3x -text
+/apertium-guc-spa.spa.acx -text
 /apertium-guc-spa.spa.dix -text
 dev/boreas.guc.txt -text
 dev/boreas.spa.txt -text
@@ -8,4 +14,5 @@ dev/cuento.guc.1.txt -text
 dev/cuento.guc.2.txt -text
 dev/cuento.spa.txt -text
 dev/dict.py -text
+/modes.xml -text
 /spa-guc.prob -text

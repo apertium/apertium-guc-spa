@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- -*- nxml -*- -->
+<interchunk>
+  <section-def-cats>
+    <def-cat n="SN">
+      <cat-item tags="SN"/>
+      <cat-item tags="SN.*"/>
+    </def-cat>
+  </section-def-cats>
+  <section-def-attrs>
+    <def-attr n="a_nbr">
+      <attr-item tags="sg"/>
+      <attr-item tags="pl"/>
+      <attr-item tags="sp"/>
+      <attr-item tags="ND"/>
+    </def-attr>
+  </section-def-attrs>
+  <section-def-vars>
+    <def-var n="number"/>
+  </section-def-vars>
+  <section-def-macros>
+    <def-macro n="out-blank-if-not-single-space" npar="1">
+<!-- Outputs nothing if the blank is " " and the blank otherwise..-->
+<!-- Takes one position parameter -->
+      <choose>
+        <when>
+          <test>
+            <not>
+              <equal>
+                <b pos="1"/>
+                <lit v=" "/>
+              </equal>
+            </not>
+          </test>
+          <out>
+            <b pos="1"/>
+          </out>
+        </when>
+      </choose>
+    </def-macro>
+
+
+
+  </section-def-macros>
+  <section-rules>
+
+    <rule comment="REGLA: SN">
+      <pattern>
+        <pattern-item n="SN"/>
+      </pattern>
+      <action>
+        <out>
+          <chunk>
+            <clip pos="1" part="lem"/>
+            <clip pos="1" part="tags"/>
+            <clip pos="1" part="chcontent"/>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+  </section-rules>
+</interchunk>
+
+

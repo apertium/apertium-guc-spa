@@ -3,18 +3,22 @@
   <sdefs>
     <sdef n="n"         c="Nombre"/>
     <sdef n="post"      c="Postposición"/>
+    <sdef n="np"        c="Nombre propio"/>
     <sdef n="pr"        c="Preposición"/>
     <sdef n="cnjcoo"    c="Co-ordinating conjunction"/>
+
+    <sdef n="ant"       c="Antroponim"/>
 
     <sdef n="m"         c="Masculino"/>
     <sdef n="f"         c="Feminino"/>
     <sdef n="GD"        c="Genero por determinar"/>
 
+    <sdef n="sent"      c="Etiqueta de fin de oración"/>
   </sdefs>
 
   <section id="main" type="standard">
 
-    <e><p><l>suma'a<s n="cnjcoo"/></l><r>y<s n="cnjcoo"/></r></p></e> <!--  -->
+    <e><p><l>juma'a<s n="cnjcoo"/></l><r>y<s n="cnjcoo"/></r></p></e> <!--  -->
 
     <!-- SECCIÓN: Adposiciones -->
 
@@ -57,6 +61,7 @@
 
     <!-- SECCIÓN: Nombres comunes -->
 
+    <e><p><l>kulala<s n="n"/></l><r>jardín<s n="n"/><s n="m"/></r></p></e> <!--  -->
     <e><p><l>o'uyaajana<s n="n"/></l><r>acompañante<s n="n"/><s n="m"/></r></p></e> <!--  -->
     <e><p><l>ale'e<s n="n"/></l><r>abdomen<s n="n"/><s n="m"/></r></p></e> <!--  -->
     <e><p><l>o'u<s n="n"/></l><r>abertura<s n="n"/><s n="f"/></r></p></e> <!--  -->
@@ -733,6 +738,15 @@
     <e><p><l>sapaata<s n="n"/></l><r>zapato<s n="n"/><s n="m"/></r></p></e> <!--  -->
     <e><p><l>walirü<s n="n"/></l><r>zorro<s n="n"/><s n="m"/></r></p></e> <!-- | zorro, -rra  -->
     <e><p><l>mei<s n="n"/></l><r>zancudo<s n="n"/><s n="m"/></r></p></e> <!--  -->
+
+    <!-- SECCIÓN: Nombres comunes -->
+
+    <e><p><l>María<s n="np"/><s n="ant"/><s n="f"/></l><r>María<s n="np"/><s n="ant"/><s n="f"/></r></p></e> <!--  -->
+    <e><p><l>Jaime<s n="np"/><s n="ant"/><s n="m"/></l><r>Jaime<s n="np"/><s n="ant"/><s n="m"/></r></p></e> <!--  -->
+
+
+    <!-- SECCIÓN: Punctuación -->
+    <e><re>[.\?;:!·]</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>
 
   </section>
 </dictionary>

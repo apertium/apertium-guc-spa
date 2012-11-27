@@ -1,0 +1,5 @@
+<rules>
+  <rule>
+    <match lemma="cerro" tags="n.m.*"><select lemma="namüna" tags="n.*"/></match>
+  </rule>
+</rules>
