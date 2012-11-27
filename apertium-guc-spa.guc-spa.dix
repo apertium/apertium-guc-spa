@@ -4,6 +4,7 @@
     <sdef n="n"         c="Nombre"/>
     <sdef n="post"      c="Postposición"/>
     <sdef n="pr"        c="Preposición"/>
+    <sdef n="cnjcoo"    c="Co-ordinating conjunction"/>
 
     <sdef n="m"         c="Masculino"/>
     <sdef n="f"         c="Feminino"/>
@@ -12,6 +13,8 @@
   </sdefs>
 
   <section id="main" type="standard">
+
+    <e><p><l>suma'a<s n="cnjcoo"/></l><r>y<s n="cnjcoo"/></r></p></e> <!--  -->
 
     <!-- SECCIÓN: Adposiciones -->
 
