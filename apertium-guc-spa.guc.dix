@@ -3,6 +3,7 @@
   <sdefs>
     <sdef n="n"       c="Nombre común"/>
     <sdef n="m"       c="Masculino"/>
+    <sdef n="num"     c="Número"/>
     <sdef n="np"      c="Nombre propio"/>
     <sdef n="cnjcoo"  c="Conjunción coordinada"/>
     <sdef n="f"       c="Feminino"/>
@@ -12,9 +13,40 @@
     <sdef n="ut"      c="No masculino"/>
     <sdef n="sg"      c="Singular"/>
     <sdef n="pl"      c="Plural"/>
+    <sdef n="cm"      c="Coma"/>
+    <sdef n="apos"    c="Apostrofo"/>
+    <sdef n="guio"    c="Guión"/>
     <sdef n="sent"    c="Etiqueta de fin de oración"/>
   </sdefs>
   <pardefs>
+    <!-- SECTION: Punctuación -->
+
+    <pardef n="guionet">    
+      <e><p><l>-</l><r>-<s n="guio"/></r></p></e>
+    </pardef>
+
+    <pardef n="coma">    
+      <e><p><l>,</l><r>,<s n="cm"/></r></p></e>
+    </pardef>
+
+    <pardef n="aposchar">    
+      <e><i>'</i></e>
+      <e r="LR" i="yes"><p><l>’</l><r>'</r></p></e>
+    </pardef>
+
+    <pardef n="cometa">    
+      <e><par n="aposchar"/><p><l></l><r><s n="apos"/></r></p></e>
+    </pardef>
+
+    <pardef n="numeros">    
+      <e><re>[0-9]+([.,][0-9]+)?</re><p><l></l><r><s n="num"/></r></p></e>
+    </pardef>
+
+    <pardef n="separa">    
+      <e><re>[.\?;:!]</re><p><l></l><r><s n="sent"/></r></p></e>
+    </pardef>
+
+    <!-- SECCIÓN: Nombres -->
     <pardef n="ipa'__n">
       <e><p><l></l><r><s n="n"/><s n="nn"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>irrua</l><r><s n="n"/><s n="nn"/><s n="m"/><s n="pl"/></r></p></e>
@@ -69,7 +101,12 @@
     <e lm="Jaime"><i>Jaime</i><par n="Jaime__np"/></e>
   </section>
   <section id="final" type="inconditional">
+    <e><par n="numeros"/></e>
     <e><par n="separa"/></e>
+    <e><par n="coma"/></e>
+    <e><par n="cometa"/></e>
+    <e><par n="guionet"/></e>
+
   </section>
 
 </dictionary>

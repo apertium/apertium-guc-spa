@@ -13,6 +13,7 @@
     <sdef n="f"         c="Feminino"/>
     <sdef n="GD"        c="Genero por determinar"/>
 
+    <sdef n="cm"        c="Coma"/>
     <sdef n="sent"      c="Etiqueta de fin de oración"/>
   </sdefs>
 
@@ -747,6 +748,6 @@
 
     <!-- SECCIÓN: Punctuación -->
     <e><re>[.\?;:!·]</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>
-
+    <e><p><l>,<s n="cm"/></l><r>,<s n="cm"/></r></p></e>
   </section>
 </dictionary>
