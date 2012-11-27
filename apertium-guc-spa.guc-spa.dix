@@ -5,6 +5,7 @@
     <sdef n="post"      c="Postposición"/>
     <sdef n="np"        c="Nombre propio"/>
     <sdef n="num"       c="Número"/>
+    <sdef n="adv"       c="Adverbios"/>
 
     <sdef n="pr"        c="Preposición"/>
     <sdef n="cnjcoo"    c="Co-ordinating conjunction"/>
@@ -748,6 +749,14 @@
 
     <e><p><l>María<s n="np"/><s n="ant"/><s n="f"/></l><r>María<s n="np"/><s n="ant"/><s n="f"/></r></p></e> <!--  -->
     <e><p><l>Jaime<s n="np"/><s n="ant"/><s n="m"/></l><r>Jaime<s n="np"/><s n="ant"/><s n="m"/></r></p></e> <!--  -->
+
+    <!-- SECCIÓN: Adjetivos -->
+
+    <!-- SECCIÓN: Adverbios -->
+
+    <e><p><l>so'uka'i<s n="adv"/></l><r>hoy<s n="adv"/></r></p></e> <!--  -->
+
+    <!-- SECCIÓN: Verbos -->
 
 
     <!-- SECCIÓN: Punctuación -->
