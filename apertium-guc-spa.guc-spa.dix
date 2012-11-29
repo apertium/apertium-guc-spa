@@ -10,6 +10,8 @@
     <sdef n="pr"        c="Preposición"/>
     <sdef n="cnjcoo"    c="Co-ordinating conjunction"/>
 
+    <sdef n="itg"       c="Interrogativo"/>
+
     <sdef n="ant"       c="Antroponim"/>
 
     <sdef n="m"         c="Masculino"/>
@@ -754,7 +756,51 @@
 
     <!-- SECCIÓN: Adverbios -->
 
+    <e><p><l>jamaa<s n="adv"/><s n="itg"/></l><r>cómo<s n="adv"/><s n="itg"/></r></p></e>
+
     <e><p><l>so'uka'i<s n="adv"/></l><r>hoy<s n="adv"/></r></p></e> <!--  -->
+    <e><p><l>aa<s n="adv"/></l><r>sí<s n="adv"/></r></p></e> 
+    <e><p><l>aipa'inka<s n="adv"/></l><r>anoche<s n="adv"/></r></p></e> 
+    <e><p><l>aka'aya<s n="adv"/></l><r>asimismo<s n="adv"/></r></p></e> 
+    <e><p><l>aliikainka<s n="adv"/></l><r>ayer<s n="adv"/></r></p></e> <!-- so'ukalinka -->
+    <e><p><l>iipünaa<s n="adv"/></l><r>arriba<s n="adv"/></r></p></e> 
+    <e><p><l>joolu'u<s n="adv"/></l><r>ahora<s n="adv"/></r></p></e> <!-- pronto -->
+    <e><p><l>jouja<s n="adv"/></l><r>cuando<s n="adv"/></r></p></e> <!-- cuándo -->
+    <e><p><l>kale'u<s n="adv"/></l><r>mediodia<s n="adv"/></r></p></e> 
+    <e><p><l>maalü<s n="adv"/></l><r>ya<s n="adv"/></r></p></e> <!-- pronto -->
+    <e><p><l>mapa<s n="adv"/></l><r>después<s n="adv"/></r></p></e> <!-- mapa1 -->
+    <e><p><l>ma'i<s n="adv"/></l><r>muy<s n="adv"/></r></p></e> <!-- mucho --> 
+    <e><p><l>meinshi<s n="adv"/></l><r>siempre<s n="adv"/></r></p></e> <!-- wayuu: weinshi-->
+    <e><p><l>mmolu'u<s n="adv"/></l><r>abajo<s n="adv"/></r></p></e> <!-- en el suelo -->
+    <e><p><l>motso'o<s n="adv"/></l><r>brevemente<s n="adv"/></r></p></e> <!-- inmediatamente -->
+    <e><p><l>ne'e<s n="adv"/></l><r>justamente<s n="adv"/></r></p></e> <!-- solamente -->
+    <e><p><l>nnojo<s n="adv"/></l><r>no<s n="adv"/></r></p></e>
+    <e><p><l>paala<s n="adv"/></l><r>antes<s n="adv"/></r></p></e>    <!---  -->
+    <e><p><l>paalaapüna<s n="adv"/></l><r>por<b/>el<b/>norte<s n="adv"/></r></p></e>
+    <e><p><l>palajana<s n="adv"/></l><r>primero<s n="adv"/></r></p></e>
+    <e><p><l>pasanain anain<s n="adv"/></l><r>entre<s n="adv"/></r></p></e> <!-- en medio de -->
+    <e><p><l>paülü'ü<s n="adv"/></l><r>adentro<s n="adv"/></r></p></e> <!-- de la casa -->
+    <e><p><l>pejeewa<s n="adv"/></l><r>a<b/>cada<b/>rato<s n="adv"/></r></p></e>
+    <e><p><l>piantua<s n="adv"/></l><r>dos<b/>veces<s n="adv"/></r></p></e>
+    <e><p><l>unapümüin<s n="adv"/></l><r>hacia<b/>abajo<s n="adv"/></r></p></e>
+    <e><p><l>waneepia<s n="adv"/></l><r>siempre<s n="adv"/></r></p></e> <!-- ADJ: completo-ta, entero-ra -->
+    <e><p><l>watta'a<s n="adv"/></l><r>mañana<s n="adv"/></r></p></e>
+    <e><p><l>wattapia<s n="adv"/></l><r>pasado<b/>mañana<s n="adv"/></r></p></e>
+    <e><p><l>yaajeeru'u n="adv"/></l><r>en<b/>este<b/>lado<s n="adv"/></r></p></e>
+    <e><p><l>yaaulerü<s n="adv"/></l><r>un<b/>rato<s n="adv"/></r></p></e> 
+    <e><p><l>yaawala<s n="adv"/></l><r>inmediatamente<s n="adv"/></r></p></e>
+    <e><p><l>yaaya<s n="adv"/></l><r>aquí<s n="adv"/></r></p></e>
+    <e><p><l>yala<s n="adv"/></l><r>allí<s n="adv"/></r></p></e>
+    <e><p><l>anooipa'a<s n="adv"/></l><r>afuera<s n="adv"/></r></p></e>
+    <e><p><l>motso'o<s n="adv"/></l><r>brevemente<s n="adv"/></r></p></e>
+    <e><p><l>jalaa<s n="adv"/></l><r>donde<s n="adv"/></r></p></e>
+    <e><p><l>peeje<s n="adv"/></l><r>cerca<s n="adv"/></r></p></e>
+    <e><p><l>sa'aya<s n="adv"/></l><r>allá<s n="adv"/></r></p></e> 
+    <e><p><l>maa<b/>kaa<s n="adv"/></l><r>como<s n="adv"/></r></p></e>
+    <e><p><l>oo'opünaa<s n="adv"/></l><r>cuanto<s n="adv"/></r></p></e>
+    <e><p><l>emetulu<s n="adv"/></l><r>fuertemente<s n="adv"/></r></p></e>
+
+
 
     <!-- SECCIÓN: Verbos -->
 
