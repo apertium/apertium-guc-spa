@@ -2,15 +2,22 @@
   <alphabet/>
   <sdefs>
     <sdef n="n"         c="Nombre"/>
+    <sdef n="ali"       c="Nombre Alineable"/>
+    <sdef n="ina"       c="Nombre Inalineable"/>
     <sdef n="post"      c="Postposición"/>
     <sdef n="np"        c="Nombre propio"/>
     <sdef n="num"       c="Número"/>
     <sdef n="adv"       c="Adverbios"/>
+    <sdef n="vblex"     c="Verbos"/>
+    <sdef n="vbtra"     c="Verbos Transitivos"/>
+    <sdef n="vbintra"   c="Verbos Intrasitivos"/>
+    <sdef n="vbact"     c="Verbos ACtivos"/>
+    <sdef n="vbest"     c="Verbos Estativos"/>
+    <sdef n="vbtuno"    c="Verbos Tipo I"/>
+    <sdef n="vbtdos"    c="Verbos Tipo II"/>
 
     <sdef n="pr"        c="Preposición"/>
     <sdef n="cnjcoo"    c="Co-ordinating conjunction"/>
-
-    <sdef n="itg"       c="Interrogativo"/>
 
     <sdef n="ant"       c="Antroponim"/>
 
@@ -65,46 +72,51 @@
     <e><p><l>oulia<s n="post"/></l><r>de<s n="pr"/></r></p></e> <!-- | de, más que, en vez de, -->
     <e><p><l>oupünaa<s n="post"/></l><r>debajo<b/>de<s n="pr"/></r></p></e> <!--  -->
     <e><p><l>jümaa<s n="post"/></l><r>con<s n="pr"/></r></p></e> <!-- con -->
+    <e><p><l>achikijee<s n="post"/></l><r>después<b/>de<s n="pr"/></r></p></e> <!-- despues de que -->
+    <e><p><l>kasa<s n="post"/></l><r>qué<s n="pr"/></r></p></e>
+    <e><p><l>aka<s n="post"/></l><r>poque<s n="cnjcoo"/></r></p></e>
+
+
     
 
     <!-- SECCIÓN: Nombres comunes -->
 
     <e><p><l>kulala<s n="n"/></l><r>jardín<s n="n"/><s n="m"/></r></p></e> <!--  -->
     <e><p><l>o'uyaajana<s n="n"/></l><r>acompañante<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>ale'e<s n="n"/></l><r>abdomen<s n="n"/><s n="m"/></r></p></e> <!--  -->
+    <e><p><l>ale'e<s n="ina"/></l><r>abdomen<s n="n"/><s n="m"/></r></p></e> <!--  -->
     <e><p><l>o'u<s n="n"/></l><r>abertura<s n="n"/><s n="f"/></r></p></e> <!--  -->
     <e><p><l>pütchipü'ü<s n="n"/></l><r>abogado<s n="n"/><s n="m"/></r></p></e> <!-- estar de acuerdo| acuerdo, abogado, -da  -->
     <e><p><l>pütchipü'ü<s n="n"/></l><r>acuerdo<s n="n"/><s n="m"/></r></p></e> <!-- estar de acuerdo| acuerdo, abogado, -da  -->
-    <e><p><l>atuushi<s n="n"/></l><r>abuelo<s n="n"/><s n="m"/></r></p></e> <!-- | abuelo, -la  -->
-    <e><p><l>taata<s n="n"/></l><r>abuelo<s n="n"/><s n="m"/></r></p></e> <!-- | abuelo, -la  -->
-    <e><p><l>wüin<s n="n"/></l><r>agua<s n="n"/><s n="f"/></r></p></e> <!-- sitio donde hay agua -->
-    <e><p><l>seita<s n="n"/></l><r>aceite<s n="n"/><s n="m"/></r></p></e> <!-- comestible -->
-    <e><p><l>chirinchi<s n="n"/></l><r>aguardiente<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>wutia<s n="n"/></l><r>aguja<s n="n"/><s n="f"/></r></p></e> <!--  -->
+    <e><p><l>atuushi<s n="ina"/></l><r>abuelo<s n="n"/><s n="m"/></r></p></e> <!-- | abuelo, -la  -->
+    <e><p><l>taata<s n="ina"/></l><r>abuelo<s n="n"/><s n="m"/></r></p></e> <!-- | abuelo, -la  -->
+    <e><p><l>wüin<s n="ali"/></l><r>agua<s n="n"/><s n="f"/></r></p></e> <!-- sitio donde hay agua -->
+    <e><p><l>seita<s n="ali"/></l><r>aceite<s n="n"/><s n="m"/></r></p></e> <!-- comestible -->
+    <e><p><l>chirinchi<s n="ali"/></l><r>aguardiente<s n="n"/><s n="m"/></r></p></e> <!--  -->
+    <e><p><l>wutia<s n="ali"/></l><r>aguja<s n="n"/><s n="f"/></r></p></e> <!--  -->
     <e><p><l>o'u<s n="n"/></l><r>agujero<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>atünajutü<s n="n"/></l><r>amigo<s n="n"/><s n="m"/></r></p></e> <!-- para| amigo, -ga  -->
+    <e><p><l>atünajutü<s n="ina"/></l><r>amigo<s n="n"/><s n="m"/></r></p></e> <!-- para| amigo, -ga  -->
     <e><p><l>jouktai<s n="n"/></l><r>aire<s n="n"/><s n="m"/></r></p></e> <!--  -->
     <e><p><l>aleewaa<s n="n"/></l><r>amistad<s n="n"/><s n="f"/></r></p></e> <!-- tener amistad -->
     <e><p><l>je'yulu<s n="n"/></l><r>alacrán<s n="n"/><s n="m"/></r></p></e> <!--  -->
     <e><p><l>jolotoo<s n="n"/></l><r>ampolla<s n="n"/><s n="f"/></r></p></e> <!-- tener ampolla -->
     <e><p><l>lania<s n="n"/></l><r>amuleto<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>süttiija<s n="n"/></l><r>anillo<s n="n"/><s n="m"/></r></p></e> <!--  -->
+    <e><p><l>süttiija<s n="ali"/></l><r>anillo<s n="n"/><s n="m"/></r></p></e> <!--  -->
     <e><p><l>mürülü<s n="n"/></l><r>animal<s n="n"/><s n="m"/></r></p></e> <!-- doméstico -->
     <e><p><l>atuushi<s n="n"/></l><r>antepasado<s n="n"/><s n="m"/></r></p></e> <!--  -->
     <e><p><l>kachueera<s n="n"/></l><r>alambre<s n="n"/><s n="m"/></r></p></e> <!--  -->
     <e><p><l>kulira<s n="n"/></l><r>anzuelo<s n="n"/><s n="m"/></r></p></e> <!--  -->
     <e><p><l>teitei<s n="n"/></l><r>alcaraván<s n="n"/><s n="m"/></r></p></e> <!-- dara -->
     <e><p><l>kaarai<s n="n"/></l><r>alcaraván<s n="n"/><s n="m"/></r></p></e> <!-- dara -->
-    <e><p><l>maawüi<s n="n"/></l><r>algodón<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>eküülü<s n="n"/></l><r>alimento<s n="n"/><s n="m"/></r></p></e> <!--  -->
+    <e><p><l>maawüi<s n="ali"/></l><r>algodón<s n="n"/><s n="m"/></r></p></e> <!--  -->
+    <e><p><l>eküülü<s n="ali"/></l><r>alimento<s n="n"/><s n="m"/></r></p></e> <!--  -->
     <e><p><l>aa'in<s n="n"/></l><r>alma<s n="n"/><s n="f"/></r></p></e> <!--  -->
     <e><p><l>juya<s n="n"/></l><r>año<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>ekiipala<s n="n"/></l><r>almohada<s n="n"/><s n="f"/></r></p></e> <!--  -->
+    <e><p><l>ekiipala<s n="ali"/></l><r>almohada<s n="n"/><s n="f"/></r></p></e> <!--  -->
     <e><p><l>rülipi<s n="n"/></l><r>áloe<s n="n"/><s n="m"/></r></p></e> <!-- | áloe, aloe  -->
     <e><p><l>ayolojo<s n="n"/></l><r>apariencia<s n="n"/><s n="f"/></r></p></e> <!--  -->
     <e><p><l>luwopu<s n="n"/></l><r>arroyo<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>roo<s n="n"/></l><r>arroz<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>asüla<s n="n"/></l><r>arteria<s n="n"/><s n="f"/></r></p></e> <!--  -->
+    <e><p><l>roo<s n="ali"/></l><r>arroz<s n="n"/><s n="m"/></r></p></e> <!--  -->
+    <e><p><l>asüla<s n="ina"/></l><r>arteria<s n="n"/><s n="f"/></r></p></e> <!--  -->
     <e><p><l>alerajaa<s n="n"/></l><r>asco<s n="n"/><s n="m"/></r></p></e> <!-- sentir asco por -->
     <e><p><l>einase<s n="n"/></l><r>asiento<s n="n"/><s n="m"/></r></p></e> <!--  -->
     <e><p><l>walekerü<s n="n"/></l><r>araña<s n="n"/><s n="f"/></r></p></e> <!--  -->
@@ -585,7 +597,7 @@
     <e><p><l>ishi<s n="n"/></l><r>pozo<s n="n"/><s n="m"/></r></p></e> <!--  -->
     <e><p><l>alia<s n="n"/></l><r>precio<s n="n"/><s n="m"/></r></p></e> <!--  -->
     <e><p><l>jaarü<s n="n"/></l><r>pocillo<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>kakuuna<s n="n"/></l><r>prenda<s n="n"/><s n="f"/></r></p></e> <!-- joya -->
+    <e><p><l>kakuuna<s n="n"/></l><r>prenda<s n="n"/><s n="f"/></r></p></e> <!-- jo-->
     <e><p><l>asirü<s n="n"/></l><r>presa<s n="n"/><s n="f"/></r></p></e> <!--  -->
     <e><p><l>mma<s n="n"/></l><r>polvo<s n="n"/><s n="m"/></r></p></e> <!--  -->
     <e><p><l>iwaa<s n="n"/></l><r>prostituta<s n="n"/><s n="f"/></r></p></e> <!-- ser prostituta -->
@@ -752,61 +764,99 @@
     <e><p><l>María<s n="np"/><s n="ant"/><s n="f"/></l><r>María<s n="np"/><s n="ant"/><s n="f"/></r></p></e> <!--  -->
     <e><p><l>Jaime<s n="np"/><s n="ant"/><s n="m"/></l><r>Jaime<s n="np"/><s n="ant"/><s n="m"/></r></p></e> <!--  -->
 
-    <!-- SECCIÓN: Adjetivos -->
-
     <!-- SECCIÓN: Adverbios -->
-
-    <e><p><l>jamaa<s n="adv"/><s n="itg"/></l><r>cómo<s n="adv"/><s n="itg"/></r></p></e>
-
-    <e><p><l>so'uka'i<s n="adv"/></l><r>hoy<s n="adv"/></r></p></e> <!--  -->
-    <e><p><l>aa<s n="adv"/></l><r>sí<s n="adv"/></r></p></e> 
+    <e><p><l>nnojo<s n="adv"/></l><r>no<s n="adv"/></r></p></e>
+    <e><p><l>jalaa<s n="adv"/></l><r>dónde<s n="adv"/></r></p></e> <!-- verbo de estado en Wayunaiki-->
+    <e><p><l>yaa<s n="adv"/></l><r>también<s n="adv"/></r></p></e>
+    <e><p><l>joolu'u<s n="adv"/></l><r>ahora<s n="adv"/></r></p></e>
+    <e><p><l>jamaa<s n="adv"/></l><r>por qué<s n="adv"/></r></p></e> <!-- itg-->
+    <e><p><l>yalaala<s n="adv"/></l><r>ahí<s n="adv"/></r></p></e>
+    <e><p><l>yootchon<s n="adv"/></l><r>un poco<s n="adv"/></r></p></e> 
+    <e><p><l>waneepia<s n="adv"/></l><r>siempre<s n="adv"/></r></p></e>
+    <e><p><l>meinshi<s n="adv"/></l><r>siempre<s n="adv"/></r></p></e> 
+    <e><p><l>weinshi<s n="adv"/></l><r>siempre<s n="adv"/></r></p></e>
+  <!--  <e><p><l>ja'itairü<s n="adv"/></l><r>aunque<s n="adv"/></r></p></e> -->
+    <e><p><l>jüchikua'ya<s n="adv"/></l><r>otra vez<s n="adv"/></r></p></e> 
+    <e><p><l>ma'i<s n="adv"/></l><r>mucho<s n="adv"/></r></p></e>  <!-- muy --> 
+    <e><p><l>so'uka'i<s n="adv"/></l><r>hoy<s n="adv"/></r></p></e> 
+    <e><p><l>peeje<s n="adv"/></l><r>cerca<s n="adv"/></r></p></e> 
+    <e><p><l>aliikainka<s n="adv"/></l><r>ayer<s n="adv"/></r></p></e> 
+    <e><p><l>so'ukalinka<s n="adv"/></l><r>ayer<s n="adv"/></r></p></e>
+    <e><p><l>anooipa'a<s n="adv"/></l><r>afuera<s n="adv"/></r></p></e>
+    <e><p><l>aa<s n="adv"/></l><r>si<s n="adv"/></r></p></e> 
     <e><p><l>aipa'inka<s n="adv"/></l><r>anoche<s n="adv"/></r></p></e> 
     <e><p><l>aka'aya<s n="adv"/></l><r>asimismo<s n="adv"/></r></p></e> 
-    <e><p><l>aliikainka<s n="adv"/></l><r>ayer<s n="adv"/></r></p></e> <!-- so'ukalinka -->
     <e><p><l>iipünaa<s n="adv"/></l><r>arriba<s n="adv"/></r></p></e> 
-    <e><p><l>joolu'u<s n="adv"/></l><r>ahora<s n="adv"/></r></p></e> <!-- pronto -->
-    <e><p><l>jouja<s n="adv"/></l><r>cuando<s n="adv"/></r></p></e> <!-- cuándo -->
+    <e><p><l>jouja<s n="adv"/></l><r>cuando<s n="adv"/></r></p></e> 
     <e><p><l>kale'u<s n="adv"/></l><r>mediodia<s n="adv"/></r></p></e> 
-    <e><p><l>maalü<s n="adv"/></l><r>ya<s n="adv"/></r></p></e> <!-- pronto -->
-    <e><p><l>mapa<s n="adv"/></l><r>después<s n="adv"/></r></p></e> <!-- mapa1 -->
-    <e><p><l>ma'i<s n="adv"/></l><r>muy<s n="adv"/></r></p></e> <!-- mucho --> 
-    <e><p><l>meinshi<s n="adv"/></l><r>siempre<s n="adv"/></r></p></e> <!-- wayuu: weinshi-->
+    <e><p><l>mapa<s n="adv"/></l><r>despues<s n="adv"/></r></p></e> <!-- mapa1 -->
     <e><p><l>mmolu'u<s n="adv"/></l><r>abajo<s n="adv"/></r></p></e> <!-- en el suelo -->
-    <e><p><l>motso'o<s n="adv"/></l><r>brevemente<s n="adv"/></r></p></e> <!-- inmediatamente -->
-    <e><p><l>ne'e<s n="adv"/></l><r>justamente<s n="adv"/></r></p></e> <!-- solamente -->
-    <e><p><l>nnojo<s n="adv"/></l><r>no<s n="adv"/></r></p></e>
-    <e><p><l>paala<s n="adv"/></l><r>antes<s n="adv"/></r></p></e>    <!---  -->
-    <e><p><l>paalaapüna<s n="adv"/></l><r>por<b/>el<b/>norte<s n="adv"/></r></p></e>
+    <e><p><l>motso'o<s n="adv"/></l><r>brevemente<s n="adv"/></r></p></e> 
+    <e><p><l>motso'o<s n="adv"/></l><r>inmediatamente<s n="adv"/></r></p></e>
+    <e><p><l>ne'e<s n="adv"/></l><r>justamente<s n="adv"/></r></p></e> 
+    <e><p><l>ne'e<s n="adv"/></l><r>solamente<s n="adv"/></r></p></e> 
+    <e><p><l>paala<s n="adv"/></l><r>antes<s n="adv"/></r></p></e>
+    <e><p><l>paalaapüna<s n="adv"/></l><r>por el norte<s n="adv"/></r></p></e>
     <e><p><l>palajana<s n="adv"/></l><r>primero<s n="adv"/></r></p></e>
-    <e><p><l>pasanain anain<s n="adv"/></l><r>entre<s n="adv"/></r></p></e> <!-- en medio de -->
+    <e><p><l>pasanain<b/>anain<s n="adv"/></l><r>entre<s n="adv"/></r></p></e>
+    <e><p><l>pasanain<b/>anain<s n="adv"/></l><r>en<b/>medio<b/>de<b/><s n="adv"/></r></p></e> 
     <e><p><l>paülü'ü<s n="adv"/></l><r>adentro<s n="adv"/></r></p></e> <!-- de la casa -->
-    <e><p><l>pejeewa<s n="adv"/></l><r>a<b/>cada<b/>rato<s n="adv"/></r></p></e>
-    <e><p><l>piantua<s n="adv"/></l><r>dos<b/>veces<s n="adv"/></r></p></e>
-    <e><p><l>unapümüin<s n="adv"/></l><r>hacia<b/>abajo<s n="adv"/></r></p></e>
-    <e><p><l>waneepia<s n="adv"/></l><r>siempre<s n="adv"/></r></p></e> <!-- ADJ: completo-ta, entero-ra -->
+    <e><p><l>pejeewa<s n="adv"/></l><r>a cada rato<s n="adv"/></r></p></e>
+    <e><p><l>piantua<s n="adv"/></l><r>dos veces<s n="adv"/></r></p></e>
+    <e><p><l>unapümüin<s n="adv"/></l><r>hacia abajo<s n="adv"/></r></p></e>
     <e><p><l>watta'a<s n="adv"/></l><r>mañana<s n="adv"/></r></p></e>
-    <e><p><l>wattapia<s n="adv"/></l><r>pasado<b/>mañana<s n="adv"/></r></p></e>
-    <e><p><l>yaajeeru'u n="adv"/></l><r>en<b/>este<b/>lado<s n="adv"/></r></p></e>
-    <e><p><l>yaaulerü<s n="adv"/></l><r>un<b/>rato<s n="adv"/></r></p></e> 
+    <e><p><l>wattapia<s n="adv"/></l><r>pasado mañana<s n="adv"/></r></p></e>
+    <e><p><l>yaajeeru'u <s n="adv"/></l><r>en este lado<s n="adv"/></r></p></e>
+    <e><p><l>yaaulerü<s n="adv"/></l><r>un rato<s n="adv"/></r></p></e> 
     <e><p><l>yaawala<s n="adv"/></l><r>inmediatamente<s n="adv"/></r></p></e>
-    <e><p><l>yaaya<s n="adv"/></l><r>aquí<s n="adv"/></r></p></e>
+    <e><p><l>yaaya<s n="adv"/></l><r>aqui<s n="adv"/></r></p></e>
     <e><p><l>yala<s n="adv"/></l><r>allí<s n="adv"/></r></p></e>
-    <e><p><l>anooipa'a<s n="adv"/></l><r>afuera<s n="adv"/></r></p></e>
-    <e><p><l>motso'o<s n="adv"/></l><r>brevemente<s n="adv"/></r></p></e>
-    <e><p><l>jalaa<s n="adv"/></l><r>donde<s n="adv"/></r></p></e>
-    <e><p><l>peeje<s n="adv"/></l><r>cerca<s n="adv"/></r></p></e>
-    <e><p><l>sa'aya<s n="adv"/></l><r>allá<s n="adv"/></r></p></e> 
-    <e><p><l>maa<b/>kaa<s n="adv"/></l><r>como<s n="adv"/></r></p></e>
-    <e><p><l>oo'opünaa<s n="adv"/></l><r>cuanto<s n="adv"/></r></p></e>
-    <e><p><l>emetulu<s n="adv"/></l><r>fuertemente<s n="adv"/></r></p></e>
-
-
+    <e><p><l>yala<s n="adv"/></l><r>allá<s n="adv"/></r></p></e>
+    <e><p><l>saasa<s n="adv"/></l><r>allá<s n="adv"/></r></p></e>
+    <e><p><l>eera<s n="adv"/></l><r>quizás<s n="adv"/></r></p></e>
 
     <!-- SECCIÓN: Verbos -->
-
+    <e><p><l>eewaa ama'na<s n="vblex"/></l><r>tener<s n="vblex"/><s n="vbtuno"/><s n="vbact"/></r></p></e>
+    <e><p><l>aküjaa<s n="vblex"/></l><r>decir<s n="vblex"/><s n="vbtuno"/><s n="vbact"/></r></p></e>
+    <e><p><l>apülain<s n="vblex"/></l><r>poder<s n="vblex"/><s n="vbact"/></r></p></e> <!-- transitivo-->
+    <e><p><l>ountaa<s n="vblex"/></l><r>poder<s n="vblex"/><s n="vbact"/></r></p></e> <!-- transitivo-->
+    <e><p><l>e'eera<s n="vblex"/></l><r>ver<s n="vblex"/><s n="vbact"/></r></p></e>
+    <e><p><l>oousitaa<s n="vblex"/></l><r>encontrar<s n="vblex"/><s n="vbact"/></r></p></e>
+    <e><p><l>ashaaittaa<s n="vblex"/></l><r>jugar<s n="vblex"/><s n="vbact"/></r></p></e>
+    <e><p><l>eewaa ama'na<s n="vblex"/></l><r>tener<s n="vblex"/><s n="vbact"/></r></p></e>
+    <e><p><l>achajawaa<s n="vblex"/></l><r>buscar<s n="vblex"/><s n="vbact"/></r></p></e>
+    <e><p><l>ama'lain<s n="vblex"/></l><r>gustar<s n="vblex"/><s n="vbact"/></r></p></e>
+    <e><p><l>ama'lain<s n="vblex"/></l><r>encantar<s n="vblex"/><s n="vbact"/></r></p></e>
+    <e><p><l>eirakawaa<s n="vblex"/></l><r>mirar<s n="vblex"/><s n="vbact"/></r></p></e>
+    <e><p><l>atüjaa<s n="vblex"/></l><r>saber<s n="vblex"/><s n="vbact"/></r></p></e> <!-- transitivo-->
+    <e><p><l>atüjawaa<b/>aa'u<s n="vblex"/></l><r>saber<b/>de<s n="vblex"/><s n="vbact"/></r></p></e>
+    <e><p><l>aa'inraa<s n="vblex"/></l><r>hacer<s n="vblex"/><s n="vbact"/></r></p></e>
+    <e><p><l>asakiraa<s n="vblex"/></l><r>preguntars<s n="vblex"/><s n="vbact"/></r></p></e>
+    <e><p><l>aashajawaa<s n="vblex"/></l><r>hablar<s n="vblex"/><s n="vbact"/></r></p></e>
+    <e><p><l>asouktaa<s n="vblex"/></l><r>responder<b/>de<s n="vblex"/><s n="vbact"/></r></p></e>
+    <e><p><l>aapajaa<s n="vblex"/></l><r>escuchar<s n="vblex"/><s n="vbact"/></r></p></e>
+    <e><p><l>atunkaa<s n="vblex"/></l><r>dormir<s n="vblex"/><s n="vbact"/></r></p></e>
+    <e><p><l>awatawaa<s n="vblex"/></l><r>correr<s n="vblex"/><s n="vbact"/></r></p></e>
+    <e><p><l>ounjulaa<s n="vblex"/></l><r>esconder<s n="vblex"/><s n="vbact"/></r></p></e>
+    <e><p><l>ayaawajaa<s n="vblex"/></l><r>contar<s n="vblex"/><s n="vbact"/></r></p></e>
+    <e><p><l>joyotoo<s n="vblex"/></l><r>estar<b/>sentado<s n="vblex"/></r></p></e>
+    <e><p><l>aja'lajawaa<s n="vblex"/></l><r>terminar<s n="vblex"/><s n="vbact"/></r></p></e>
+    <e><p><l>e'rajawaa<s n="vblex"/></l><r>observar<s n="vblex"/><s n="vbact"/></r></p></e>
+    <e><p><l>kule'mataa<s n="vblex"/></l><r>estar<b/>sonriendo<s n="vblex"/></r></p></e>
+    <e><p><l>epeensaajaa<s n="vblex"/></l><r>pensar<s n="vblex"/><s n="vbact"/></r></p></e>
+    <e><p><l>achekaa<s n="vblex"/></l><r>querer<s n="vblex"/><s n="vbact"/></r></p></e>
+    <e><p><l>waraittaa<s n="vblex"/></l><r>caminar<s n="vblex"/></r></p></e>
+    <e><p><l>ainkaa<s n="vblex"/></l><r>lograr<s n="vblex"/><s n="vbact"/></r></p></e>
+    <e><p><l>asirajaa<s n="vblex"/></l><r>reirse<s n="vblex"/><s n="vbact"/></r></p></e>
+    <e><p><l>o'unaa<s n="vblex"/></l><r>ir<s n="vblex"/><s n="vbact"/></r></p></e>
+    <e><p><l>ekaa<s n="vblex"/></l><r>comer<s n="vblex"/><s n="vbact"/></r></p></e>
+    <e><p><l>asaa<s n="vblex"/></l><r>beber<s n="vblex"/><s n="vbact"/></r></p></e>
+    <e><p><l>peeje<s n="vblex"/></l><r>estar<b/>cerca<s n="vblex"/></r></p></e>
+    <e><p><l>eesü<s n="vblex"/></l><r>está<s n="vblex"/></r></p></e>
+    <e><p><l>eesü<s n="vblex"/></l><r>ahî<s n="vblex"/></r></p></e>
 
     <!-- SECCIÓN: Punctuación -->
-    <e><re>[.\?;:¡!·]</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>
+    <e><re>[.\?;:!·]</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>
     <e><re>[0-9]+([.,][0-9]+)*[.,]*</re><p><l><s n="num"/></l><r><s n="num"/></r></p></e> 
     <e><p><l>-<s n="guio"/></l><r>-<s n="guio"/></r></p></e>
     <e><p><l>,<s n="cm"/></l><r>,<s n="cm"/></r></p></e>
