@@ -3,7 +3,16 @@
   <sdefs>
     <sdef n="n"       c="Nombre común"/>
     <sdef n="m"       c="Masculino"/>
+    <sdef n="mf"      c="Masculino / feminino"/>
+    <sdef n="vblex"   c="Verbo"/>
     <sdef n="num"     c="Número"/>
+    <sdef n="inf"     c="Infinitivo"/>
+    <sdef n="pri"     c="Presente de indicativo"/>
+    <sdef n="p1"      c="Primera persona"/>
+    <sdef n="p2"      c="Segunda persona"/>
+    <sdef n="p3"      c="Tercera persona"/>
+    <sdef n="adv"     c="Adverbio"/>
+    <sdef n="itg"     c="Interrogativo"/>
     <sdef n="np"      c="Nombre propio"/>
     <sdef n="cnjcoo"  c="Conjunción coordinada"/>
     <sdef n="f"       c="Feminino"/>
@@ -46,7 +55,14 @@
       <e><re>[.\?;¡:!]</re><p><l></l><r><s n="sent"/></r></p></e>
     </pardef>
 
+    <!-- SECCIÓN: Conjunciones -->
+
+    <pardef n="juma'a__cnjcoo">
+      <e><p><l></l><r><s n="cnjcoo"/></r></p></e>
+    </pardef>
+
     <!-- SECCIÓN: Nombres -->
+
     <pardef n="ipa'__n">
       <e><p><l></l><r><s n="n"/><s n="nn"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>irrua</l><r><s n="n"/><s n="nn"/><s n="m"/><s n="pl"/></r></p></e>
@@ -68,15 +84,21 @@
       <e><p><l></l><r><s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
     </pardef>
 
-    <pardef n="juma'a__cnjcoo">
-      <e><p><l></l><r><s n="cnjcoo"/></r></p></e>
+    <!-- SECCIÓN: Adverbios -->
+
+    <pardef n="yaa__adv">
+      <e><p><l></l><r><s n="adv"/><s n="itg"/></r></p></e>
     </pardef>
 
-    <pardef n="separa">    
-      <e><re>[.\?;:!]</re><p><l></l><r><s n="sent"/></r></p></e>
+
+    <!-- SECCIÓN: Verbos -->
+
+    <pardef n="jala/a__vblex">
+      <e><p><l>a</l><r>a<s n="vblex"/><s n="inf"/></r></p></e>
+      <e><p><l>shi</l><r>a<s n="vblex"/><s n="pri"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>sü</l><r>a<s n="vblex"/><s n="pri"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l>shii</l><r>a<s n="vblex"/><s n="pri"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>
     </pardef>
-
-
 
   </pardefs>
 
@@ -99,6 +121,13 @@
 
     <e lm="María"><i>María</i><par n="María__np"/></e>
     <e lm="Jaime"><i>Jaime</i><par n="Jaime__np"/></e>
+
+    <!-- SECCIÓN: Adverbios -->
+    <e lm="yaa"><i>yaa</i><par n="yaa__adv"/></e>
+
+    <!-- SECCIÓN: Verbos -->
+    <e lm="jalaa"><i>jala</i><par n="jala/a__vblex"/></e>
+
   </section>
   <section id="final" type="inconditional">
     <e><par n="numeros"/></e>

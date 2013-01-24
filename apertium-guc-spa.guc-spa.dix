@@ -765,8 +765,9 @@
     <e><p><l>Jaime<s n="np"/><s n="ant"/><s n="m"/></l><r>Jaime<s n="np"/><s n="ant"/><s n="m"/></r></p></e> <!--  -->
 
     <!-- SECCIÓN: Adverbios -->
+    <e><p><l>jalaa<s n="vblex"/></l><r>dónde<s n="adv"/></r></p></e> <!-- verbo de estado en Wayunaiki-->
+
     <e><p><l>nnojo<s n="adv"/></l><r>no<s n="adv"/></r></p></e>
-    <e><p><l>jalaa<s n="adv"/></l><r>dónde<s n="adv"/></r></p></e> <!-- verbo de estado en Wayunaiki-->
     <e><p><l>yaa<s n="adv"/></l><r>también<s n="adv"/></r></p></e>
     <e><p><l>joolu'u<s n="adv"/></l><r>ahora<s n="adv"/></r></p></e>
     <e><p><l>jamaa<s n="adv"/></l><r>por qué<s n="adv"/></r></p></e> <!-- itg-->

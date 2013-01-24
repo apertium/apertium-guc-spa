@@ -6,8 +6,29 @@
       <cat-item tags="SN"/>
       <cat-item tags="SN.*"/>
     </def-cat>
+
+    <def-cat n="ANT">
+      <cat-item lemma="np-ant" tags="SN.*"/>
+    </def-cat>
+
+
+    <def-cat n="SV-ITG">
+      <cat-item tags="SV.ITG.*"/>
+    </def-cat>
+
+    <def-cat n="SENT-ITG">
+      <cat-item tags="SENT.ITG"/>
+    </def-cat>
+
   </section-def-cats>
   <section-def-attrs>
+    <def-attr n="a_gen">
+      <attr-item tags="m"/>
+      <attr-item tags="f"/>
+      <attr-item tags="mf"/>
+      <attr-item tags="GD"/>
+    </def-attr>
+
     <def-attr n="a_nbr">
       <attr-item tags="sg"/>
       <attr-item tags="pl"/>
@@ -58,6 +79,62 @@
         </out>
       </action>
     </rule>
+
+    <rule comment="REGLA: SV-ITG ANT">
+      <pattern>
+        <pattern-item n="SV-ITG"/>
+        <pattern-item n="ANT"/>
+      </pattern>
+      <action>
+        <choose>
+          <when>
+            <test>
+              <equal><clip pos="1" part="a_gen"/><lit-tag v="GD"/></equal>
+            </test>
+            <let><clip pos="1" part="a_gen"/><clip pos="2" part="a_gen"/></let>
+          </when>
+        </choose>
+        <out>
+          <chunk>
+            <clip pos="1" part="lem"/>
+            <clip pos="1" part="tags"/>
+            <clip pos="1" part="chcontent"/>
+          </chunk>
+          <b pos="1"/>
+          <chunk>
+            <clip pos="2" part="lem"/>
+            <clip pos="2" part="tags"/>
+            <clip pos="2" part="chcontent"/>
+          </chunk>
+
+        </out>
+      </action>
+    </rule>
+
+    <rule comment="REGLA: SENT-ITG">
+      <pattern>
+        <pattern-item n="SENT-ITG"/>
+      </pattern>
+      <action>
+        <out>
+          <b/>
+          <chunk>
+            <lit v="yaa"/>
+            <lit-tag v="ADV"/>
+            <lit v="{^yaa"/>
+            <lit-tag v="adv.itg"/>
+            <lit v="$}"/>
+          </chunk>
+          <b/>
+          <chunk>
+            <clip pos="1" part="lem"/>
+            <clip pos="1" part="tags"/>
+            <clip pos="1" part="chcontent"/>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
   </section-rules>
 </interchunk>
 
