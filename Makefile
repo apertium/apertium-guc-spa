@@ -8,6 +8,6 @@ all:
 #	cg-comp apertium-guc-spa.spa-guc.rlx spa-guc.rlx.bin
 	lrx-comp apertium-guc-spa.spa-guc.lrx spa-guc.autolex.bin
 	apertium-preprocess-transfer apertium-guc-spa.spa-guc.t1x spa-guc.t1x.bin
-	apertium-preprocess-transfer apertium-guc-spa.spa-guc.t1x spa-guc.t2x.bin
+	apertium-preprocess-transfer apertium-guc-spa.spa-guc.t2x spa-guc.t2x.bin
 	apertium-preprocess-transfer apertium-guc-spa.spa-guc.t3x spa-guc.t3x.bin
 	apertium-gen-modes modes.xml

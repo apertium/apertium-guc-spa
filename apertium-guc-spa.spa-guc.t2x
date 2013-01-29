@@ -2,15 +2,10 @@
 <!-- -*- nxml -*- -->
 <interchunk>
   <section-def-cats>
-    <def-cat n="SN">
-      <cat-item tags="SN"/>
-      <cat-item tags="SN.*"/>
-    </def-cat>
 
     <def-cat n="ANT">
       <cat-item lemma="np-ant" tags="SN.*"/>
     </def-cat>
-
 
     <def-cat n="SV-ITG">
       <cat-item tags="SV.ITG.*"/>
@@ -19,6 +14,7 @@
     <def-cat n="SENT-ITG">
       <cat-item tags="SENT.ITG"/>
     </def-cat>
+
 
   </section-def-cats>
   <section-def-attrs>
@@ -64,21 +60,6 @@
 
   </section-def-macros>
   <section-rules>
-
-    <rule comment="REGLA: SN">
-      <pattern>
-        <pattern-item n="SN"/>
-      </pattern>
-      <action>
-        <out>
-          <chunk>
-            <clip pos="1" part="lem"/>
-            <clip pos="1" part="tags"/>
-            <clip pos="1" part="chcontent"/>
-          </chunk>
-        </out>
-      </action>
-    </rule>
 
     <rule comment="REGLA: SV-ITG ANT">
       <pattern>
