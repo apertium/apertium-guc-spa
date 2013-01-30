@@ -1,5 +1,10 @@
 * text=auto !eol
-/Makefile -text
+/AUTHORS -text
+/COPYING -text
+/ChangeLog -text
+/Makefile.am -text
+/NEWS -text
+/README -text
 /apertium-guc-spa.guc-spa.dix -text
 /apertium-guc-spa.guc.dix -text
 /apertium-guc-spa.spa-guc.lrx -text
@@ -8,6 +13,8 @@
 /apertium-guc-spa.spa-guc.t3x -text
 /apertium-guc-spa.spa.acx -text
 /apertium-guc-spa.spa.dix -text
+/autogen.sh -text
+/configure.ac -text
 dev/boreas.guc.txt -text
 dev/boreas.spa.txt -text
 dev/cuento.guc.1.txt -text
