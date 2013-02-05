@@ -6,7 +6,7 @@ PREFIX1=$(LANG1)-$(LANG2)
 PREFIX2=$(LANG2)-$(LANG1)
 BASENAME=apertium-$(PREFIX1)
 
-TARGETS_COMMON=$(PREFIX2).autobil.bin $(PREFIX2).autogen.bin $(PREFIX2).autolex.bin $(PREFIX2).automorf.bin $(PREFIX2).t1x.bin $(PREFIX2).t2x.bin $(PREFIX2).t3x.bin $(PREFIX2).mode
+TARGETS_COMMON=$(PREFIX2).autobil.bin $(PREFIX2).autogen.bin $(PREFIX2).autolex.bin $(PREFIX2).automorf.bin $(PREFIX2).t1x.bin $(PREFIX2).t2x.bin $(PREFIX2).t3x.bin $(PREFIX2).mode $(PREFIX2).prob
 
 CLEANFILES = -rf $(TARGETS_COMMON) modes
 
@@ -47,6 +47,15 @@ apertium_guc_spa_DATA=$(TARGETS_COMMON)
 apertium_guc_spadir=$(prefix)/share/apertium/apertium-$(PREFIX1)/
 apertium_guc_spa_modesdir=$(prefix)/share/apertium/modes/
 
+EXTRA_DIST=$(BASENAME).$(LANG1).dix \
+  	   $(BASENAME).$(LANG2).dix \
+           $(BASENAME).$(PREFIX2).lrx \
+	   $(BASENAME).$(PREFIX1).dix \
+           $(PREFIX2).prob \
+	   $(BASENAME).$(PREFIX2).t1x \
+	   $(BASENAME).$(PREFIX2).t2x \
+	   $(BASENAME).$(PREFIX2).t3x \
+	   modes.xml 
 
 install-data-local:
 	mv modes modes.bak
