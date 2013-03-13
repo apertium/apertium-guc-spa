@@ -18,7 +18,7 @@
 
     <sdef n="pr"        c="Preposición"/>
     <sdef n="cnjcoo"    c="Co-ordinating conjunction"/>
-
+    <sdef n="ij"        c="Interjeccion"/>
     <sdef n="ant"       c="Antroponim"/>
 
     <sdef n="m"         c="Masculino"/>
@@ -855,6 +855,25 @@
     <e><p><l>peeje<s n="vblex"/></l><r>estar<b/>cerca<s n="vblex"/></r></p></e>
     <e><p><l>eesü<s n="vblex"/></l><r>está<s n="vblex"/></r></p></e>
     <e><p><l>eesü<s n="vblex"/></l><r>ahî<s n="vblex"/></r></p></e>
+
+    <e><p><l>jamaya<s n="ij"/></l><r>hola<s n="ij"/></r></p></e>
+    <e><p><l>watta'a<b/>maalü<s n="ij"/></l><r>buenos<g><b/>días</g><s n="ij"/></r></p></e>
+    <e><p><l>aliika<s n="ij"/></l><r>buenas<g><b/>tardes</g><s n="ij"/></r></p></e>
+    <e><p><l>aipa'a<s n="ij"/></l><r>buenas<g><b/>noches</g><s n="ij"/></r></p></e>
+    <e><p><l>ounus<b/>taya<s n="ij"/></l><r>chao<s n="ij"/></r></p></e>
+    <e><p><l>ounus<b/>taya<s n="ij"/></l><r>adiós<s n="ij"/></r></p></e>
+    <e><p><l>amigo!<s n="ij"/></l><r>wa'lee<s n="ij"/></r></p></e>
+    <e><p><l>anaa<s n="ij"/></l><r>aquí<b/>estan<s n="ij"/></r></p></e>
+    <e><p><l>atak<s n="ij"/></l><r>caramba<s n="ij"/></r></p></e>
+    <e><p><l>jalia<s n="ij"/></l><r>cuidado<s n="ij"/></r></p></e>
+    <e><p><l>joo'uya<s n="ij"/></l><r>vamos<s n="ij"/></r></p></e>
+    <e><p><l>anayawachijaa<s n="ij"/></l><r>gracias<s n="ij"/></r></p></e>
+    <e><p><l>antüshi<g><b/>pia</g><s n="ij"/></l><r>bienvenido<s n="ij"/></r></p></e>
+    <e><p><l>antüsü<g><b/>pia</g><s n="ij"/></l><r>bienvenida<s n="ij"/></r></p></e>
+    <e><p><l>antüshii<g><b/>jia</g><s n="ij"/></l><r>bienvenidos<s n="ij"/></r></p></e>
+    <e><p><l>tia<s n="ij"/></l><r>eso<s n="ij"/></r></p></e>
+
+
 
     <!-- SECCIÓN: Punctuación -->
     <e><re>[.\?;:!·]</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>
