@@ -1,865 +1,141 @@
 <dictionary>
-  <alphabet/>
+  <alphabet></alphabet>
   <sdefs>
-    <sdef n="n"         c="Nombre"/>
-    <sdef n="ali"       c="Nombre Alineable"/>
-    <sdef n="ina"       c="Nombre Inalineable"/>
-    <sdef n="post"      c="Postposición"/>
-    <sdef n="np"        c="Nombre propio"/>
-    <sdef n="num"       c="Número"/>
-    <sdef n="adv"       c="Adverbios"/>
-    <sdef n="vblex"     c="Verbos"/>
-    <sdef n="vbtra"     c="Verbos Transitivos"/>
-    <sdef n="vbintra"   c="Verbos Intrasitivos"/>
-    <sdef n="vbact"     c="Verbos ACtivos"/>
-    <sdef n="vbest"     c="Verbos Estativos"/>
-    <sdef n="vbtuno"    c="Verbos Tipo I"/>
-    <sdef n="vbtdos"    c="Verbos Tipo II"/>
-
-    <sdef n="pr"        c="Preposición"/>
-    <sdef n="cnjcoo"    c="Co-ordinating conjunction"/>
-
-    <sdef n="ant"       c="Antroponim"/>
-
-    <sdef n="m"         c="Masculino"/>
-    <sdef n="f"         c="Feminino"/>
-    <sdef n="GD"        c="Genero por determinar"/>
-
-    <sdef n="cm"        c="Coma"/>
-    <sdef n="sent"      c="Etiqueta de fin de oración"/>
-    <sdef n="guio"      c="Guión"/>
-
+    <sdef n="n"       c="Nombre común"/>
+    <sdef n="m"       c="Masculino"/>
+    <sdef n="mf"      c="Masculino / feminino"/>
+    <sdef n="vblex"   c="Verbo"/>
+    <sdef n="num"     c="Número"/>
+    <sdef n="inf"     c="Infinitivo"/>
+    <sdef n="pri"     c="Presente de indicativo"/>
+    <sdef n="p1"      c="Primera persona"/>
+    <sdef n="p2"      c="Segunda persona"/>
+    <sdef n="p3"      c="Tercera persona"/>
+    <sdef n="adv"     c="Adverbio"/>
+    <sdef n="itg"     c="Interrogativo"/>
+    <sdef n="np"      c="Nombre propio"/>
+    <sdef n="cnjcoo"  c="Conjunción coordinada"/>
+    <sdef n="f"       c="Feminino"/>
+    <sdef n="ant"     c="Antroponim"/>
+    <sdef n="nn"      c="Inanimado"/>
+    <sdef n="aa"      c="Animado"/>
+    <sdef n="ut"      c="No masculino"/>
+    <sdef n="sg"      c="Singular"/>
+    <sdef n="pl"      c="Plural"/>
+    <sdef n="cm"      c="Coma"/>
+    <sdef n="apos"    c="Apostrofo"/>
+    <sdef n="guio"    c="Guión"/>
+    <sdef n="sent"    c="Etiqueta de fin de oración"/>
   </sdefs>
+  <pardefs>
+    <!-- SECTION: Punctuación -->
 
-  <section id="main" type="standard">
+    <pardef n="guionet">    
+      <e><p><l>-</l><r>-<s n="guio"/></r></p></e>
+    </pardef>
 
-    <e><p><l>juma'a<s n="cnjcoo"/></l><r>y<s n="cnjcoo"/></r></p></e> <!--  -->
+    <pardef n="coma">    
+      <e><p><l>,</l><r>,<s n="cm"/></r></p></e>
+    </pardef>
 
-    <!-- SECCIÓN: Adposiciones -->
+    <pardef n="aposchar">    
+      <e><i>'</i></e>
+      <e r="LR" i="yes"><p><l>’</l><r>'</r></p></e>
+    </pardef>
 
-    <e><p><l>aashin<s n="post"/></l><r>según<s n="pr"/></r></p></e> <!--  -->
-    <e><p><l>aajüin<s n="post"/></l><r>según<s n="pr"/></r></p></e> <!--  -->
-    <e><p><l>aalii<s n="post"/></l><r>por<b/>causa<b/>de<s n="pr"/></r></p></e> <!--  -->
-    <e><p><l>aalin<s n="post"/></l><r>por<b/>causa<b/>de<s n="pr"/></r></p></e> <!--  -->
-    <e><p><l>achiirua<s n="post"/></l><r>detrás<b/>de<s n="pr"/></r></p></e> <!--  -->
-    <e><p><l>ainküin<s n="post"/></l><r>en<s n="pr"/></r></p></e> <!-- | en, entre. -->
-    <e><p><l>airu'u<s n="post"/></l><r>en<b/>la<b/>horqueta<b/>de<s n="pr"/></r></p></e> <!-- | en la horqueta de, entre -->
-    <e><p><l>aka<s n="post"/></l><r>con<s n="pr"/></r></p></e> <!-- instrumento -->
-    <e><p><l>akajee<s n="post"/></l><r>por<b/>medio<b/>de<s n="pr"/></r></p></e> <!--  -->
-    <e><p><l>a'ato'u<s n="post"/></l><r>al<b/>lado<b/>de<s n="pr"/></r></p></e> <!--  -->
-    <e><p><l>a'ütpa'a<s n="post"/></l><r>al<b/>lado<b/>de<s n="pr"/></r></p></e> <!-- | al lado de, junto a. -->
-    <e><p><l>ale'eru'u<s n="post"/></l><r>en<b/>el<b/>vientre<b/>de<s n="pr"/></r></p></e> <!-- | en el vientre de, -->
-    <e><p><l>alu'u<s n="post"/></l><r>dentro<b/>de<s n="pr"/></r></p></e> <!-- | dentro de, en. -->
-    <e><p><l>amüin<s n="post"/></l><r>a<s n="pr"/></r></p></e> <!-- | a, para. -->
-    <e><p><l>amaa<s n="post"/></l><r>con<s n="pr"/></r></p></e> <!-- acompañamiento -->
-    <e><p><l>anain<s n="post"/></l><r>en<s n="pr"/></r></p></e> <!-- | en, a. -->
-    <e><p><l>anainjee<s n="post"/></l><r>de<s n="pr"/></r></p></e> <!-- | de, por. -->
-    <e><p><l>anainmüin<s n="post"/></l><r>a<s n="pr"/></r></p></e> <!-- | a, hacia. -->
-    <e><p><l>anainmüinre'eya<s n="post"/></l><r>hasta<s n="pr"/></r></p></e> <!--  -->
-    <e><p><l>apücho'u<s n="post"/></l><r>detrás<b/>de<s n="pr"/></r></p></e> <!--  -->
-    <e><p><l>apüla<s n="post"/></l><r>para<s n="pr"/></r></p></e> <!-- | para, por. -->
-    <e><p><l>apülapünaa<s n="post"/></l><r>antes<b/>de<s n="pr"/></r></p></e> <!--  -->
-    <e><p><l>apüleerua<s n="post"/></l><r>delante<b/>de<s n="pr"/></r></p></e> <!--  -->
-    <e><p><l>asala<s n="post"/></l><r>a<b/>causa<b/>de<s n="pr"/></r></p></e> <!-- | a causa de, por. -->
-    <e><p><l>atüma<s n="post"/></l><r>por<s n="pr"/></r></p></e> <!--  -->
-    <e><p><l>ee'iree<s n="post"/></l><r>por<b/>afán<b/>de<s n="pr"/></r></p></e> <!--  -->
-    <e><p><l>einalu'u<s n="post"/></l><r>en<b/>el<b/>fondo<b/>de<s n="pr"/></r></p></e> <!-- | en el fondo de, en el -->
-    <e><p><l>e'ipajee<s n="post"/></l><r>en<b/>respuesta<b/>a<s n="pr"/></r></p></e> <!--  -->
-    <e><p><l>eroku<s n="post"/></l><r>en<s n="pr"/></r></p></e> <!-- un líquido -->
-    <e><p><l>o'upala<s n="post"/></l><r>delante<b/>de<s n="pr"/></r></p></e> <!-- a la vista -->
-    <e><p><l>o'utpünaa<s n="post"/></l><r>durante<s n="pr"/></r></p></e> <!-- | durante, -->
-    <e><p><l>o'unnaa<s n="post"/></l><r>durante<s n="pr"/></r></p></e> <!-- | durante, -->
-    <e><p><l>oulia<s n="post"/></l><r>de<s n="pr"/></r></p></e> <!-- | de, más que, en vez de, -->
-    <e><p><l>oupünaa<s n="post"/></l><r>debajo<b/>de<s n="pr"/></r></p></e> <!--  -->
-    <e><p><l>jümaa<s n="post"/></l><r>con<s n="pr"/></r></p></e> <!-- con -->
-    <e><p><l>achikijee<s n="post"/></l><r>después<b/>de<s n="pr"/></r></p></e> <!-- despues de que -->
-    <e><p><l>kasa<s n="post"/></l><r>qué<s n="pr"/></r></p></e>
-    <e><p><l>aka<s n="post"/></l><r>poque<s n="cnjcoo"/></r></p></e>
+    <pardef n="cometa">    
+      <e><par n="aposchar"/><p><l></l><r><s n="apos"/></r></p></e>
+    </pardef>
 
+    <pardef n="numeros">    
+      <e><re>[0-9]+([.,][0-9]+)?</re><p><l></l><r><s n="num"/></r></p></e>
+    </pardef>
 
-    
+    <pardef n="separa">    
+      <e><re>[.\?;¡:!]</re><p><l></l><r><s n="sent"/></r></p></e>
+    </pardef>
 
-    <!-- SECCIÓN: Nombres comunes -->
+    <!-- SECCIÓN: Conjunciones -->
 
-    <e><p><l>kulala<s n="n"/></l><r>jardín<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>o'uyaajana<s n="n"/></l><r>acompañante<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>ale'e<s n="ina"/></l><r>abdomen<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>o'u<s n="n"/></l><r>abertura<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>pütchipü'ü<s n="n"/></l><r>abogado<s n="n"/><s n="m"/></r></p></e> <!-- estar de acuerdo| acuerdo, abogado, -da  -->
-    <e><p><l>pütchipü'ü<s n="n"/></l><r>acuerdo<s n="n"/><s n="m"/></r></p></e> <!-- estar de acuerdo| acuerdo, abogado, -da  -->
-    <e><p><l>atuushi<s n="ina"/></l><r>abuelo<s n="n"/><s n="m"/></r></p></e> <!-- | abuelo, -la  -->
-    <e><p><l>taata<s n="ina"/></l><r>abuelo<s n="n"/><s n="m"/></r></p></e> <!-- | abuelo, -la  -->
-    <e><p><l>wüin<s n="ali"/></l><r>agua<s n="n"/><s n="f"/></r></p></e> <!-- sitio donde hay agua -->
-    <e><p><l>seita<s n="ali"/></l><r>aceite<s n="n"/><s n="m"/></r></p></e> <!-- comestible -->
-    <e><p><l>chirinchi<s n="ali"/></l><r>aguardiente<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>wutia<s n="ali"/></l><r>aguja<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>o'u<s n="n"/></l><r>agujero<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>atünajutü<s n="ina"/></l><r>amigo<s n="n"/><s n="m"/></r></p></e> <!-- para| amigo, -ga  -->
-    <e><p><l>jouktai<s n="n"/></l><r>aire<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>aleewaa<s n="n"/></l><r>amistad<s n="n"/><s n="f"/></r></p></e> <!-- tener amistad -->
-    <e><p><l>je'yulu<s n="n"/></l><r>alacrán<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>jolotoo<s n="n"/></l><r>ampolla<s n="n"/><s n="f"/></r></p></e> <!-- tener ampolla -->
-    <e><p><l>lania<s n="n"/></l><r>amuleto<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>süttiija<s n="ali"/></l><r>anillo<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>mürülü<s n="n"/></l><r>animal<s n="n"/><s n="m"/></r></p></e> <!-- doméstico -->
-    <e><p><l>atuushi<s n="n"/></l><r>antepasado<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>kachueera<s n="n"/></l><r>alambre<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>kulira<s n="n"/></l><r>anzuelo<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>teitei<s n="n"/></l><r>alcaraván<s n="n"/><s n="m"/></r></p></e> <!-- dara -->
-    <e><p><l>kaarai<s n="n"/></l><r>alcaraván<s n="n"/><s n="m"/></r></p></e> <!-- dara -->
-    <e><p><l>maawüi<s n="ali"/></l><r>algodón<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>eküülü<s n="ali"/></l><r>alimento<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>aa'in<s n="n"/></l><r>alma<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>juya<s n="n"/></l><r>año<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>ekiipala<s n="ali"/></l><r>almohada<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>rülipi<s n="n"/></l><r>áloe<s n="n"/><s n="m"/></r></p></e> <!-- | áloe, aloe  -->
-    <e><p><l>ayolojo<s n="n"/></l><r>apariencia<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>luwopu<s n="n"/></l><r>arroyo<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>roo<s n="ali"/></l><r>arroz<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>asüla<s n="ina"/></l><r>arteria<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>alerajaa<s n="n"/></l><r>asco<s n="n"/><s n="m"/></r></p></e> <!-- sentir asco por -->
-    <e><p><l>einase<s n="n"/></l><r>asiento<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>walekerü<s n="n"/></l><r>araña<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>wunu'u<s n="n"/></l><r>árbol<s n="n"/><s n="m"/></r></p></e> <!-- especie que -->
-    <e><p><l>uraichi<s n="n"/></l><r>arco<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>jasai<s n="n"/></l><r>arena<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>che'esaa<s n="n"/></l><r>arete<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>a'apüla<s n="n"/></l><r>arma<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>kemion<s n="n"/></l><r>automóvil<s n="n"/><s n="m"/></r></p></e> <!-- en ausencia de -->
-    <e><p><l>kemion<s n="n"/></l><r>ausencia<s n="n"/><s n="m"/></r></p></e> <!-- en ausencia de -->
-    <e><p><l>apü<s n="n"/></l><r>atadura<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>katünasü<s n="n"/></l><r>ataqueavión<s n="n"/><s n="m"/></r></p></e> <!-- sufrir un ataque -->
-    <e><p><l>ko'oi<s n="n"/></l><r>avispa<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>suukala<s n="n"/></l><r>azúcar<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>jo'uu<s n="n"/></l><r>bebé<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>yonna<s n="n"/></l><r>baile<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>kousüla<s n="n"/></l><r>bala<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>a'ü<s n="n"/></l><r>bala<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>woola<s n="n"/></l><r>balón<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>e'iima<s n="n"/></l><r>barba<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>e'iyeise<s n="n"/></l><r>barbilla<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>anuwa<s n="n"/></l><r>barco<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>ale'e<s n="n"/></l><r>barriga<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>pootshi<s n="n"/></l><r>blancobarro<s n="n"/><s n="m"/></r></p></e> <!-- de broma o burla -->
-    <e><p><l>emechi<s n="n"/></l><r>brasa<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>atüna<s n="n"/></l><r>brazo<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>sarulu<s n="n"/></l><r>boa<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>jouktai<s n="n"/></l><r>brisa<s n="n"/><s n="f"/></r></p></e> <!-- brisa distintiva del -->
-    <e><p><l>mee'era<s n="n"/></l><r>broma<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>aanükü<s n="n"/></l><r>boca<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>piyulu<s n="n"/></l><r>bolsa<s n="n"/><s n="f"/></r></p></e> <!-- de malla -->
-    <e><p><l>amanee<s n="n"/></l><r>bondad<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>olu<s n="n"/></l><r>borde<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>ase<s n="n"/></l><r>borra<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>wuna'apü<s n="n"/></l><r>bosque<s n="n"/><s n="m"/></r></p></e> <!-- por el -->
-    <e><p><l>monkulonseerü<s n="n"/></l><r>búho<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>samulu<s n="n"/></l><r>buitre<s n="n"/><s n="m"/></r></p></e> <!-- 1. zamuro -->
-    <e><p><l>püliiki<s n="n"/></l><r>burro<s n="n"/><s n="m"/></r></p></e> <!-- | burro, -rra  -->
-    <e><p><l>maraaja<s n="n"/></l><r>botella<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>woowira<s n="n"/></l><r>bóveda<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>pisaalü<s n="n"/></l><r>bozal<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>e'ejena<s n="n"/></l><r>cabalgadura<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>aa'ayula<s n="n"/></l><r>calor<s n="n"/><s n="m"/></r></p></e> <!-- atmosférico -->
-    <e><p><l>ama<s n="n"/></l><r>caballo<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>shaakuma<s n="n"/></l><r>cabestro<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>apü<s n="n"/></l><r>cabestro<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>ekii<s n="n"/></l><r>cabeza<s n="n"/><s n="f"/></r></p></e> <!-- de un grupo -->
-    <e><p><l>epi<s n="n"/></l><r>cabo<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>wopu<s n="n"/></l><r>camino<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>apüna<s n="n"/></l><r>camino<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>kaa'ula<s n="n"/></l><r>cabra<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>kemion<s n="n"/></l><r>camión<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>kaleena<s n="n"/></l><r>cadena<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>ase'ewain<s n="n"/></l><r>cadera<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>kepein<s n="n"/></l><r>café<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>kojee<s n="n"/></l><r>café<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>wüirü<s n="n"/></l><r>calabaza<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>jayeechi<s n="n"/></l><r>canción<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>ee'irain<s n="n"/></l><r>canción<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>e'ira<s n="n"/></l><r>canto<s n="n"/><s n="m"/></r></p></e> <!-- de animal -->
-    <e><p><l>o'upünaa<s n="n"/></l><r>cara<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>warutta<s n="n"/></l><r>caracol<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>kaatset<s n="n"/></l><r>cárcel<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>püreesaapüle<s n="n"/></l><r>cárcel<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>si'warai<s n="n"/></l><r>calambre<s n="n"/><s n="m"/></r></p></e> <!-- dar calambreave cardenal coriano -->
-    <e><p><l>si'warai<s n="n"/></l><r>cardenal<s n="n"/><s n="m"/></r></p></e> <!-- dar calambreave cardenal coriano -->
-    <e><p><l>si'warai<s n="n"/></l><r>caldero<s n="n"/><s n="m"/></r></p></e> <!-- dar calambreave cardenal coriano -->
-    <e><p><l>achisa<s n="n"/></l><r>carga<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>era<s n="n"/></l><r>caldo<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>koucha<s n="n"/></l><r>calmacargocaucho<s n="n"/><s n="m"/></r></p></e> <!-- estar en calma el tiempoestar a cargo de -->
-    <e><p><l>asala<s n="n"/></l><r>causa<s n="n"/><s n="f"/></r></p></e> <!-- a causa de -->
-    <e><p><l>amanee<s n="n"/></l><r>cariño<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>e'iruku<s n="n"/></l><r>carne<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>asalaa<s n="n"/></l><r>carne<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>amuuyuu<s n="n"/></l><r>carpintero<s n="n"/><s n="m"/></r></p></e> <!-- ave carpintero -->
-    <e><p><l>amuuyuu<s n="n"/></l><r>cementerio<s n="n"/><s n="m"/></r></p></e> <!-- ave carpintero -->
-    <e><p><l>aamaka<s n="n"/></l><r>carpintero<s n="n"/><s n="m"/></r></p></e> <!-- ave carpintero -->
-    <e><p><l>aamaka<s n="n"/></l><r>cementerio<s n="n"/><s n="m"/></r></p></e> <!-- ave carpintero -->
-    <e><p><l>awachira<s n="n"/></l><r>carrera<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>pali'i<s n="n"/></l><r>ceniza<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>mapase<s n="n"/></l><r>cera<s n="n"/><s n="f"/></r></p></e> <!-- de abeja -->
-    <e><p><l>püülükü<s n="n"/></l><r>cerdo<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>ekiisholoin<s n="n"/></l><r>cerebro<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>namüna<s n="n"/></l><r>cerro<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>uuchi<s n="n"/></l><r>cerro<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>karateera<s n="n"/></l><r>carretera<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>karatiiya<s n="n"/></l><r>carretilla<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>kemion<s n="n"/></l><r>chichacarro<s n="n"/><s n="m"/></r></p></e> <!-- de maíz sin alcohol -->
-    <e><p><l>e'ejena<s n="n"/></l><r>chichacarro<s n="n"/><s n="m"/></r></p></e> <!-- de maíz sin alcohol -->
-    <e><p><l>miichi<s n="n"/></l><r>casa<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>epia<s n="n"/></l><r>casa<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>o'utala<s n="n"/></l><r>cáscara<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>ata<s n="n"/></l><r>cáscara<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>müleka<s n="n"/></l><r>caso<s n="n"/><s n="m"/></r></p></e> <!-- en caso de que -->
-    <e><p><l>perulaa<s n="n"/></l><r>chisme<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>e'iruku<s n="n"/></l><r>casta<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>kaa'ula<s n="n"/></l><r>chivo<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>shunui<s n="n"/></l><r>catarro<s n="n"/><s n="m"/></r></p></e> <!-- tener catarro -->
-    <e><p><l>asatala<s n="n"/></l><r>codo<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>asipala<s n="n"/></l><r>cicatriz<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>asi<s n="n"/></l><r>cola<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>siruma<s n="n"/></l><r>cielo<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>koleejia<s n="n"/></l><r>colegio<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>kasipa<s n="n"/></l><r>ciempiés<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>chünü'ü<s n="n"/></l><r>colibrí<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>kakuuna<s n="n"/></l><r>collar<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>aüliijana<s n="n"/></l><r>collar<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>ase'eru'u<s n="n"/></l><r>cintura<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>sirapü<s n="n"/></l><r>cinturón<s n="n"/><s n="m"/></r></p></e> <!-- de la mujer -->
-    <e><p><l>o'u<s n="n"/></l><r>color<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>asa'a<s n="n"/></l><r>columna<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>pueulo<s n="n"/></l><r>ciudad<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>alaülashi<s n="n"/></l><r>comandante<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>-sü<s n="n"/></l><r>comandante<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>aanala<s n="n"/></l><r>cobija<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>sütaa<s n="n"/></l><r>comezón<s n="n"/><s n="f"/></r></p></e> <!-- dar comezón -->
-    <e><p><l>eküülü<s n="n"/></l><r>comida<s n="n"/><s n="f"/></r></p></e> <!-- para el viaje -->
-    <e><p><l>kosinapia<s n="n"/></l><r>compasión<s n="n"/><s n="f"/></r></p></e> <!-- tener compasión de -->
-    <e><p><l>kosinapia<s n="n"/></l><r>cocina<s n="n"/><s n="f"/></r></p></e> <!-- tener compasión de -->
-    <e><p><l>kulaala<s n="n"/></l><r>corral<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>ata<s n="n"/></l><r>corteza<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>kasa<s n="n"/></l><r>cosa<s n="n"/><s n="f"/></r></p></e> <!-- pertenencia de -->
-    <e><p><l>akuaippa<s n="n"/></l><r>conducta<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>atpanaa<s n="n"/></l><r>conejo<s n="n"/><s n="m"/></r></p></e> <!-- | conejo, -ja  -->
-    <e><p><l>a'ttia<s n="n"/></l><r>cosecha<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>awatse<s n="n"/></l><r>costilla<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>akuaippa<s n="n"/></l><r>costumbre<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>aa'in<s n="n"/></l><r>corazón<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>aralo'u<s n="n"/></l><r>coronilla<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>o'uwa<s n="n"/></l><r>cuerno<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>ata<s n="n"/></l><r>cuero<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>paa'ata<s n="n"/></l><r>cuero<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>e'iruku<s n="n"/></l><r>cuerpo<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>apü'üya<s n="n"/></l><r>cuidador<s n="n"/><s n="m"/></r></p></e> <!-- | cuidador, -dora  -->
-    <e><p><l>wüi<s n="n"/></l><r>culebra<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>asirü<s n="n"/></l><r>culpa<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>pünajüt<s n="n"/></l><r>cultivo<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>a'ttia<s n="n"/></l><r>cultivo<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>ekiipala<s n="n"/></l><r>cumbrera<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>aleshi<s n="n"/></l><r>cuñado<s n="n"/><s n="m"/></r></p></e> <!-- de mujer| cuñado, -da  -->
-    <e><p><l>ata<s n="n"/></l><r>cubierta<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>aajuna<s n="n"/></l><r>cubierta<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>outshi<s n="n"/></l><r>curandero<s n="n"/><s n="m"/></r></p></e> <!-- | curandero, -ra  -->
-    <e><p><l>-sü<s n="n"/></l><r>curandero<s n="n"/><s n="m"/></r></p></e> <!-- | curandero, -ra  -->
-    <e><p><l>rüi<s n="n"/></l><r>cuchillo<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>akua<s n="n"/></l><r>curso<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>anulu<s n="n"/></l><r>cuello<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>jiiku<s n="n"/></l><r>cuerda<s n="n"/><s n="f"/></r></p></e> <!-- para colgar la -->
-    <e><p><l>apü<s n="n"/></l><r>cuerda<s n="n"/><s n="f"/></r></p></e> <!-- para colgar la -->
-    <e><p><l>kaainjalaa<s n="n"/></l><r>daño<s n="n"/><s n="m"/></r></p></e> <!-- causar -->
-    <e><p><l>yolujaa<s n="n"/></l><r>decenademonio<s n="n"/><s n="m"/></r></p></e> <!-- para formar números -->
-    <e><p><l>wanülüü<s n="n"/></l><r>decenademonio<s n="n"/><s n="m"/></r></p></e> <!-- para formar números -->
-    <e><p><l>ejepira<s n="n"/></l><r>dedo<s n="n"/><s n="m"/></r></p></e> <!-- de la mano -->
-    <e><p><l>eemerawaa<s n="n"/></l><r>descanso<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>oo'uliwo'u<s n="n"/></l><r>descendiente<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>ajuyaala<s n="n"/></l><r>deuda<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>yolujaa<s n="n"/></l><r>diablo<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>e'iijaa<s n="n"/></l><r>diarrea<s n="n"/><s n="f"/></r></p></e> <!-- tener diarrea -->
-    <e><p><l>ai<s n="n"/></l><r>diente<s n="n"/><s n="m"/></r></p></e> <!-- entre el diente de -->
-    <e><p><l>aamaka<s n="n"/></l><r>difunto<s n="n"/><s n="m"/></r></p></e> <!-- | difunto, -ta  -->
-    <e><p><l>neerü<s n="n"/></l><r>dinero<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>Maleiwa<s n="n"/></l><r>Dios<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>kasachiki<s n="n"/></l><r>desgracia<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>ana<s n="n"/></l><r>diseño<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>ano'u<s n="n"/></l><r>diseño<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>isashii<s n="n"/></l><r>desierto<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>aalin<s n="n"/></l><r>dolor<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>laülaa<s n="n"/></l><r>dueño<s n="n"/><s n="m"/></r></p></e> <!-- | dueño, -ña  -->
-    <e><p><l>ama'a<s n="n"/></l><r>duración<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>a'ünüü<s n="n"/></l><r>enemigo<s n="n"/><s n="m"/></r></p></e> <!-- | enemigo, -ga  -->
-    <e><p><l>ayuulii<s n="n"/></l><r>enfermedad<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>ouyase<s n="n"/></l><r>edad<s n="n"/><s n="f"/></r></p></e> <!-- años -->
-    <e><p><l>miichi<s n="n"/></l><r>edificio<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>ayaakua<s n="n"/></l><r>ejemplo<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>asapü<s n="n"/></l><r>espalda<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>alijunaiki<s n="n"/></l><r>español<s n="n"/><s n="m"/></r></p></e> <!-- idioma -->
-    <e><p><l>rouya<s n="n"/></l><r>espejo<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>ata<s n="n"/></l><r>envoltura<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>oi<s n="n"/></l><r>escama<s n="n"/><s n="f"/></r></p></e> <!-- de un pez -->
-    <e><p><l>jamü<s n="n"/></l><r>escasez<s n="n"/><s n="f"/></r></p></e> <!-- de alimento -->
-    <e><p><l>piuuna<s n="n"/></l><r>esclavo<s n="n"/><s n="m"/></r></p></e> <!-- | esclavo, -va  -->
-    <e><p><l>eipüse<s n="n"/></l><r>espina<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>yolujaa<s n="n"/></l><r>espíritu<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>a'wayuuse<s n="n"/></l><r>esposo<s n="n"/><s n="m"/></r></p></e> <!-- | esposo, -sa  -->
-    <e><p><l>ale'e<s n="n"/></l><r>estómago<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>jolotsü<s n="n"/></l><r>estrella<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>acha'a<s n="n"/></l><r>excremento<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>sipuulu<s n="n"/></l><r>espuela<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>omokoin<s n="n"/></l><r>espuma<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>kanüliaa<s n="n"/></l><r>fama<s n="n"/><s n="f"/></r></p></e> <!-- tener fama -->
-    <e><p><l>apüshi<s n="n"/></l><r>familia<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>ayolojo<s n="n"/></l><r>fantasma<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>o'u<s n="n"/></l><r>faro<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>anoula<s n="n"/></l><r>fe<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>anoujaa<s n="n"/></l><r>fe<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>akalia<s n="n"/></l><r>fecha<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>ase<s n="n"/></l><r>fibra<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>tuttaa<s n="n"/></l><r>fiebre<s n="n"/><s n="f"/></r></p></e> <!-- tener fiebre -->
-    <e><p><l>maasü<s n="n"/></l><r>flauta<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>mi'iraa<s n="n"/></l><r>fiesta<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>pitshuushi<s n="n"/></l><r>fríjol<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>asii<s n="n"/></l><r>flor<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>achon<s n="n"/></l><r>fruta<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>achon<s n="n"/></l><r>fruto<s n="n"/><s n="m"/></r></p></e> <!-- dar fruto -->
-    <e><p><l>einalu'u<s n="n"/></l><r>fondo<s n="n"/><s n="m"/></r></p></e> <!-- en el fondo de -->
-    <e><p><l>akuaippa<s n="n"/></l><r>forma<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>siki<s n="n"/></l><r>fuego<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>asema<s n="n"/></l><r>fuego<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>ekii<s n="n"/></l><r>fuente<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>atsüin<s n="n"/></l><r>fortaleza<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>pooporo<s n="n"/></l><r>fósforo<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>ayaakua<s n="n"/></l><r>fotografía<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>atsüin<s n="n"/></l><r>fuerza<s n="n"/><s n="f"/></r></p></e> <!-- estar sin fuerza -->
-    <e><p><l>juleena<s n="n"/></l><r>freno<s n="n"/><s n="m"/></r></p></e> <!-- de caballo -->
-    <e><p><l>e'ipo'u<s n="n"/></l><r>frente<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>o'use<s n="n"/></l><r>gafas<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>kaliina<s n="n"/></l><r>gallina<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>si'ya<s n="n"/></l><r>gonzalito<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>kootole'era<s n="n"/></l><r>gallo<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>o'u<s n="n"/></l><r>grano<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>seepü<s n="n"/></l><r>grasa<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>ju'i<s n="n"/></l><r>grillo<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>shunui<s n="n"/></l><r>gripe<s n="n"/><s n="f"/></r></p></e> <!-- tener gripe| gripe, gripa  -->
-    <e><p><l>paa'a<s n="n"/></l><r>ganado<s n="n"/><s n="m"/></r></p></e> <!-- vacuno -->
-    <e><p><l>akanain<s n="n"/></l><r>ganancia<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>amüla<s n="n"/></l><r>garganta<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>apato'u<s n="n"/></l><r>garra<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>muusa<s n="n"/></l><r>gato<s n="n"/><s n="m"/></r></p></e> <!-- | gato, -ta  -->
-    <e><p><l>warulapai<s n="n"/></l><r>gavilán<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>senkeyuu<s n="n"/></l><r>gemelo<s n="n"/><s n="m"/></r></p></e> <!-- | gemelo, -la  -->
-    <e><p><l>wayuu<s n="n"/></l><r>gente<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>ekiisa<s n="n"/></l><r>grito<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>kasachiki<s n="n"/></l><r>guerra<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>ekiipü'ü<s n="n"/></l><r>guía<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>jokoma<s n="n"/></l><r>gusano<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>apü'üya<s n="n"/></l><r>guardián<s n="n"/><s n="m"/></r></p></e> <!-- | guardián, -diana  -->
-    <e><p><l>awala<s n="n"/></l><r>hermano<s n="n"/><s n="m"/></r></p></e> <!-- | hermano, -na  -->
-    <e><p><l>anüiki<s n="n"/></l><r>habla<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>polu<s n="n"/></l><r>hacha<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>wüitshii<s n="n"/></l><r>hierba<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>kachueera<s n="n"/></l><r>hierro<s n="n"/><s n="m"/></r></p></e> <!-- de marcar -->
-    <e><p><l>apana<s n="n"/></l><r>hígado<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>achonyaashi<s n="n"/></l><r>hijastro<s n="n"/><s n="m"/></r></p></e> <!-- | hijastro, -tra  -->
-    <e><p><l>tüitüi<s n="n"/></l><r>halcón<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>süi<s n="n"/></l><r>hamaca<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>o'ula<s n="n"/></l><r>hamaca<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>jama'a<s n="n"/></l><r>hamaca<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>jamü<s n="n"/></l><r>hambre<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>aainjala<s n="n"/></l><r>hecho<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>achon<s n="n"/></l><r>hembrahijo<s n="n"/><s n="m"/></r></p></e> <!-- adoptivo,| hembrahijo, -ja  -->
-    <e><p><l>alio'u<s n="n"/></l><r>herida<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>jiitpai<s n="n"/></l><r>hilaza<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>jiirü<s n="n"/></l><r>hilo<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>ishi<s n="n"/></l><r>hueco<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>e'ichi<s n="n"/></l><r>hocico<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>apana<s n="n"/></l><r>hoja<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>oo'ui<s n="n"/></l><r>huella<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>achikanain<s n="n"/></l><r>huella<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>toolo<s n="n"/></l><r>hombre<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>junaaya<s n="n"/></l><r>honda<s n="n"/><s n="f"/></r></p></e> <!-- de caucho -->
-    <e><p><l>apain<s n="n"/></l><r>huerta<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>yüüja<s n="n"/></l><r>huerta<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>jiipü<s n="n"/></l><r>hueso<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>eipüse<s n="n"/></l><r>hueso<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>oora<s n="n"/></l><r>hora<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>asa'a<s n="n"/></l><r>horcón<s n="n"/><s n="m"/></r></p></e> <!-- de una casa -->
-    <e><p><l>e'iyou<s n="n"/></l><r>huésped<s n="n"/><s n="m"/></r></p></e> <!-- | huésped, -da  -->
-    <e><p><l>ashuku<s n="n"/></l><r>huevo<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>jeyuu<s n="n"/></l><r>hormiga<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>amüsain<s n="n"/></l><r>horqueta<s n="n"/><s n="m"/></r></p></e> <!-- en la horqueta de -->
-    <e><p><l>amüsain<s n="n"/></l><r>humo<s n="n"/><s n="m"/></r></p></e> <!-- en la horqueta de -->
-    <e><p><l>sutta<s n="n"/></l><r>huso<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>anüiki<s n="n"/></l><r>idioma<s n="n"/><s n="m"/></r></p></e> <!-- de los wayuu -->
-    <e><p><l>yooi<s n="n"/></l><r>infección<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>iwana<s n="n"/></l><r>iguana<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>ayaakua<s n="n"/></l><r>imagen<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>ayülain<s n="n"/></l><r>intestino<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>yaawala<s n="n"/></l><r>instante<s n="n"/><s n="m"/></r></p></e> <!-- al instante -->
-    <e><p><l>era<s n="n"/></l><r>jugo<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>laa<s n="n"/></l><r>jagüey<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>emi'ira<s n="n"/></l><r>juguete<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>jaarü<s n="n"/></l><r>jarra<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>türiiya<s n="n"/></l><r>junco<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>jaarü<s n="n"/></l><r>jarro<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>laülaa<s n="n"/></l><r>jefe<s n="n"/><s n="m"/></r></p></e> <!-- | jefe, -fa  -->
-    <e><p><l>alaülashi<s n="n"/></l><r>jefe<s n="n"/><s n="m"/></r></p></e> <!-- | jefe, -fa  -->
-    <e><p><l>jima'ai<s n="n"/></l><r>joven<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>ka'ruwarai<s n="n"/></l><r>ladrón<s n="n"/><s n="m"/></r></p></e> <!-- | ladrón, -drona  -->
-    <e><p><l>eimata<s n="n"/></l><r>labio<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>lamuuna<s n="n"/></l><r>lago<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>awiira<s n="n"/></l><r>lágrima<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>rampara<s n="n"/></l><r>lámpara<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>potshonoi<s n="n"/></l><r>libélula<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>oi<s n="n"/></l><r>lana<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>kaashapa<s n="n"/></l><r>langosta<s n="n"/><s n="f"/></r></p></e> <!-- insecto -->
-    <e><p><l>karaloukta<s n="n"/></l><r>libro<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>jooki<s n="n"/></l><r>linterna<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>yooi<s n="n"/></l><r>llaga<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>achuwala<s n="n"/></l><r>llama<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>laapi<s n="n"/></l><r>lápiz<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>leechi<s n="n"/></l><r>leche<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>achira<s n="n"/></l><r>leche<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>o'ula<s n="n"/></l><r>lecho<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>ayee<s n="n"/></l><r>lengua<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>pütchi<s n="n"/></l><r>lengua<s n="n"/><s n="f"/></r></p></e> <!-- idioma -->
-    <e><p><l>oo'ui<s n="n"/></l><r>llanta<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>e'ira<s n="n"/></l><r>llanto<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>yaawe<s n="n"/></l><r>llave<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>siki<s n="n"/></l><r>leña<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>asema<s n="n"/></l><r>leña<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>juya<s n="n"/></l><r>lluvia<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>namüna<s n="n"/></l><r>loma<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>wuliyuuna<s n="n"/></l><r>lombriz<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>apülee<s n="n"/></l><r>lugar<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>mma<s n="n"/></l><r>lugar<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>kashi<s n="n"/></l><r>luna<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>ewein<s n="n"/></l><r>lunar<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>waratshii<s n="n"/></l><r>luz<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>awarala<s n="n"/></l><r>luz<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>luus<s n="n"/></l><r>luz<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>kane'ewa<s n="n"/></l><r>mamón<s n="n"/><s n="m"/></r></p></e> <!-- fruta -->
-    <e><p><l>chajaruuta<s n="n"/></l><r>machete<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>toolo<s n="n"/></l><r>macho<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>awalainse<s n="n"/></l><r>mandíbula<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>wunu'u<s n="n"/></l><r>madera<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>akuaippa<s n="n"/></l><r>manera<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>eiyaasü<s n="n"/></l><r>madrastra<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>monku<s n="n"/></l><r>mango<s n="n"/><s n="m"/></r></p></e> <!-- 1. fruta -->
-    <e><p><l>ekia<s n="n"/></l><r>mano<s n="n"/><s n="f"/></r></p></e> <!-- derecha -->
-    <e><p><l>ajapü<s n="n"/></l><r>mano<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>ei<s n="n"/></l><r>madre<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>maikki<s n="n"/></l><r>maíz<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>maachon<s n="n"/></l><r>mamá<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>palaa<s n="n"/></l><r>mar<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>wunu'u<s n="n"/></l><r>mata<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>oo'ulia<s n="n"/></l><r>mata<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>isira<s n="n"/></l><r>maraca<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>ookotuushi<s n="n"/></l><r>mazamorra<s n="n"/><s n="f"/></r></p></e> <!-- con -->
-    <e><p><l>jeerü<s n="n"/></l><r>marca<s n="n"/><s n="f"/></r></p></e> <!-- en el ganado -->
-    <e><p><l>eechin<s n="n"/></l><r>marido<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>julirü<s n="n"/></l><r>mariposa<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>püülükü<s n="n"/></l><r>marrano<s n="n"/><s n="m"/></r></p></e> <!-- | marrano, -na  -->
-    <e><p><l>wunu'u<s n="n"/></l><r>medicina<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>epi<s n="n"/></l><r>medicina<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>tottoolu<s n="n"/></l><r>médico<s n="n"/><s n="m"/></r></p></e> <!-- | médico, -ca  -->
-    <e><p><l>kale'u<s n="n"/></l><r>mediodía<s n="n"/><s n="m"/></r></p></e> <!-- a mediodía -->
-    <e><p><l>awalapa'a<s n="n"/></l><r>mejilla<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>senkeyuu<s n="n"/></l><r>mellizo<s n="n"/><s n="m"/></r></p></e> <!-- | mellizo, -za  -->
-    <e><p><l>meruuna<s n="n"/></l><r>melón<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>mürülü<s n="n"/></l><r>mascota<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>anüiki<s n="n"/></l><r>mensaje<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>aapiee<s n="n"/></l><r>mensajero<s n="n"/><s n="m"/></r></p></e> <!-- | mensajero, -ra  -->
-    <e><p><l>ekii<s n="n"/></l><r>mente<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>aa'in<s n="n"/></l><r>mente<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>moliina<s n="n"/></l><r>molino<s n="n"/><s n="m"/></r></p></e> <!-- 1. de moler -->
-    <e><p><l>wuna'apü<s n="n"/></l><r>monte<s n="n"/><s n="m"/></r></p></e> <!-- vegetación -->
-    <e><p><l>ja'yumulerü<s n="n"/></l><r>mosca<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>alawaa<s n="n"/></l><r>mentira<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>a'alain<s n="n"/></l><r>mentira<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>e'iyeise<s n="n"/></l><r>mentón<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>metkaalü<s n="n"/></l><r>mercado<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>kashi<s n="n"/></l><r>mes<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>eema<s n="n"/></l><r>miedo<s n="n"/><s n="m"/></r></p></e> <!-- miedo atener -->
-    <e><p><l>mapa<s n="n"/></l><r>miel<s n="n"/><s n="f"/></r></p></e> <!-- de abeja -->
-    <e><p><l>o'uluku<s n="n"/></l><r>miembro<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>tepichi<s n="n"/></l><r>muchacho<s n="n"/><s n="m"/></r></p></e> <!-- | muchacho, -cha  -->
-    <e><p><l>waana<s n="n"/></l><r>mijo<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>shiatapünaa<s n="n"/></l><r>mitad<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>ase'eru'u<s n="n"/></l><r>mitad<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>katto'ui<s n="n"/></l><r>mochila<s n="n"/><s n="f"/></r></p></e> <!-- para el -->
-    <e><p><l>ouktaa<s n="n"/></l><r>muerte<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>jierü<s n="n"/></l><r>mujer<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>muula<s n="n"/></l><r>mulo<s n="n"/><s n="m"/></r></p></e> <!-- | mulo, -la  -->
-    <e><p><l>ajapkii<s n="n"/></l><r>muñeca<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>püsichi<s n="n"/></l><r>murciélago<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>apü'ü<s n="n"/></l><r>muslo<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>siruma<s n="n"/></l><r>nube<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>anulu<s n="n"/></l><r>nuca<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>osho'o<s n="n"/></l><r>nudo<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>einalu'u<s n="n"/></l><r>nalga<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>a'üi<s n="n"/></l><r>nuera<s n="n"/><s n="f"/></r></p></e> <!-- de varónde mujer -->
-    <e><p><l>e'ichi<s n="n"/></l><r>nariz<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>akuaippa<s n="n"/></l><r>naturaleza<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>mannuuya<s n="n"/></l><r>neblina<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>jo'uu<s n="n"/></l><r>nene<s n="n"/><s n="m"/></r></p></e> <!-- | nene, -na  -->
-    <e><p><l>epia<s n="n"/></l><r>nido<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>alüin<s n="n"/></l><r>nieto<s n="n"/><s n="m"/></r></p></e> <!-- | nieto, -ta  -->
-    <e><p><l>aikeyuu<s n="n"/></l><r>nieto<s n="n"/><s n="m"/></r></p></e> <!-- | nieto, -ta  -->
-    <e><p><l>tepichi<s n="n"/></l><r>niño<s n="n"/><s n="m"/></r></p></e> <!-- | niño, -ña  -->
-    <e><p><l>ai.<s n="n"/></l><r>noche<s n="n"/><s n="f"/></r></p></e> <!-- de noche - sa'wai -->
-    <e><p><l>anülia<s n="n"/></l><r>nombre<s n="n"/><s n="m"/></r></p></e> <!-- lista de -->
-    <e><p><l>palaapünaa<s n="n"/></l><r>norte<s n="n"/><s n="m"/></r></p></e> <!-- por el norte -->
-    <e><p><l>achiki<s n="n"/></l><r>noticia<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>kasachiki<s n="n"/></l><r>noticia<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>amüraajüin<s n="n"/></l><r>novio<s n="n"/><s n="m"/></r></p></e> <!-- | novio, -via  -->
-    <e><p><l>ache'e<s n="n"/></l><r>oreja<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>ache'e<s n="n"/></l><r>occidente<s n="n"/><s n="m"/></r></p></e> <!-- por el occidente -->
-    <e><p><l>ache'e<s n="n"/></l><r>oído<s n="n"/><s n="m"/></r></p></e> <!-- por el occidente -->
-    <e><p><l>o'u<s n="n"/></l><r>ojo<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>wiinnaa<s n="n"/></l><r>oriente<s n="n"/><s n="m"/></r></p></e> <!-- por el oriente -->
-    <e><p><l>wayeeta<s n="n"/></l><r>olla<s n="n"/><s n="f"/></r></p></e> <!-- de barro -->
-    <e><p><l>otse<s n="n"/></l><r>olla<s n="n"/><s n="f"/></r></p></e> <!-- de barro -->
-    <e><p><l>ekii<s n="n"/></l><r>origen<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>olu<s n="n"/></l><r>orilla<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>eejuu<s n="n"/></l><r>olor<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>ooro<s n="n"/></l><r>oro<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>piyuushi<s n="n"/></l><r>oscuridad<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>omocho<s n="n"/></l><r>ombligo<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>anüiki<s n="n"/></l><r>opinión<s n="n"/><s n="f"/></r></p></e> <!-- expresada -->
-    <e><p><l>acha'a<s n="n"/></l><r>óxido<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>ashiyaashi<s n="n"/></l><r>padrastro<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>ashi<s n="n"/></l><r>padre<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>asepü<s n="n"/></l><r>pared<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>awala'ata<s n="n"/></l><r>pareja<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>apüshi<s n="n"/></l><r>pariente<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>e'ipa<s n="n"/></l><r>parte<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>a'ata<s n="n"/></l><r>parte<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>apüshi<s n="n"/></l><r>parte<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>o'uluku<s n="n"/></l><r>parte<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>a'alijawaa<s n="n"/></l><r>parto<s n="n"/><s n="m"/></r></p></e> <!-- estar de parto -->
-    <e><p><l>asapia<s n="n"/></l><r>pasaje<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>akua<s n="n"/></l><r>paso<s n="n"/><s n="m"/></r></p></e> <!-- estruendoso de -->
-    <e><p><l>alama<s n="n"/></l><r>pasto<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>walaashi<s n="n"/></l><r>pago<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>apü'üya<s n="n"/></l><r>pastor<s n="n"/><s n="m"/></r></p></e> <!-- | pastor, -tora  -->
-    <e><p><l>mma<s n="n"/></l><r>país<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>wuchii<s n="n"/></l><r>pájaro<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>oo'ui<s n="n"/></l><r>pata<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>asa'a<s n="n"/></l><r>pata<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>paarü<s n="n"/></l><r>pala<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>pütchi<s n="n"/></l><r>palabra<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>anüiki<s n="n"/></l><r>palabra<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>wunu'u<s n="n"/></l><r>palo<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>mo'uwa<s n="n"/></l><r>paloma<s n="n"/><s n="f"/></r></p></e> <!-- silvestre -->
-    <e><p><l>pan<s n="n"/></l><r>pan<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>taata<s n="n"/></l><r>papá<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>karaloukta<s n="n"/></l><r>papel<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>paatia<s n="n"/></l><r>patio<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>aainjala<s n="n"/></l><r>pecado<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>e'e<s n="n"/></l><r>parásito<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>kalekale<s n="n"/></l><r>perico<s n="n"/><s n="m"/></r></p></e> <!-- cara sucia -->
-    <e><p><l>aluuwain<s n="n"/></l><r>pecho<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>pirijirü<s n="n"/></l><r>periquito<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>e'ipa<s n="n"/></l><r>pedazo<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>a'ata<s n="n"/></l><r>pedazo<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>kaa'ürüi<s n="n"/></l><r>perla<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>erü<s n="n"/></l><r>perro<s n="n"/><s n="m"/></r></p></e> <!-- | perro, -rra  -->
-    <e><p><l>wayuu<s n="n"/></l><r>persona<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>jime<s n="n"/></l><r>pescado<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>wala'ayuu<s n="n"/></l><r>pelusa<s n="n"/><s n="f"/></r></p></e> <!-- de la tuna -->
-    <e><p><l>aawain<s n="n"/></l><r>peso<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>o'uta<s n="n"/></l><r>pestaña<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>kaasü<s n="n"/></l><r>petróleo<s n="n"/><s n="m"/></r></p></e> <!-- para lámpara -->
-    <e><p><l>jime<s n="n"/></l><r>pez<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>apato'u<s n="n"/></l><r>pezuña<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>e'ichi<s n="n"/></l><r>pico<s n="n"/><s n="m"/></r></p></e> <!-- de un pájaro -->
-    <e><p><l>oo'ui<s n="n"/></l><r>pie<s n="n"/><s n="m"/></r></p></e> <!-- estar de pie -->
-    <e><p><l>peerü<s n="n"/></l><r>perdiz<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>ata<s n="n"/></l><r>piel<s n="n"/><s n="f"/></r></p></e> <!-- piel entera -->
-    <e><p><l>atouta<s n="n"/></l><r>piel<s n="n"/><s n="f"/></r></p></e> <!-- piel entera -->
-    <e><p><l>asa'a<s n="n"/></l><r>pierna<s n="n"/><s n="f"/></r></p></e> <!-- parte superior de -->
-    <e><p><l>korolo<s n="n"/></l><r>pieza<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>a'ata<s n="n"/></l><r>porción<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>achepü<s n="n"/></l><r>pintura<s n="n"/><s n="f"/></r></p></e> <!-- para la cara -->
-    <e><p><l>mapüi<s n="n"/></l><r>piojo<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>apa'a<s n="n"/></l><r>piso<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>o'ula<s n="n"/></l><r>placenta<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>e'e<s n="n"/></l><r>posesión<s n="n"/><s n="f"/></r></p></e> <!-- en posesión de -->
-    <e><p><l>e'e<s n="n"/></l><r>plaga<s n="n"/><s n="f"/></r></p></e> <!-- en posesión de -->
-    <e><p><l>paasta<s n="n"/></l><r>plástico<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>pülaata<s n="n"/></l><r>plata<s n="n"/><s n="f"/></r></p></e> <!-- el metal -->
-    <e><p><l>püla'ana<s n="n"/></l><r>plátano<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>pülaata<s n="n"/></l><r>plato<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>pülaasa<s n="n"/></l><r>plaza<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>iiwa<s n="n"/></l><r>Pléyades<s n="n"/><s n="f"/></r></p></e> <!-- constelación -->
-    <e><p><l>atüna<s n="n"/></l><r>pluma<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>amülira<s n="n"/></l><r>pluma<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>ishi<s n="n"/></l><r>pozo<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>alia<s n="n"/></l><r>precio<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>jaarü<s n="n"/></l><r>pocillo<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>kakuuna<s n="n"/></l><r>prenda<s n="n"/><s n="f"/></r></p></e> <!-- jo-->
-    <e><p><l>asirü<s n="n"/></l><r>presa<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>mma<s n="n"/></l><r>polvo<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>iwaa<s n="n"/></l><r>prostituta<s n="n"/><s n="f"/></r></p></e> <!-- ser prostituta -->
-    <e><p><l>puatto'u<s n="n"/></l><r>primavera<s n="n"/><s n="f"/></r></p></e> <!-- tiempo de lluviasla entrada -->
-    <e><p><l>puatto'u<s n="n"/></l><r>puerta<s n="n"/><s n="f"/></r></p></e> <!-- tiempo de lluviasla entrada -->
-    <e><p><l>o'u<s n="n"/></l><r>puerta<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>apülee<s n="n"/></l><r>puesto<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>e'iruma<s n="n"/></l><r>primogénito<s n="n"/><s n="m"/></r></p></e> <!-- | primogénito, -ta  -->
-    <e><p><l>jayapa<s n="n"/></l><r>principio<s n="n"/><s n="m"/></r></p></e> <!-- en el principio de -->
-    <e><p><l>jayapa<s n="n"/></l><r>pulga<s n="n"/><s n="m"/></r></p></e> <!-- en el principio de -->
-    <e><p><l>ososo<s n="n"/></l><r>prisa<s n="n"/><s n="m"/></r></p></e> <!-- darse prisa, tener prisa -->
-    <e><p><l>ososo<s n="n"/></l><r>pulmón<s n="n"/><s n="m"/></r></p></e> <!-- darse prisa, tener prisa -->
-    <e><p><l>ase<s n="n"/></l><r>pulpa<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>ajapüna<s n="n"/></l><r>pulsera<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>e'iru'u<s n="n"/></l><r>punta<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>e'ichi<s n="n"/></l><r>punta<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>ajü<s n="n"/></l><r>pus<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>awalainse<s n="n"/></l><r>quijada<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>keesü<s n="n"/></l><r>quemadura<s n="n"/><s n="m"/></r></p></e> <!-- sufrir una -->
-    <e><p><l>keesü<s n="n"/></l><r>queso<s n="n"/><s n="m"/></r></p></e> <!-- sufrir una -->
-    <e><p><l>üttaa<b/>aa'in<s n="n"/></l><r>rabia<s n="n"/><s n="f"/></r></p></e> <!-- sentir rabia -->
-    <e><p><l>raawia<s n="n"/></l><r>radio<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>kusu<s n="n"/></l><r>red<s n="n"/><s n="f"/></r></p></e> <!-- de pescar -->
-    <e><p><l>ourala<s n="n"/></l><r>raíz<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>atüna<s n="n"/></l><r>rama<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>taataai<s n="n"/></l><r>rana<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>achikanain<s n="n"/></l><r>rastro<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>oo'ui<s n="n"/></l><r>rastro<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>kookooche'erü<s n="n"/></l><r>rata<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>pejeewa<s n="n"/></l><r>rato<s n="n"/><s n="m"/></r></p></e> <!-- a cada ratoun -->
-    <e><p><l>kookooche'erü<s n="n"/></l><r>ratón<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>okolojoo<s n="n"/></l><r>recipiente<s n="n"/><s n="m"/></r></p></e> <!-- para comida ollevar regalo -->
-    <e><p><l>okolojoo<s n="n"/></l><r>regalo<s n="n"/><s n="m"/></r></p></e> <!-- para comida ollevar regalo -->
-    <e><p><l>ayaa<s n="n"/></l><r>relámpago<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>achiki<s n="n"/></l><r>relato<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>epi<s n="n"/></l><r>remedio<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>asapain<s n="n"/></l><r>remojo<s n="n"/><s n="m"/></r></p></e> <!-- dejar en remojo -->
-    <e><p><l>asapain<s n="n"/></l><r>rodilla<s n="n"/><s n="m"/></r></p></e> <!-- dejar en remojo -->
-    <e><p><l>ajü<s n="n"/></l><r>resina<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>ashe'in<s n="n"/></l><r>ropa<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>kuluulu<s n="n"/></l><r>ropa<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>o'upünaa<s n="n"/></l><r>rostro<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>jutkataa<s n="n"/></l><r>respuesta<s n="n"/><s n="m"/></r></p></e> <!-- en respuesta a -->
-    <e><p><l>jutkataa<s n="n"/></l><r>resto<s n="n"/><s n="m"/></r></p></e> <!-- en respuesta a -->
-    <e><p><l>jutkataa<s n="n"/></l><r>reunión<s n="n"/><s n="m"/></r></p></e> <!-- en respuesta a -->
-    <e><p><l>riwoolü<s n="n"/></l><r>revólver<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>e'ira<s n="n"/></l><r>ruido<s n="n"/><s n="m"/></r></p></e> <!-- de objetos -->
-    <e><p><l>achü'ü<s n="n"/></l><r>riñón<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>süchi<s n="n"/></l><r>río<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>awashirüin<s n="n"/></l><r>riqueza<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>e'ipolo<s n="n"/></l><r>rival<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>miyaasüü<s n="n"/></l><r>sed<s n="n"/><s n="f"/></r></p></e> <!-- tener sed -->
-    <e><p><l>e'ejü<s n="n"/></l><r>sabor<s n="n"/><s n="m"/></r></p></e> <!-- tener poco sabor -->
-    <e><p><l>wuna'apü<s n="n"/></l><r>selva<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>semaana<s n="n"/></l><r>semana<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>ichii<s n="n"/></l><r>sal<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>a'ü<s n="n"/></l><r>semilla<s n="n"/><s n="f"/></r></p></e> <!-- para la siembra -->
-    <e><p><l>wopu<s n="n"/></l><r>sendero<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>apüna<s n="n"/></l><r>sendero<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>achira<s n="n"/></l><r>seno<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>ayaawase<s n="n"/></l><r>señal<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>awaa<s n="n"/></l><r>saliva<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>anaa<s n="n"/></l><r>salud<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>majayülü<s n="n"/></l><r>señorita<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>isha<s n="n"/></l><r>sangre<s n="n"/><s n="f"/></r></p></e> <!-- ave sangre de -->
-    <e><p><l>asha<s n="n"/></l><r>sangre<s n="n"/><s n="f"/></r></p></e> <!-- ave sangre de -->
-    <e><p><l>eperü'üi<s n="n"/></l><r>sapo<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>apü<s n="n"/></l><r>sarta<s n="n"/><s n="f"/></r></p></e> <!-- de cuentas -->
-    <e><p><l>era<s n="n"/></l><r>savia<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>ajü<s n="n"/></l><r>savia<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>uuchi<s n="n"/></l><r>serranía<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>seepü<s n="n"/></l><r>sebo<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>ekiisholoin<s n="n"/></l><r>seso<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>süttiija<s n="n"/></l><r>sortija<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>era<s n="n"/></l><r>sudor<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>ashimia<s n="n"/></l><r>suegro<s n="n"/><s n="m"/></r></p></e> <!-- de varón| suegro, -gra  -->
-    <e><p><l>siiya<s n="n"/></l><r>silla<s n="n"/><s n="f"/></r></p></e> <!-- de montarde sueldo -->
-    <e><p><l>siiya<s n="n"/></l><r>silla<s n="n"/><s n="f"/></r></p></e> <!-- de montarde sueldo -->
-    <e><p><l>ayaawase<s n="n"/></l><r>símbolo<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>piuuna<s n="n"/></l><r>sirviente<s n="n"/><s n="m"/></r></p></e> <!-- | sirviente, -ta  -->
-    <e><p><l>apülee<s n="n"/></l><r>sitio<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>akanain<s n="n"/></l><r>sueldo<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>mma<s n="n"/></l><r>sobrino<s n="n"/><s n="m"/></r></p></e> <!-- materno de| sobrino, -na en el suelo -->
-    <e><p><l>mma<s n="n"/></l><r>suelo<s n="n"/><s n="m"/></r></p></e> <!-- materno de| sobrino, -na en el suelo -->
-    <e><p><l>lapü<s n="n"/></l><r>sueño<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>a'ata<s n="n"/></l><r>socio<s n="n"/><s n="m"/></r></p></e> <!-- | socio, -cia  -->
-    <e><p><l>amüliala<s n="n"/></l><r>sufrimiento<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>jiiku<s n="n"/></l><r>soga<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>ka'i<s n="n"/></l><r>sol<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>apa'a<s n="n"/></l><r>superficie<s n="n"/><s n="f"/></r></p></e> <!-- entera -->
-    <e><p><l>atouta<s n="n"/></l><r>superficie<s n="n"/><s n="f"/></r></p></e> <!-- entera -->
-    <e><p><l>surulaalü<s n="n"/></l><r>soldado<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>ee'iraka<s n="n"/></l><r>suplente<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>uuchipünaa<s n="n"/></l><r>sur<s n="n"/><s n="m"/></r></p></e> <!-- por el sur -->
-    <e><p><l>ayolojo<s n="n"/></l><r>sombra<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>eemioushi<s n="n"/></l><r>sombra<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>uwon<s n="n"/></l><r>sombrero<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>e'ira<s n="n"/></l><r>sonido<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>ee'iraka<s n="n"/></l><r>sustituto<s n="n"/><s n="m"/></r></p></e> <!-- | sustituto, -ta  -->
-    <e><p><l>yüi<s n="n"/></l><r>tabaco<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>taapüla<s n="n"/></l><r>tabla<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>mma<s n="n"/></l><r>terreno<s n="n"/><s n="m"/></r></p></e> <!-- terreno -->
-    <e><p><l>mma<s n="n"/></l><r>tierra<s n="n"/><s n="f"/></r></p></e> <!-- virgen -->
-    <e><p><l>isashii<s n="n"/></l><r>tierra<s n="n"/><s n="f"/></r></p></e> <!-- virgen -->
-    <e><p><l>kaasha<s n="n"/></l><r>tamaño<s n="n"/><s n="m"/></r></p></e> <!-- por altura, longitud -->
-    <e><p><l>kaasha<s n="n"/></l><r>tambor<s n="n"/><s n="m"/></r></p></e> <!-- por altura, longitud -->
-    <e><p><l>erouse<s n="n"/></l><r>tapa<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>e'ipolo<s n="n"/></l><r>tapa<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>erouse<s n="n"/></l><r>tapón<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>aliika<s n="n"/></l><r>tarde<s n="n"/><s n="f"/></r></p></e> <!-- por la tarde -->
-    <e><p><l>aajuna<s n="n"/></l><r>techo<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>kuluulu<s n="n"/></l><r>tela<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>anülü<s n="n"/></l><r>telar<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>o'ula<s n="n"/></l><r>telaraña<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>aa'ayula<s n="n"/></l><r>temperatura<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>palousa<s n="n"/></l><r>tijeras<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>asüla<s n="n"/></l><r>tendón<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>ashi<s n="n"/></l><r>tío<s n="n"/><s n="m"/></r></p></e> <!-- paternomaterno| tío, tía  -->
-    <e><p><l>aaluwain<s n="n"/></l><r>tobillo<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>ayülain<s n="n"/></l><r>tripa<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>chocho<s n="n"/></l><r>trompo<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>ekii<s n="n"/></l><r>tocón<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>wawaachi<s n="n"/></l><r>tortolita<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>sa'wainrü<s n="n"/></l><r>tortuga<s n="n"/><s n="f"/></r></p></e> <!-- de mar -->
-    <e><p><l>atürüla<s n="n"/></l><r>trueno<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>a'yatawaa<s n="n"/></l><r>trabajo<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>jamüche'e<s n="n"/></l><r>tuna<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>ekia<s n="n"/></l><r>utensilio<s n="n"/><s n="m"/></r></p></e> <!-- para comer -->
-    <e><p><l>apato'u<s n="n"/></l><r>uña<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>pentaana<s n="n"/></l><r>ventana<s n="n"/><s n="f"/></r></p></e> <!-- de vidrio -->
-    <e><p><l>paa'a<s n="n"/></l><r>vaca<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>asachiralü<s n="n"/></l><r>vaca<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>ata<s n="n"/></l><r>vaina<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>shiimüin<s n="n"/></l><r>verdad<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>ajutu<s n="n"/></l><r>valor<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>alia<s n="n"/></l><r>valor<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>kuli'ichi<s n="n"/></l><r>vara<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>e'ejena<s n="n"/></l><r>vehículo<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>akua<s n="n"/></l><r>velocidad<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>irama<s n="n"/></l><r>venado<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>o'u<s n="n"/></l><r>venenovez<s n="n"/><s n="m"/></r></p></e> <!-- para exterminar algouna vez -->
-    <e><p><l>uwatua<s n="n"/></l><r>vez<s n="n"/><s n="f"/></r></p></e> <!-- dos veces -->
-    <e><p><l>aa'in<s n="n"/></l><r>voluntad<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>akua<s n="n"/></l><r>viaje<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>o'unaa<s n="n"/></l><r>viaje<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>eewain<s n="n"/></l><r>víctima<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>kataa<b/>o'u<s n="n"/></l><r>vida<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>akuaippa<s n="n"/></l><r>vida<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>maraaja<s n="n"/></l><r>vidrio<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>jouktai<s n="n"/></l><r>viento<s n="n"/><s n="m"/></r></p></e> <!-- de tempestad -->
-    <e><p><l>ale'e<s n="n"/></l><r>vientre<s n="n"/><s n="m"/></r></p></e> <!-- en el vientre de -->
-    <e><p><l>atujuna<s n="n"/></l><r>viga<s n="n"/><s n="f"/></r></p></e> <!-- maestra -->
-    <e><p><l>ekiipala<s n="n"/></l><r>viga<s n="n"/><s n="f"/></r></p></e> <!-- maestra -->
-    <e><p><l>e'iyou<s n="n"/></l><r>visita<s n="n"/><s n="f"/></r></p></e> <!-- hacer una visita -->
-    <e><p><l>leeyataa<s n="n"/></l><r>vuelta<s n="n"/><s n="f"/></r></p></e> <!-- dar vueltas -->
-    <e><p><l>ashimia<s n="n"/></l><r>yerno<s n="n"/><s n="m"/></r></p></e> <!-- de varón -->
-    <e><p><l>ai<s n="n"/></l><r>yuca<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>sapaata<s n="n"/></l><r>zapato<s n="n"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>walirü<s n="n"/></l><r>zorro<s n="n"/><s n="m"/></r></p></e> <!-- | zorro, -rra  -->
-    <e><p><l>mei<s n="n"/></l><r>zancudo<s n="n"/><s n="m"/></r></p></e> <!--  -->
+    <pardef n="juma'a__cnjcoo">
+      <e><p><l></l><r><s n="cnjcoo"/></r></p></e>
+    </pardef>
 
-    <!-- SECCIÓN: Nombres propio -->
+    <!-- SECCIÓN: Nombres -->
 
-    <e><p><l>María<s n="np"/><s n="ant"/><s n="f"/></l><r>María<s n="np"/><s n="ant"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>Jaime<s n="np"/><s n="ant"/><s n="m"/></l><r>Jaime<s n="np"/><s n="ant"/><s n="m"/></r></p></e> <!--  -->
+    <pardef n="ipa'__n">
+      <e><p><l></l><r><s n="n"/><s n="nn"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>irrua</l><r><s n="n"/><s n="nn"/><s n="m"/><s n="pl"/></r></p></e>
+    </pardef>
+    <pardef n="musa__n">
+      <e><p><l></l><r><s n="n"/><s n="aa"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>irrua</l><r><s n="n"/><s n="aa"/><s n="m"/><s n="pl"/></r></p></e>
+    </pardef>
+    <pardef n="kalina__n">
+      <e><p><l></l><r><s n="n"/><s n="aa"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l>irrua</l><r><s n="n"/><s n="aa"/><s n="f"/><s n="pl"/></r></p></e>
+    </pardef>
+
+    <pardef n="Jaime__np">
+      <e><p><l></l><r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+    </pardef>
+
+    <pardef n="María__np">
+      <e><p><l></l><r><s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
+    </pardef>
 
     <!-- SECCIÓN: Adverbios -->
-    <e><p><l>jalaa<s n="vblex"/></l><r>dónde<s n="adv"/></r></p></e> <!-- verbo de estado en Wayunaiki-->
 
-    <e><p><l>nnojo<s n="adv"/></l><r>no<s n="adv"/></r></p></e>
-    <e><p><l>yaa<s n="adv"/></l><r>también<s n="adv"/></r></p></e>
-    <e><p><l>joolu'u<s n="adv"/></l><r>ahora<s n="adv"/></r></p></e>
-    <e><p><l>jamaa<s n="adv"/></l><r>por qué<s n="adv"/></r></p></e> <!-- itg-->
-    <e><p><l>yalaala<s n="adv"/></l><r>ahí<s n="adv"/></r></p></e>
-    <e><p><l>yootchon<s n="adv"/></l><r>un poco<s n="adv"/></r></p></e> 
-    <e><p><l>waneepia<s n="adv"/></l><r>siempre<s n="adv"/></r></p></e>
-    <e><p><l>meinshi<s n="adv"/></l><r>siempre<s n="adv"/></r></p></e> 
-    <e><p><l>weinshi<s n="adv"/></l><r>siempre<s n="adv"/></r></p></e>
-  <!--  <e><p><l>ja'itairü<s n="adv"/></l><r>aunque<s n="adv"/></r></p></e> -->
-    <e><p><l>jüchikua'ya<s n="adv"/></l><r>otra vez<s n="adv"/></r></p></e> 
-    <e><p><l>ma'i<s n="adv"/></l><r>mucho<s n="adv"/></r></p></e>  <!-- muy --> 
-    <e><p><l>so'uka'i<s n="adv"/></l><r>hoy<s n="adv"/></r></p></e> 
-    <e><p><l>peeje<s n="adv"/></l><r>cerca<s n="adv"/></r></p></e> 
-    <e><p><l>aliikainka<s n="adv"/></l><r>ayer<s n="adv"/></r></p></e> 
-    <e><p><l>so'ukalinka<s n="adv"/></l><r>ayer<s n="adv"/></r></p></e>
-    <e><p><l>anooipa'a<s n="adv"/></l><r>afuera<s n="adv"/></r></p></e>
-    <e><p><l>aa<s n="adv"/></l><r>si<s n="adv"/></r></p></e> 
-    <e><p><l>aipa'inka<s n="adv"/></l><r>anoche<s n="adv"/></r></p></e> 
-    <e><p><l>aka'aya<s n="adv"/></l><r>asimismo<s n="adv"/></r></p></e> 
-    <e><p><l>iipünaa<s n="adv"/></l><r>arriba<s n="adv"/></r></p></e> 
-    <e><p><l>jouja<s n="adv"/></l><r>cuando<s n="adv"/></r></p></e> 
-    <e><p><l>kale'u<s n="adv"/></l><r>mediodia<s n="adv"/></r></p></e> 
-    <e><p><l>mapa<s n="adv"/></l><r>despues<s n="adv"/></r></p></e> <!-- mapa1 -->
-    <e><p><l>mmolu'u<s n="adv"/></l><r>abajo<s n="adv"/></r></p></e> <!-- en el suelo -->
-    <e><p><l>motso'o<s n="adv"/></l><r>brevemente<s n="adv"/></r></p></e> 
-    <e><p><l>motso'o<s n="adv"/></l><r>inmediatamente<s n="adv"/></r></p></e>
-    <e><p><l>ne'e<s n="adv"/></l><r>justamente<s n="adv"/></r></p></e> 
-    <e><p><l>ne'e<s n="adv"/></l><r>solamente<s n="adv"/></r></p></e> 
-    <e><p><l>paala<s n="adv"/></l><r>antes<s n="adv"/></r></p></e>
-    <e><p><l>paalaapüna<s n="adv"/></l><r>por el norte<s n="adv"/></r></p></e>
-    <e><p><l>palajana<s n="adv"/></l><r>primero<s n="adv"/></r></p></e>
-    <e><p><l>pasanain<b/>anain<s n="adv"/></l><r>entre<s n="adv"/></r></p></e>
-    <e><p><l>pasanain<b/>anain<s n="adv"/></l><r>en<b/>medio<b/>de<b/><s n="adv"/></r></p></e> 
-    <e><p><l>paülü'ü<s n="adv"/></l><r>adentro<s n="adv"/></r></p></e> <!-- de la casa -->
-    <e><p><l>pejeewa<s n="adv"/></l><r>a cada rato<s n="adv"/></r></p></e>
-    <e><p><l>piantua<s n="adv"/></l><r>dos veces<s n="adv"/></r></p></e>
-    <e><p><l>unapümüin<s n="adv"/></l><r>hacia abajo<s n="adv"/></r></p></e>
-    <e><p><l>watta'a<s n="adv"/></l><r>mañana<s n="adv"/></r></p></e>
-    <e><p><l>wattapia<s n="adv"/></l><r>pasado mañana<s n="adv"/></r></p></e>
-    <e><p><l>yaajeeru'u <s n="adv"/></l><r>en este lado<s n="adv"/></r></p></e>
-    <e><p><l>yaaulerü<s n="adv"/></l><r>un rato<s n="adv"/></r></p></e> 
-    <e><p><l>yaawala<s n="adv"/></l><r>inmediatamente<s n="adv"/></r></p></e>
-    <e><p><l>yaaya<s n="adv"/></l><r>aqui<s n="adv"/></r></p></e>
-    <e><p><l>yala<s n="adv"/></l><r>allí<s n="adv"/></r></p></e>
-    <e><p><l>yala<s n="adv"/></l><r>allá<s n="adv"/></r></p></e>
-    <e><p><l>saasa<s n="adv"/></l><r>allá<s n="adv"/></r></p></e>
-    <e><p><l>eera<s n="adv"/></l><r>quizás<s n="adv"/></r></p></e>
+    <pardef n="yaa__adv">
+      <e><p><l></l><r><s n="adv"/><s n="itg"/></r></p></e>
+    </pardef>
+
 
     <!-- SECCIÓN: Verbos -->
-    <e><p><l>eewaa ama'na<s n="vblex"/></l><r>tener<s n="vblex"/><s n="vbtuno"/><s n="vbact"/></r></p></e>
-    <e><p><l>aküjaa<s n="vblex"/></l><r>decir<s n="vblex"/><s n="vbtuno"/><s n="vbact"/></r></p></e>
-    <e><p><l>apülain<s n="vblex"/></l><r>poder<s n="vblex"/><s n="vbact"/></r></p></e> <!-- transitivo-->
-    <e><p><l>ountaa<s n="vblex"/></l><r>poder<s n="vblex"/><s n="vbact"/></r></p></e> <!-- transitivo-->
-    <e><p><l>e'eera<s n="vblex"/></l><r>ver<s n="vblex"/><s n="vbact"/></r></p></e>
-    <e><p><l>oousitaa<s n="vblex"/></l><r>encontrar<s n="vblex"/><s n="vbact"/></r></p></e>
-    <e><p><l>ashaaittaa<s n="vblex"/></l><r>jugar<s n="vblex"/><s n="vbact"/></r></p></e>
-    <e><p><l>eewaa ama'na<s n="vblex"/></l><r>tener<s n="vblex"/><s n="vbact"/></r></p></e>
-    <e><p><l>achajawaa<s n="vblex"/></l><r>buscar<s n="vblex"/><s n="vbact"/></r></p></e>
-    <e><p><l>ama'lain<s n="vblex"/></l><r>gustar<s n="vblex"/><s n="vbact"/></r></p></e>
-    <e><p><l>ama'lain<s n="vblex"/></l><r>encantar<s n="vblex"/><s n="vbact"/></r></p></e>
-    <e><p><l>eirakawaa<s n="vblex"/></l><r>mirar<s n="vblex"/><s n="vbact"/></r></p></e>
-    <e><p><l>atüjaa<s n="vblex"/></l><r>saber<s n="vblex"/><s n="vbact"/></r></p></e> <!-- transitivo-->
-    <e><p><l>atüjawaa<b/>aa'u<s n="vblex"/></l><r>saber<b/>de<s n="vblex"/><s n="vbact"/></r></p></e>
-    <e><p><l>aa'inraa<s n="vblex"/></l><r>hacer<s n="vblex"/><s n="vbact"/></r></p></e>
-    <e><p><l>asakiraa<s n="vblex"/></l><r>preguntars<s n="vblex"/><s n="vbact"/></r></p></e>
-    <e><p><l>aashajawaa<s n="vblex"/></l><r>hablar<s n="vblex"/><s n="vbact"/></r></p></e>
-    <e><p><l>asouktaa<s n="vblex"/></l><r>responder<b/>de<s n="vblex"/><s n="vbact"/></r></p></e>
-    <e><p><l>aapajaa<s n="vblex"/></l><r>escuchar<s n="vblex"/><s n="vbact"/></r></p></e>
-    <e><p><l>atunkaa<s n="vblex"/></l><r>dormir<s n="vblex"/><s n="vbact"/></r></p></e>
-    <e><p><l>awatawaa<s n="vblex"/></l><r>correr<s n="vblex"/><s n="vbact"/></r></p></e>
-    <e><p><l>ounjulaa<s n="vblex"/></l><r>esconder<s n="vblex"/><s n="vbact"/></r></p></e>
-    <e><p><l>ayaawajaa<s n="vblex"/></l><r>contar<s n="vblex"/><s n="vbact"/></r></p></e>
-    <e><p><l>joyotoo<s n="vblex"/></l><r>estar<b/>sentado<s n="vblex"/></r></p></e>
-    <e><p><l>aja'lajawaa<s n="vblex"/></l><r>terminar<s n="vblex"/><s n="vbact"/></r></p></e>
-    <e><p><l>e'rajawaa<s n="vblex"/></l><r>observar<s n="vblex"/><s n="vbact"/></r></p></e>
-    <e><p><l>kule'mataa<s n="vblex"/></l><r>estar<b/>sonriendo<s n="vblex"/></r></p></e>
-    <e><p><l>epeensaajaa<s n="vblex"/></l><r>pensar<s n="vblex"/><s n="vbact"/></r></p></e>
-    <e><p><l>achekaa<s n="vblex"/></l><r>querer<s n="vblex"/><s n="vbact"/></r></p></e>
-    <e><p><l>waraittaa<s n="vblex"/></l><r>caminar<s n="vblex"/></r></p></e>
-    <e><p><l>ainkaa<s n="vblex"/></l><r>lograr<s n="vblex"/><s n="vbact"/></r></p></e>
-    <e><p><l>asirajaa<s n="vblex"/></l><r>reirse<s n="vblex"/><s n="vbact"/></r></p></e>
-    <e><p><l>o'unaa<s n="vblex"/></l><r>ir<s n="vblex"/><s n="vbact"/></r></p></e>
-    <e><p><l>ekaa<s n="vblex"/></l><r>comer<s n="vblex"/><s n="vbact"/></r></p></e>
-    <e><p><l>asaa<s n="vblex"/></l><r>beber<s n="vblex"/><s n="vbact"/></r></p></e>
-    <e><p><l>peeje<s n="vblex"/></l><r>estar<b/>cerca<s n="vblex"/></r></p></e>
-    <e><p><l>eesü<s n="vblex"/></l><r>está<s n="vblex"/></r></p></e>
-    <e><p><l>eesü<s n="vblex"/></l><r>ahî<s n="vblex"/></r></p></e>
 
-    <!-- SECCIÓN: Punctuación -->
-    <e><re>[.\?;:!·]</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>
-    <e><re>[0-9]+([.,][0-9]+)*[.,]*</re><p><l><s n="num"/></l><r><s n="num"/></r></p></e> 
-    <e><p><l>-<s n="guio"/></l><r>-<s n="guio"/></r></p></e>
-    <e><p><l>,<s n="cm"/></l><r>,<s n="cm"/></r></p></e>
+    <pardef n="jala/a__vblex">
+      <e><p><l>a</l><r>a<s n="vblex"/><s n="inf"/></r></p></e>
+      <e><p><l>shi</l><r>a<s n="vblex"/><s n="pri"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>sü</l><r>a<s n="vblex"/><s n="pri"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l>shii</l><r>a<s n="vblex"/><s n="pri"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>
+    </pardef>
+
+  </pardefs>
+
+  <section id="main" type="standard">
+    <!-- SECCIÓN: Conjunciones -->
+
+    <e lm="juma'a"><i>juma'a</i><par n="juma'a__cnjcoo"/></e>
+
+    <!-- SECCIÓN: Nombres -->
+
+    <e lm="ipa'"><i>ipa'</i><par n="ipa'__n"/></e>
+    <e lm="wopu"><i>wopu</i><par n="ipa'__n"/></e>
+    <e lm="shüliuala"><i>shüliuala</i><par n="ipa'__n"/></e>
+    <e lm="kai"><i>kai</i><par n="ipa'__n"/></e>
+    <e lm="lapu'"><i>lapu'</i><par n="ipa'__n"/></e>
+    <e lm="musa"><i>musa</i><par n="musa__n"/></e>
+    <e lm="kalina"><i>kalina</i><par n="kalina__n"/></e>
+
+    <!-- SECCIÓN: Nombres propios -->
+
+    <e lm="María"><i>María</i><par n="María__np"/></e>
+    <e lm="Jaime"><i>Jaime</i><par n="Jaime__np"/></e>
+
+    <!-- SECCIÓN: Adverbios -->
+    <e lm="yaa"><i>yaa</i><par n="yaa__adv"/></e>
+
+    <!-- SECCIÓN: Verbos -->
+    <e lm="jalaa"><i>jala</i><par n="jala/a__vblex"/></e>
+
   </section>
+  <section id="final" type="inconditional">
+    <e><par n="numeros"/></e>
+    <e><par n="separa"/></e>
+    <e><par n="coma"/></e>
+    <e><par n="cometa"/></e>
+    <e><par n="guionet"/></e>
+
+  </section>
+
 </dictionary>
