@@ -1,3 +1,4 @@
+
 <dictionary>
   <alphabet/>
   <sdefs>
@@ -763,6 +764,9 @@
 
     <e><p><l>María<s n="np"/><s n="ant"/><s n="f"/></l><r>María<s n="np"/><s n="ant"/><s n="f"/></r></p></e> <!--  -->
     <e><p><l>Jaime<s n="np"/><s n="ant"/><s n="m"/></l><r>Jaime<s n="np"/><s n="ant"/><s n="m"/></r></p></e> <!--  -->
+    <e><p><l>Jose<s n="np"/><s n="ant"/><s n="m"/></l><r>Jose<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+    <e><p><l>Dayana<s n="np"/><s n="ant"/><s n="m"/></l><r>Dayana<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+    <e><p><l>Ornela<s n="np"/><s n="ant"/><s n="m"/></l><r>Ornela<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 
     <!-- SECCIÓN: Adverbios -->
     <e><p><l>jalaa<s n="vblex"/></l><r>dónde<s n="adv"/></r></p></e> <!-- verbo de estado en Wayunaiki-->
@@ -873,7 +877,8 @@
     <e><p><l>antüshii<g><b/>jia</g><s n="ij"/></l><r>bienvenidos<s n="ij"/></r></p></e>
     <e><p><l>tia<s n="ij"/></l><r>eso<s n="ij"/></r></p></e>
 
-
+    <!-- Diccionario tecnologico -->	
+    <e><p><l>apülajane'ipa<s n="np"/></l><r>volumen<s n="np"/></r></p></e>
 
     <!-- SECCIÓN: Punctuación -->
     <e><re>[.\?;:!·]</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>
