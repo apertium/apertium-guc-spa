@@ -13,11 +13,11 @@ CLEANFILES = -rf $(TARGETS_COMMON) modes
 
 $(PREFIX1).autobil.bin: apertium-guc-spa.guc-spa.dix
 	apertium-validate-dictionary apertium-guc-spa.guc-spa.dix
-	lt-comp rl apertium-guc-spa.guc-spa.dix $(PREFIX2).autobil.bin
+	lt-comp lr apertium-guc-spa.guc-spa.dix $(PREFIX2).autobil.bin
 
 $(PREFIX2).autobil.bin: apertium-guc-spa.guc-spa.dix
 	apertium-validate-dictionary apertium-guc-spa.guc-spa.dix
-	lt-comp lr apertium-guc-spa.guc-spa.dix $(PREFIX2).autobil.bin
+	lt-comp rl apertium-guc-spa.guc-spa.dix $(PREFIX2).autobil.bin
 
 $(PREFIX2).automorf.bin: apertium-guc-spa.spa.dix
 	apertium-validate-dictionary apertium-guc-spa.spa.dix
