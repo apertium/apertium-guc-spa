@@ -83,6 +83,11 @@
     <pardef n="María__np">
       <e><p><l></l><r><s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
     </pardef>
+   
+    <pardef n="teclado__n">
+      <e><p><l></l><r><s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+    </pardef>	
+
 
     <!-- SECCIÓN: Adverbios -->
 
@@ -121,7 +126,7 @@
     <e lm="achikanainjia"><i>achikanainjia</i><par n="ipa'__n"/></e>
     <e lm="ajüjia"><i>ajüjia</i><par n="ipa'__n"/></e>
     <e lm="ajüttia"><i>ajüttia</i><par n="ipa'__n"/></e>
-    <e lm="ajüttiaapala"><i>ajüttiaapala</i><par n="ipa'__n"/></e>
+    <e lm="ajüttiaapala"><i>ajüttiaapala</i><par n="teclado__n"/></e>
     <e lm="ajüttülee"><i>ajüttülee</i><par n="ipa'__n"/></e>
     <e lm="akaalijülü"><i>akaalijülü</i><par n="ipa'__n"/></e>
     <e lm="akaliaa"><i>akaliaa</i><par n="ipa'__n"/></e>
