@@ -25,7 +25,7 @@
     <sdef n="m"         c="Masculino"/>
     <sdef n="f"         c="Feminino"/>
     <sdef n="GD"        c="Genero por determinar"/>
-
+    <sdef n="sg"      c="Singular"/>
     <sdef n="cm"        c="Coma"/>
     <sdef n="sent"      c="Etiqueta de fin de oración"/>
     <sdef n="guio"      c="Guión"/>
@@ -764,9 +764,9 @@
 
     <e><p><l>María<s n="np"/><s n="ant"/><s n="f"/></l><r>María<s n="np"/><s n="ant"/><s n="f"/></r></p></e> <!--  -->
     <e><p><l>Jaime<s n="np"/><s n="ant"/><s n="m"/></l><r>Jaime<s n="np"/><s n="ant"/><s n="m"/></r></p></e> <!--  -->
-    <e><p><l>Jose<s n="np"/><s n="ant"/><s n="m"/></l><r>Jose<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
-    <e><p><l>Dayana<s n="np"/><s n="ant"/><s n="m"/></l><r>Dayana<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
-    <e><p><l>Ornela<s n="np"/><s n="ant"/><s n="m"/></l><r>Ornela<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+    <e><p><l>Jose<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Jose<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><p><l>Dayana<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Dayana<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
+    <e><p><l>Ornela<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Ornela<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
 
     <!-- SECCIÓN: Adverbios -->
     <e><p><l>jalaa<s n="vblex"/></l><r>dónde<s n="adv"/></r></p></e> <!-- verbo de estado en Wayunaiki-->
@@ -992,7 +992,7 @@
     <e><p><l>akaalijülü<s n="n"/></l><r>colaborador<s n="n"/></r></p></e>
     <e><p><l>aka'ato'ujaa<s n="n"/></l><r>adjuntar<s n="n"/></r></p></e>
     <e><p><l>aka'ato'ujaa<s n="n"/></l><r>anexar<s n="n"/></r></p></e>
-    <e><p><l>akalaamainjia<s n="n"/></l>=<r>privacidad<s n="n"/></r></p></e>
+    <e><p><l>akalaamainjia<s n="n"/></l><r>privacidad<s n="n"/></r></p></e>
     <e><p><l>akaliaa<s n="n"/></l><r>fecha<s n="n"/></r></p></e>
     <e><p><l>akaliaapala<s n="n"/></l><r>calendario<s n="n"/></r></p></e>
     <e><p><l>akaliaawai<s n="n"/></l><r>frecuencia<s n="n"/></r></p></e>
