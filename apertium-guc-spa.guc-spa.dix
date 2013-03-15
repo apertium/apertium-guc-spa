@@ -879,10 +879,10 @@
 
     <!-- Diccionario tecnologico -->	
     <e><p><l>apülajane'ipa<s n="n"/></l><r>volúmen<s n="n"/></r></p></e>
-    <e><p><l>aainjüinre'eya<s n="n"/></l><r>exclusivo<s n="n"/></r></p></e><!--acceso--->
+    <e><p><l>aainjüinre'eya<s n="n"/></l><r>exclusivo<s n="n"/></r></p></e> <!-- acceso -->
     <e><p><l>aakajawaa<s n="n"/></l><r>desconectarse<s n="n"/></r></p></e>
     <e><p><l>aakalaa<s n="n"/></l><r>desinstalar<s n="n"/></r></p></e>
-    <e><p><l>aa'inmajia<s n="n"/></l><r>control<s n="n"/></r></p></e><!--control remoto-->
+    <e><p><l>aa'inmajia<s n="n"/></l><r>control<s n="n"/></r></p></e > <!-- control remoto -->
     <e><p><l>aa'inmajülü<s n="n"/></l><r>controlador<s n="n"/></r></p></e>
     <e><p><l>aa'inmajülü<b/>kasachiki<s n="n"/></l><r>entretenimiento<s n="n"/></r></p></e>
     <e><p><l>aa'inmajülü<b/>kasachiki <s n="n"/></l><r>diversión<s n="n"/></r></p></e>
@@ -952,7 +952,7 @@
     <e><p><l>aikaa<s n="n"/></l><r>vender<s n="n"/></r></p></e>
     <e><p><l>aikaalee<b/>tijitaalü<s n="n"/></l><r>tienda<b/>virtual<s n="n"/></r></p></e>
     <e><p><l>aikaalü<s n="n"/></l><r>comercio<s n="n"/></r></p></e>
-    <e><p><l>aikawaa<b/>kusulu'u<s n="n"/></l><r>comercio</b>electrónico<s n="n"/></r></p></e>
+    <e><p><l>aikawaa<b/>kusulu'u<s n="n"/></l><r>comercio<b/>electrónico<s n="n"/></r></p></e>
     <e><p><l>ajachitiaa<s n="n"/></l><r>error<s n="n"/></r></p></e>
     <e><p><l>aja'apüjiaa<s n="n"/></l><r>nivel<s n="n"/></r></p></e>
     <e><p><l>ajaapülaa<s n="n"/></l><r>maximizar<s n="n"/></r></p></e>
@@ -975,8 +975,8 @@
     <e><p><l>ajüttaa<s n="n"/></l><r>marcar<s n="n"/></r></p></e>
     <e><p><l>ajüttaaleewaa<s n="n"/></l><r>mantener<b/>presionado<s n="n"/></r></p></e>
     <e><p><l>ajüttia<s n="n"/></l><r>tecla<s n="n"/></r></p></e>
-    <e><p><l>ajüttia</b>Alt<s n="n"/></l><r>tecla<b/>Alt<s n="n"/></r></p></e>
-    <e><p><l>ajüttia<b/>Alt<b/>Gr<s n="n"/></l><r>tecla<b/>Alt<b/>Gr<s n="n"/></r></p></e>
+    <e><p><l>ajüttia<b/>Alt<s n="n"/></l><r>tecla<b/>Alt<s n="n"/></r></p></e>
+    <e><p><l>ajüttia<b/>Alt<b/>Gr<s n="n"/></l><r>tecla<b/>Alt<b/>=Gr<s n="n"/></r></p></e>
     <e><p><l>ajüttiaapala<s n="n"/></l><r>teclado<s n="n"/></r></p></e>
     <e><p><l>ajüttiaapala<b/>kayaawajiasü<s n="n"/></l><r>teclado<b/>numérico<s n="n"/></r></p></e>
     <e><p><l>ajüttülee<s n="n"/></l><r>botón<s n="n"/></r></p></e>
@@ -992,7 +992,7 @@
     <e><p><l>akaalijülü<s n="n"/></l><r>colaborador<s n="n"/></r></p></e>
     <e><p><l>aka'ato'ujaa<s n="n"/></l><r>adjuntar<s n="n"/></r></p></e>
     <e><p><l>aka'ato'ujaa<s n="n"/></l><r>anexar<s n="n"/></r></p></e>
-    <e><p><l>akalaamainjia<s n="n"/></l><r>privacidad<s n="n"/></r></p></e>
+    <e><p><l>akalaamainjia<s n="n"/></l>=<r>privacidad<s n="n"/></r></p></e>
     <e><p><l>akaliaa<s n="n"/></l><r>fecha<s n="n"/></r></p></e>
     <e><p><l>akaliaapala<s n="n"/></l><r>calendario<s n="n"/></r></p></e>
     <e><p><l>akaliaawai<s n="n"/></l><r>frecuencia<s n="n"/></r></p></e>
@@ -1034,7 +1034,7 @@
     <e><p><l>aküjüüshiwalaajülü<s n="n"/></l><r>anunciante<s n="n"/></r></p></e>
     <e><p><l>aküliküjaa<s n="n"/></l><r>hacer<b/>clic<s n="n"/></r></p></e>
     <e><p><l>aküliküjaa<b/>piantua<s n="n"/></l><r>hacer<b/>doble<b/>clic<s n="n"/></r></p></e>
-    <e><p><l>a;akaajatü<s n="n"/></l><r>miembro<s n="n"/></r></p></e><!--de un grupo-->
+    <e><p><l>a'akaajatü<s n="n"/></l><r>miembro<s n="n"/></r></p></e><!--de un grupo-->
     <e><p><l>a'alijiraa<s n="n"/></l><r>bloquear<s n="n"/></r></p></e>
     <e><p><l>a'alijiria<b/>kuwenta<s n="n"/></l><r>bloqueo<b/>de<b/>cuenta<s n="n"/></r></p></e>
     <e><p><l>a'alijiruushi<s n="n"/></l><r>bloqueado<s n="n"/></r></p></e>
@@ -1047,13 +1047,13 @@
     <e><p><l>a'inmajaa<s n="n"/></l><r>vigilar<s n="n"/></r></p></e>
     <e><p><l>a'ttaaya<s n="n"/></l><r>acceso<s n="n"/></r></p></e>
     <e><p><l>a'ttaaya<b/>wattajeejatü<s n="n"/></l><r>acceso<b/>remoto<s n="n"/></r></p></e>
-    <e><p><l>a'ttaayanülia<s n="n"/></l><r>código</b>de<b/>acceso<s n="n"/></r></p></e>
+    <e><p><l>a'ttaayanülia<s n="n"/></l><r>código<b/>de<b/>acceso<s n="n"/></r></p></e>
     <e><p><l>a'ttawaa<s n="n"/></l><r>acceder<s n="n"/></r></p></e>
     <e><p><l>a'ttawo'ulu<s n="n"/></l><r>sesión<s n="n"/></r></p></e>
     <e><p><l>a'tte'eraa<s n="n"/></l><r>admitir<s n="n"/></r></p></e>
     <e><p><l>a'yatawaajiraaya<s n="n"/></l><r>sistema<s n="n"/></r></p></e>
-    <e><p><l>a'yatawajiraaya<b/>a'laülaasü<s n="n"/></l><r>sistema</b>operativo<s n="n"/></r></p></e>
-    <e><p><l>alate'eraa<b/>pütchi<s n="n"/></l><r>traducir<s n="n"/></r></p></e>
+    <e><p><l>a'yatawajiraaya<b/>a'laülaasü<s n="n"/></l><r>sistema<b/>operativo<s n="n"/></r></p></e>
+    <e><p><l>alate'era=a<b/>pütchi<s n="n"/></l><r>traducir<s n="n"/></r></p></e>
     <e><p><l>alanale'ejia<s n="n"/></l><r>módem<s n="n"/></r></p></e>
     <e><p><l>alatiraa<s n="n"/></l><r>reproducir<s n="n"/></r></p></e>
     <e><p><l>alatire'eraa<s n="n"/></l><r>reproducción<s n="n"/></r></p></e>
@@ -1076,7 +1076,7 @@
     <e><p><l>anaatashajia<s n="n"/></l><r>sintaxis<s n="n"/></r></p></e>
     <e><p><l>anajia<s n="n"/></l><r>monitor<s n="n"/></r></p></e>
     <e><p><l>anaatülü<s n="n"/></l><r>administrador<s n="n"/></r></p></e>
-    <e><p><l>analaaya<b/>eematüsü<s n="n"/></l><r>ventana</b>emergente<s n="n"/></r></p></e>
+    <e><p><l>analaaya<b/>eematüsü<s n="n"/></l><r>ventana<b/>emergente<s n="n"/></r></p></e>
     <e><p><l>aneekülee<s n="n"/></l><r>menú<s n="n"/></r></p></e>
     <e><p><l>aneekiaa<s n="n"/></l><r>opciones<s n="n"/></r></p></e>
     <e><p><l>ansülaa<s n="n"/></l><r>mover<s n="n"/></r></p></e>
