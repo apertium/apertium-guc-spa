@@ -121,7 +121,10 @@
 
     <e lm="María"><i>María</i><par n="María__np"/></e>
     <e lm="Jaime"><i>Jaime</i><par n="Jaime__np"/></e>
-
+    <e lm="Jaime"><i>José</i><par n="Jaime__np"/></e>
+    <e lm="Jaime"><i>Dayana</i><par n="María__np"/></e>
+    <e lm="Jaime"><i>Ornela</i><par n="María__np"/></e>
+    
     <!-- SECCIÓN: Adverbios -->
     <e lm="yaa"><i>yaa</i><par n="yaa__adv"/></e>
 
