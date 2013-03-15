@@ -807,13 +807,13 @@
     <e><p><l>pasanain<b/>anain<s n="adv"/></l><r>entre<s n="adv"/></r></p></e>
     <e><p><l>pasanain<b/>anain<s n="adv"/></l><r>en<b/>medio<b/>de<b/><s n="adv"/></r></p></e> 
     <e><p><l>paülü'ü<s n="adv"/></l><r>adentro<s n="adv"/></r></p></e> <!-- de la casa -->
-    <e><p><l>pejeewa<s n="adv"/></l><r>a cada rato<s n="adv"/></r></p></e>
-    <e><p><l>piantua<s n="adv"/></l><r>dos veces<s n="adv"/></r></p></e>
-    <e><p><l>unapümüin<s n="adv"/></l><r>hacia abajo<s n="adv"/></r></p></e>
+    <e><p><l>pejeewa<s n="adv"/></l><r>a<b/>cada<b/>rato<s n="adv"/></r></p></e>
+    <e><p><l>piantua<s n="adv"/></l><r>dos<b/>veces<s n="adv"/></r></p></e>
+    <e><p><l>unapümüin<s n="adv"/></l><r>hacia<b/>abajo<s n="adv"/></r></p></e>
     <e><p><l>watta'a<s n="adv"/></l><r>mañana<s n="adv"/></r></p></e>
-    <e><p><l>wattapia<s n="adv"/></l><r>pasado mañana<s n="adv"/></r></p></e>
-    <e><p><l>yaajeeru'u <s n="adv"/></l><r>en este lado<s n="adv"/></r></p></e>
-    <e><p><l>yaaulerü<s n="adv"/></l><r>un rato<s n="adv"/></r></p></e> 
+    <e><p><l>wattapia<s n="adv"/></l><r>pasado<b/>mañana<s n="adv"/></r></p></e>
+    <e><p><l>yaajeeru'u<s n="adv"/></l><r>en<b/>este<b/>lado<s n="adv"/></r></p></e>
+    <e><p><l>yaaulerü<s n="adv"/></l><r>un<b/>rato<s n="adv"/></r></p></e> 
     <e><p><l>yaawala<s n="adv"/></l><r>inmediatamente<s n="adv"/></r></p></e>
     <e><p><l>yaaya<s n="adv"/></l><r>aqui<s n="adv"/></r></p></e>
     <e><p><l>yala<s n="adv"/></l><r>allí<s n="adv"/></r></p></e>
@@ -879,35 +879,35 @@
     <e><p><l>tia<s n="ij"/></l><r>eso<s n="ij"/></r></p></e>
 
     <!-- Diccionario tecnologico -->	
-   <e><p><l>aa'inmajia<s n="n"/></l><r>control<s n="n"/><s n="nn"/><s n="m"/><s n="sg"/></r></p></e><!--control remoto--> 
-   <e><p><l>aapajülü<s n="n"/></l><r>servidor<s n="n"/><s n="nn"/><s n="m"/><s n="sg"/></r></p></e>
-   <e><p><l>aashaje'erülü<s n="n"/></l><r>lector<s n="n"/><s n="nn"/><s n="m"/><s n="sg"/></r></p></e>
-   <e><p><l>achekajia<s n="n"/></l><r>factura<s n="n"/><s n="nn"/><s n="m"/><s n="sg"/></r></p></e>
-   <e><p><l>achikanainjia<s n="n"/></l><r>impresora<s n="n"/><s n="nn"/><s n="f"/><s n="sg"/></r></p></e>
-   <e><p><l>ajüjia<s n="n"/></l><r>tinta<s n="n"/><s n="nn"/><s n="f"/><s n="sg"/></r></p></e>
-   <e><p><l>ajüttia<s n="n"/></l><r>tecla<s n="n"/><s n="nn"/><s n="f"/><s n="sg"/></r></p></e>
-   <e><p><l>ajüttiaapala<s n="n"/></l><r>teclado<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
-   <e><p><l>ajüttülee<s n="n"/></l><r>botón<s n="n"/><s n="nn"/><s n="m"/><s n="sg"/></r></p></e>
-   <e><p><l>akaalijülü<s n="n"/></l><r>asistente<s n="n"/><s n="nn"/><s n="m"/><s n="sg"/></r></p></e>
-   <e><p><l>akaliaa<s n="n"/></l><r>fecha<s n="n"/><s n="nn"/><s n="f"/><s n="sg"/></r></p></e>
-   <e><p><l>akaliaapala<s n="n"/></l><r>calendario<s n="n"/><s n="nn"/><s n="m"/><s n="sg"/></r></p></e>
-   <e><p><l>akalio'ushajülee<s n="n"/></l><r>blog<s n="n"/><s n="nn"/><s n="m"/><s n="sg"/></r></p></e>
-   <e><p><l>akatkulaajiaa<s n="n"/></l><r>calculadora<s n="n"/><s n="nn"/><s n="f"/><s n="sg"/></r></p></e>
-   <e><p><l>akuyamajülü<s n="n"/></l><r>procesador<s n="n"/><s n="nn"/><s n="m"/><s n="sg"/></r></p></e>
-   <e><p><l>a'atapjülü<s n="n"/></l><r>señal<s n="n"/><s n="nn"/><s n="f"/><s n="sg"/></r></p></e>
-   <e><p><l>a'yatawaajiraaya<s n="n"/></l><r>sistema<s n="n"/><s n="nn"/><s n="m"/><s n="sg"/></r></p></e>
-   <e><p><l>alanale'ejia<s n="n"/></l><r>módem<s n="n"/><s n="nn"/><s n="m"/><s n="sg"/></r></p></e>
-   <e><p><l>alatirülü<b/>CD<s n="n"/></l><r>reproductor<b/>de<b/>CD<s n="n"/><s n="nn"/><s n="m"/><s n="sg"/></r></p></e>
-   <e><p><l>amoutia<s n="n"/></l><r>contraseña<s n="n"/><s n="nn"/><s n="f"/><s n="sg"/></r></p></e>
-   <e><p><l>aneekülee<s n="n"/></l><r>menú<s n="n"/><s n="nn"/><s n="m"/><s n="sg"/></r></p></e>
-   <e><p><l>anüikii<s n="n"/></l><r>idioma<s n="n"/><s n="nn"/><s n="m"/><s n="sg"/></r></p></e>
-   <e><p><l>anüikii<s n="n"/></l><r>lenguaje<s n="n"/><s n="nn"/><s n="m"/><s n="sg"/></r></p></e>
-   <e><p><l>anüikii<s n="n"/></l><r>lengua<s n="n"/><s n="nn"/><s n="f"/><s n="sg"/></r></p></e>
-   <e><p><l>anüikii<s n="n"/></l><r>voz<s n="n"/><s n="nn"/><s n="f"/><s n="sg"/></r></p></e>
-   <e><p><l>anüikii<s n="n"/></l><r>mensaje<s n="n"/><s n="nn"/><s n="m"/><s n="sg"/></r></p></e>
-   <e><p><l>anüliaa<b/>waaramaajatü<s n="n"/></l><r>código<b/>de<b/>barras<s n="n"/><s n="nn"/><s n="m"/><s n="sg"/></r></p></e>
-   <e><p><l>apa'ajanaa<s n="n"/></l><r>fondo<s n="n"/><s n="nn"/><s n="m"/><s n="sg"/></r></p></e>
-   <e><p><l>apülajane'ipa<s n="n"/></l><r>volúmen<s n="n"/><s n="nn"/><s n="m"/><s n="sg"/></r></p></e>
+   <e><p><l>aa'inmajia<s n="n"/><s n="m"/><s n="sg"/></l><r>control<s n="n"/><s n="m"/><s n="sg"/></r></p></e><!--control remoto--> 
+   <e><p><l>aapajülü<s n="n"/><s n="m"/><s n="sg"/></l><r>servidor<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+   <e><p><l>aashaje'erülü<s n="n"/><s n="m"/><s n="sg"/></l><r>lector<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+   <e><p><l>achekajia<s n="n"/><s n="f"/><s n="sg"/></l><r>factura<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+   <e><p><l>achikanainjia<s n="n"/><s n="f"/><s n="sg"/></l><r>impresora<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+   <e><p><l>ajüjia<s n="n"/><s n="f"/><s n="sg"/></l><r>tinta<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+   <e><p><l>ajüttia<s n="n"/><s n="f"/><s n="sg"/></l><r>tecla<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+   <e><p><l>ajüttiaapala<s n="n"/><s n="m"/><s n="sg"/></l><r>teclado<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+   <e><p><l>ajüttülee<s n="n"/><s n="m"/><s n="sg"/></l><r>botón<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+   <e><p><l>akaalijülü<s n="n"/><s n="m"/><s n="sg"/></l><r>asistente<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+   <e><p><l>akaliaa<s n="n"/><s n="f"/><s n="sg"/></l><r>fecha<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+   <e><p><l>akaliaapala<s n="n"/><s n="m"/><s n="sg"/></l><r>calendario<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+   <e><p><l>akalio'ushajülee<s n="n"/><s n="m"/><s n="sg"/></l><r>blog<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+   <e><p><l>akatkulaajiaa<s n="n"/><s n="f"/><s n="sg"/></l><r>calculadora<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+   <e><p><l>akuyamajülü<s n="n"/><s n="m"/><s n="sg"/></l><r>procesador<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+   <e><p><l>a'atapjülü<s n="n"/><s n="f"/><s n="sg"/></l><r>señal<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+   <e><p><l>a'yatawaajiraaya<s n="n"/><s n="m"/><s n="sg"/></l><r>sistema<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+   <e><p><l>alanale'ejia<s n="n"/><s n="m"/><s n="sg"/></l><r>módem<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+   <e><p><l>alatirülü<b/>CD<s n="n"/><s n="m"/><s n="sg"/></l><r>reproductor<b/>de<b/>CD<s n="n"/><s n="nn"/><s n="m"/><s n="sg"/></r></p></e>
+   <e><p><l>amoutia<s n="n"/><s n="f"/><s n="sg"/></l><r>contraseña<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+   <e><p><l>aneekülee<s n="n"/><s n="m"/><s n="sg"/></l><r>menú<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+   <e><p><l>anüikii<s n="n"/><s n="m"/><s n="sg"/></l><r>idioma<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+   <e><p><l>anüikii<s n="n"/><s n="m"/><s n="sg"/></l><r>lenguaje<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+   <e><p><l>anüikii<s n="n"/><s n="f"/><s n="sg"/></l><r>lengua<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+   <e><p><l>anüikii<s n="n"/><s n="f"/><s n="sg"/>></l><r>voz<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+   <e><p><l>anüikii<s n="n"/><s n="m"/><s n="sg"/></l><r>mensaje<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+   <e><p><l>anüliaa<b/>waaramaajatü<s n="n"/><s n="m"/><s n="sg"/></l><r>código<b/>de<b/>barras<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+   <e><p><l>apa'ajanaa<s n="n"/><s n="m"/><s n="sg"/></l><r>fondo<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+   <e><p><l>apülajane'ipa<s n="n"/><s n="m"/><s n="sg"/></l><r>volúmen<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
 
 
     <!-- SECCIÓN: Punctuación -->

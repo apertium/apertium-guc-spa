@@ -86,13 +86,22 @@
    
     <pardef n="teclado__n">
       <e><p><l></l><r><s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>ka</l><r><s n="n"/><s n="m"/><s n="pl"/></r></p></e>
     </pardef>	
-
+    
+     <pardef n="contraseña__n">
+       <e><p><l></l><r><s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+       <e><p><l>ka</l><r><s n="n"/><s n="f"/><s n="pl"/></r></p></e> 	
+     </pardef>
 
     <!-- SECCIÓN: Adverbios -->
 
     <pardef n="yaa__adv">
       <e><p><l></l><r><s n="adv"/><s n="itg"/></r></p></e>
+    </pardef>
+   
+    <pardef n="hoy__adv">
+      <e><p><l></l><r><s n="adv"/></r></p></e>
     </pardef>
 
 
@@ -120,27 +129,27 @@
     <e lm="kai"><i>kai</i><par n="ipa'__n"/></e>
     <e lm="lapu'"><i>lapu'</i><par n="ipa'__n"/></e>
     <e lm="aa'inmajia"><i>aa'inmajia</i><par n="ipa'__n"/></e>
-    <e lm="aapajülü"><i>aapajülü</i><par n="ipa'__n"/></e>
+    <e lm="aapajülü"><i>aapajülü</i><par n="teclado__n"/></e>
     <e lm="aashaje'erülü"><i>aashaje'erülü</i><par n="ipa'__n"/></e>
     <e lm="achekajia"><i>achekajia</i><par n="ipa'__n"/></e>
     <e lm="achikanainjia"><i>achikanainjia</i><par n="ipa'__n"/></e>
-    <e lm="ajüjia"><i>ajüjia</i><par n="ipa'__n"/></e>
-    <e lm="ajüttia"><i>ajüttia</i><par n="ipa'__n"/></e>
+    <e lm="ajüjia"><i>ajüjia</i><par n="contraseña__n"/></e>
+    <e lm="ajüttia"><i>ajüttia</i><par n="contraseña__n"/></e>
     <e lm="ajüttiaapala"><i>ajüttiaapala</i><par n="teclado__n"/></e>
     <e lm="ajüttülee"><i>ajüttülee</i><par n="ipa'__n"/></e>
     <e lm="akaalijülü"><i>akaalijülü</i><par n="ipa'__n"/></e>
-    <e lm="akaliaa"><i>akaliaa</i><par n="ipa'__n"/></e>
+    <e lm="akaliaa"><i>akaliaa</i><par n="contraseña__n"/></e>
     <e lm="akaliaapala"><i>akaliaapala</i><par n="ipa'__n"/></e> 
     <e lm="akalio'ushajülee"><i>akalio'ushajülee</i><par n="ipa'__n"/></e>
     <e lm="akatkulaajiaa"><i>akatkulaajiaa</i><par n="ipa'__n"/></e>
     <e lm="akuyamajülü"><i>akuyamajülü</i><par n="ipa'__n"/></e>
-    <e lm="a'atapjülü"><i>a'atapjülü</i><par n="ipa'__n"/></e>
+    <e lm="a'atapjülü"><i>a'atapjülü</i><par n="contraseña__n"/></e>
     <e lm="a'yatawaajiraaya"><i>a'yatawaajiraaya</i><par n="ipa'__n"/></e>
     <e lm="alanale'ejia"><i>alanale'ejia</i><par n="ipa'__n"/></e>
     <e lm="alatirülü"><i>alatirülü<b/>CD</i><par n="ipa'__n"/></e>
-    <e lm="amoutia"><i>amoutia</i><par n="ipa'__n"/></e>
+    <e lm="amoutia"><i>amoutia</i><par n="contraseña__n"/></e>
     <e lm="aaneekülee"><i>aneekülee</i><par n="ipa'__n"/></e>
-    <e lm="anüikii"><i>anüikii</i><par n="ipa'__n"/></e>
+    <e lm="anüikii"><i>anüikii</i><par n="contraseña__n"/></e>
     <e lm="anüliaa"><i>anüliaa<b/>waaramaajatü</i><par n="ipa'__n"/></e>
     <e lm="apa'ajanaa"><i>apa'ajanaa</i><par n="ipa'__n"/></e>
     <e lm="apülajane'ipa"><i>aa'inmajia</i><par n="ipa'__n"/></e>
@@ -157,6 +166,50 @@
     
     <!-- SECCIÓN: Adverbios -->
     <e lm="yaa"><i>yaa</i><par n="yaa__adv"/></e>
+    <e lm="nnojo"><i>nnojo</i><par n="hoy__adv"/></e>
+    <e lm="jalaa"><i>jalaa</i><par n="hoy__adv"/></e>
+    <e lm="yaa"><i>yaa</i><par n="hoy__adv"/></e>
+    <e lm="joolu'u"><i>joolu'u</i><par n="hoy__adv"/></e>
+    <e lm="jamaa"><i>jamaa</i><par n="hoy__adv"/></e>
+    <e lm="yalaala"><i>yalaala</i><par n="hoy__adv"/></e>
+    <e lm="yootchon"><i>yootchon</i><par n="hoy__adv"/></e>
+    <e lm="waneepia"><i>waneepia</i><par n="hoy__adv"/></e>  
+    <e lm="meinshi"><i>meinshi</i><par n="hoy__adv"/></e>
+    <e lm="weinshi"><i>weinshi</i><par n="hoy__adv"/></e>
+    <e lm="jüchikua'ya"><i>jüchikua'ya</i><par n="hoy__adv"/></e> 
+    <e lm="ma'i"><i>ma'i</i><par n="hoy__adv"/></e>
+    <e lm="so'uka'i"><i>so'uka'i</i><par n="hoy__adv"/></e>
+    <e lm="peeje"><i>peeje</i><par n="hoy__adv"/></e>
+    <e lm="aliikainka"><i>aliikainka</i><par n="hoy__adv"/></e>
+    <e lm="so'ukalinka"><i>so'ukalinka</i><par n="hoy__adv"/></e>
+    <e lm="anooipa'a"><i>anooipa'a</i><par n="hoy__adv"/></e>
+    <e lm="aa"><i>aa</i><par n="hoy__adv"/></e>
+    <e lm="aipa'inka"><i>aipa'inka</i><par n="hoy__adv"/></e>
+    <e lm="aka'aya"><i>aka'aya</i><par n="hoy__adv"/></e>
+    <e lm="iipünaa"><i>iipünaa</i><par n="hoy__adv"/></e>
+    <e lm="jouja"><i>jouja</i><par n="hoy__adv"/></e>
+    <e lm="kale'u"><i>kale'u</i><par n="hoy__adv"/></e>
+    <e lm="mapa"><i>mapa</i><par n="hoy__adv"/></e>
+    <e lm="mmolu'u"><i>mmolu'u</i><par n="hoy__adv"/></e>
+    <e lm="motso'o"><i>motso'o</i><par n="hoy__adv"/></e>
+    <e lm="ne'e"><i>ne'e</i><par n="hoy__adv"/></e>
+    <e lm="paalaapüna"><i>paalaapüna</i><par n="hoy__adv"/></e>
+    <e lm="palajana"><i>palajana</i><par n="hoy__adv"/></e>
+    <e lm="pasanain"><i>pasanain<b/>anain</i><par n="hoy__adv"/></e>
+    <e lm="paülü'ü"><i>paülü'ü</i><par n="hoy__adv"/></e>
+    <e lm="pejeewa"><i>pejeewa</i><par n="hoy__adv"/></e>
+    <e lm="piantua"><i>piantua</i><par n="hoy__adv"/></e>
+    <e lm="unapümüin"><i>unapümüin</i><par n="hoy__adv"/></e>
+    <e lm="watta'a"><i>watta'a</i><par n="hoy__adv"/></e>
+    <e lm="wattapia"><i>wattapia</i><par n="hoy__adv"/></e>
+    <e lm="yaajeeru'u"><i>yaajeeru'u</i><par n="hoy__adv"/></e>
+    <e lm="yaaulerü"><i>yaaulerü</i><par n="hoy__adv"/></e>
+    <e lm="yaawala"><i>yaawala</i><par n="hoy__adv"/></e>
+    <e lm="yaaya"><i>yaaya</i><par n="hoy__adv"/></e>
+    <e lm="yala"><i>yala</i><par n="hoy__adv"/></e>
+    <e lm="saasa"><i>saasa</i><par n="hoy__adv"/></e>
+    <e lm="eera"><i>eera</i><par n="hoy__adv"/></e>
+
 
     <!-- SECCIÓN: Verbos -->
     <e lm="jalaa"><i>jala</i><par n="jala/a__vblex"/></e>
