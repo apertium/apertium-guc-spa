@@ -26,6 +26,7 @@
     <sdef n="apos"    c="Apostrofo"/>
     <sdef n="guio"    c="Guión"/>
     <sdef n="sent"    c="Etiqueta de fin de oración"/>
+    <sdef n="ij"      c="Interjección"/>
   </sdefs>
   <pardefs>
     <!-- SECTION: Punctuación -->
@@ -77,20 +78,24 @@
     </pardef>
 
     <pardef n="juya__n">
-      <e><p><l></l><r><s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l></l><r><s n="n"/><s n="sg"/></r></p></e>
     </pardef>
 
+    <pardef n="wüin__n">
+      <e><p><l></l><r><s n="nn"/><s n="f"/><s n="sg"/></r></p></e>
+    </pardef>
+    
     <pardef n="Jaime__np">
       <e><p><l></l><r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
     </pardef>
 
-    <pardef n="María__np">
+    <pardef n="Laura__np">
       <e><p><l></l><r><s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
     </pardef>
    
     <pardef n="teclado__n">
-      <e><p><l></l><r><s n="n"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>ka</l><r><s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+      <e><p><l></l><r><s n="n"/><s n="sg"/></r></p></e>
+      <e><p><l>ka</l><r><s n="n"/><s n="pl"/></r></p></e>
     </pardef>	
     
      <pardef n="contraseña__n">
@@ -117,7 +122,11 @@
       <e><p><l>sü</l><r>a<s n="vblex"/><s n="pri"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
       <e><p><l>shii</l><r>a<s n="vblex"/><s n="pri"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>
     </pardef>
-
+   
+    <pardef n="jamaya__ij">
+      <e><p><l></l><r><s n="ij"/></r></p></e>
+    </pardef>    
+    
   </pardefs>
 
   <section id="main" type="standard">
@@ -127,6 +136,7 @@
 
     <!-- SECCIÓN: Nombres -->
 
+    <e lm="wüin"><i>wüin</i><par n="wüin__n"/></e>
     <e lm="ipa'"><i>ipa'</i><par n="ipa'__n"/></e>
     <e lm="wopu"><i>wopu</i><par n="ipa'__n"/></e>
     <e lm="kulala"><i>kulala</i><par n="juya__n"/></e>
@@ -337,7 +347,7 @@
     <e lm="a'yatawaajiraaya"><i>a'yatawaajiraaya</i><par n="ipa'__n"/></e>
     <e lm="alanale'ejia"><i>alanale'ejia</i><par n="ipa'__n"/></e>
     <e lm="alatirülü"><i>alatirülü<b/>CD</i><par n="ipa'__n"/></e>
-    <e lm="amoutia"><i>amoutia</i><par n="contraseña__n"/></e>
+    <e lm="amoutia"><i>amoutia</i><par n="teclado__n"/></e>
     <e lm="aaneekülee"><i>aneekülee</i><par n="ipa'__n"/></e>
     <e lm="anüikii"><i>anüikii</i><par n="contraseña__n"/></e>
     <e lm="anüliaa"><i>anüliaa<b/>waaramaajatü</i><par n="ipa'__n"/></e>
@@ -348,14 +358,219 @@
 
     <!-- SECCIÓN: Nombres propios -->
 
-    <e lm="María"><i>María</i><par n="María__np"/></e>
+    <e lm="María"><i>María</i><par n="Laura__np"/></e>
     <e lm="Jaime"><i>Jaime</i><par n="Jaime__np"/></e>
     <e lm="José"><i>José</i><par n="Jaime__np"/></e>
-    <e lm="Dayana"><i>Dayana</i><par n="María__np"/></e>
-    <e lm="Ornela"><i>Ornela</i><par n="María__np"/></e>
+    <e lm="Dayana"><i>Dayana</i><par n="Laura__np"/></e>
+    <e lm="Ornela"><i>Ornela</i><par n="Laura__np"/></e>
     <e lm="Manuel"><i>Manuel</i><par n="Jaime__np"/></e>  
     <e lm="Juan"><i>Juan</i><par n="Jaime__np"/></e>
     <e lm="Camilo"><i>Camilo</i><par n="Jaime__np"/></e>    
+                                                
+ <e lm="Isabella"><i>Isabella</i><par n="Laura__np"/></e> 
+ <e lm="Olivia"><i>Olivia</i><par n="Laura__np"/></e> 
+ <e lm="Alexis"><i>Alexis</i><par n="Laura__np"/></e> 
+ <e lm="Sofía"><i>Sofía</i><par n="Laura__np"/></e> 
+ <e lm="Victoria"><i>Victoria</i><par n="Laura__np"/></e> 
+ <e lm="Amelia"><i>Amelia</i><par n="Laura__np"/></e> 
+ <e lm="Alexa"><i>Alexa</i><par n="Laura__np"/></e> 
+ <e lm="Julia"><i>Julia</i><par n="Laura__np"/></e> 
+ <e lm="Camila"><i>Camila</i><par n="Laura__np"/></e> 
+ <e lm="Alexandra"><i>Alexandra</i><par n="Laura__np"/></e> 
+ <e lm="Maya"><i>Maya</i><par n="Laura__np"/></e> 
+ <e lm="Andrea"><i>Andrea</i><par n="Laura__np"/></e> 
+ <e lm="Ariana"><i>Ariana</i><par n="Laura__np"/></e> 
+ <e lm="María"><i>María</i><par n="Laura__np"/></e> 
+ <e lm="Eva"><i>Eva</i><par n="Laura__np"/></e> 
+ <e lm="Angelina"><i>Angelina</i><par n="Laura__np"/></e> 
+ <e lm="Valeria"><i>Valeria</i><par n="Laura__np"/></e> 
+ <e lm="Natalia"><i>Natalia</i><par n="Laura__np"/></e> 
+ <e lm="Isabel"><i>Isabel</i><par n="Laura__np"/></e> 
+ <e lm="Sara"><i>Sara</i><par n="Laura__np"/></e> 
+ <e lm="Liliana"><i>Liliana</i><par n="Laura__np"/></e> 
+ <e lm="Adriana"><i>Adriana</i><par n="Laura__np"/></e> 
+ <e lm="Juliana"><i>Juliana</i><par n="Laura__np"/></e> 
+ <e lm="Gabriela"><i>Gabriela</i><par n="Laura__np"/></e> 
+ <e lm="Daniela"><i>Daniela</i><par n="Laura__np"/></e> 
+ <e lm="Valentina"><i>Valentina</i><par n="Laura__np"/></e> 
+ <e lm="Lila"><i>Lila</i><par n="Laura__np"/></e> 
+ <e lm="Vivian"><i>Vivian</i><par n="Laura__np"/></e> 
+ <e lm="Nora"><i>Nora</i><par n="Laura__np"/></e> 
+ <e lm="Ángela"><i>Ángela</i><par n="Laura__np"/></e> 
+ <e lm="Elena"><i>Elena</i><par n="Laura__np"/></e> 
+ <e lm="Clara"><i>Clara</i><par n="Laura__np"/></e> 
+ <e lm="Eliana"><i>Eliana</i><par n="Laura__np"/></e> 
+ <e lm="Alana"><i>Alana</i><par n="Laura__np"/></e> 
+ <e lm="Miranda"><i>Miranda</i><par n="Laura__np"/></e> 
+ <e lm="Amanda"><i>Amanda</i><par n="Laura__np"/></e> 
+ <e lm="Diana"><i>Diana</i><par n="Laura__np"/></e> 
+ <e lm="Ana"><i>Ana</i><par n="Laura__np"/></e> 
+ <e lm="Penélope"><i>Penélope</i><par n="Laura__np"/></e> 
+ <e lm="Aurora"><i>Aurora</i><par n="Laura__np"/></e> 
+ <e lm="Alexandría"><i>Alexandría</i><par n="Laura__np"/></e> 
+ <e lm="Lola"><i>Lola</i><par n="Laura__np"/></e> 
+ <e lm="Alicia"><i>Alicia</i><par n="Laura__np"/></e> 
+ <e lm="Amaya"><i>Amaya</i><par n="Laura__np"/></e> 
+ <e lm="Alexia"><i>Alexia</i><par n="Laura__np"/></e> 
+ <e lm="Jazmín"><i>Jazmín</i><par n="Laura__np"/></e> 
+ <e lm="Mariana"><i>Mariana</i><par n="Laura__np"/></e> 
+ <e lm="Alina"><i>Alina</i><par n="Laura__np"/></e> 
+ <e lm="Lucía"><i>Lucía</i><par n="Laura__np"/></e> 
+ <e lm="Fátima"><i>Fátima</i><par n="Laura__np"/></e> 
+ <e lm="Ximena"><i>Ximena</i><par n="Laura__np"/></e> 
+ <e lm="Laura"><i>Laura</i><par n="Laura__np"/></e> 
+ <e lm="Cecilia"><i>Cecilia</i><par n="Laura__np"/></e> 
+ <e lm="Alejandra"><i>Alejandra</i><par n="Laura__np"/></e> 
+ <e lm="Esmeralda"><i>Esmeralda</i><par n="Laura__np"/></e> 
+ <e lm="Verónica"><i>Verónica</i><par n="Laura__np"/></e> 
+ <e lm="Daniella"><i>Daniella</i><par n="Laura__np"/></e> 
+ <e lm="Miriam"><i>Miriam</i><par n="Laura__np"/></e> 
+ <e lm="Carmen"><i>Carmen</i><par n="Laura__np"/></e> 
+ <e lm="Iris"><i>Iris</i><par n="Laura__np"/></e> 
+ <e lm="Guadalupe"><i>Guadalupe</i><par n="Laura__np"/></e> 
+ <e lm="Selena"><i>Selena</i><par n="Laura__np"/></e> 
+ <e lm="Fernanda"><i>Fernanda</i><par n="Laura__np"/></e> 
+ <e lm="Angélica"><i>Angélica</i><par n="Laura__np"/></e> 
+ <e lm="Emilia"><i>Emilia</i><par n="Laura__np"/></e> 
+ <e lm="Lía"><i>Lía</i><par n="Laura__np"/></e> 
+ <e lm="Tatiana"><i>Tatiana</i><par n="Laura__np"/></e> 
+ <e lm="Mónica"><i>Mónica</i><par n="Laura__np"/></e> 
+ <e lm="Carolina"><i>Carolina</i><par n="Laura__np"/></e> 
+ <e lm="Jimena"><i>Jimena</i><par n="Laura__np"/></e> 
+ <e lm="Dulce"><i>Dulce</i><par n="Laura__np"/></e> 
+ <e lm="Talía"><i>Talía</i><par n="Laura__np"/></e> 
+ <e lm="Estrella"><i>Estrella</i><par n="Laura__np"/></e> 
+ <e lm="Brenda"><i>Brenda</i><par n="Laura__np"/></e> 
+ <e lm="Lilian"><i>Lilian</i><par n="Laura__np"/></e> 
+ <e lm="Paola"><i>Paola</i><par n="Laura__np"/></e> 
+ <e lm="Serena"><i>Serena</i><par n="Laura__np"/></e> 
+ <e lm="Celeste"><i>Celeste</i><par n="Laura__np"/></e> 
+ <e lm="Viviana"><i>Viviana</i><par n="Laura__np"/></e> 
+ <e lm="Elisa"><i>Elisa</i><par n="Laura__np"/></e> 
+ <e lm="Melina"><i>Melina</i><par n="Laura__np"/></e> 
+ <e lm="Gloria"><i>Gloria</i><par n="Laura__np"/></e> 
+ <e lm="Claudia"><i>Claudia</i><par n="Laura__np"/></e> 
+ <e lm="Sandra"><i>Sandra</i><par n="Laura__np"/></e> 
+ <e lm="Marisol"><i>Marisol</i><par n="Laura__np"/></e> 
+ <e lm="Asia"><i>Asia</i><par n="Laura__np"/></e> 
+ <e lm="Ada"><i>Ada</i><par n="Laura__np"/></e> 
+ <e lm="Rosa"><i>Rosa</i><par n="Laura__np"/></e> 
+ <e lm="Isabela"><i>Isabela</i><par n="Laura__np"/></e> 
+ <e lm="Regina"><i>Regina</i><par n="Laura__np"/></e> 
+ <e lm="Elsa"><i>Elsa</i><par n="Laura__np"/></e> 
+ <e lm="Perla"><i>Perla</i><par n="Laura__np"/></e> 
+ <e lm="Raquel"><i>Raquel</i><par n="Laura__np"/></e> 
+ <e lm="Virginia"><i>Virginia</i><par n="Laura__np"/></e> 
+ <e lm="Patricia"><i>Patricia</i><par n="Laura__np"/></e> 
+ <e lm="Linda"><i>Linda</i><par n="Laura__np"/></e> 
+ <e lm="Marina"><i>Marina</i><par n="Laura__np"/></e> 
+ <e lm="Leila"><i>Leila</i><par n="Laura__np"/></e> 
+ <e lm="América"><i>América</i><par n="Laura__np"/></e> 
+ <e lm="Mercedes"><i>Mercedes</i><par n="Laura__np"/></e> 
+                                                                     
+                                                                     
+                                                                     
+                                             
+ <e lm="Daniel"><i>Daniel</i><par n="Jaime__np"/></e> 
+ <e lm="David"><i>David</i><par n="Jaime__np"/></e> 
+ <e lm="Gabriel"><i>Gabriel</i><par n="Jaime__np"/></e> 
+ <e lm="Benjamín"><i>Benjamín</i><par n="Jaime__np"/></e> 
+ <e lm="Samuel"><i>Samuel</i><par n="Jaime__np"/></e> 
+ <e lm="Lucas"><i>Lucas</i><par n="Jaime__np"/></e> 
+ <e lm="Ángel"><i>Ángel</i><par n="Jaime__np"/></e> 
+ <e lm="José"><i>José</i><par n="Jaime__np"/></e> 
+ <e lm="Adrián"><i>Adrián</i><par n="Jaime__np"/></e> 
+ <e lm="Sebastián"><i>Sebastián</i><par n="Jaime__np"/></e> 
+ <e lm="Xavier"><i>Xavier</i><par n="Jaime__np"/></e> 
+ <e lm="Juan"><i>Juan</i><par n="Jaime__np"/></e> 
+ <e lm="Luis"><i>Luis</i><par n="Jaime__np"/></e> 
+ <e lm="Diego"><i>Diego</i><par n="Jaime__np"/></e> 
+ <e lm="Óliver"><i>Óliver</i><par n="Jaime__np"/></e> 
+ <e lm="Carlos"><i>Carlos</i><par n="Jaime__np"/></e> 
+ <e lm="Jesús"><i>Jesús</i><par n="Jaime__np"/></e> 
+ <e lm="Alex"><i>Alex</i><par n="Jaime__np"/></e> 
+ <e lm="Max"><i>Max</i><par n="Jaime__np"/></e> 
+ <e lm="Alejandro"><i>Alejandro</i><par n="Jaime__np"/></e> 
+ <e lm="Antonio"><i>Antonio</i><par n="Jaime__np"/></e> 
+ <e lm="Miguel"><i>Miguel</i><par n="Jaime__np"/></e> 
+ <e lm="Víctor"><i>Víctor</i><par n="Jaime__np"/></e> 
+ <e lm="Joel"><i>Joel</i><par n="Jaime__np"/></e> 
+ <e lm="Santiago"><i>Santiago</i><par n="Jaime__np"/></e> 
+ <e lm="Elías"><i>Elías</i><par n="Jaime__np"/></e> 
+ <e lm="Iván"><i>Iván</i><par n="Jaime__np"/></e> 
+ <e lm="Óscar"><i>Óscar</i><par n="Jaime__np"/></e> 
+ <e lm="Leonardo"><i>Leonardo</i><par n="Jaime__np"/></e> 
+ <e lm="Eduardo"><i>Eduardo</i><par n="Jaime__np"/></e> 
+ <e lm="Alan"><i>Alan</i><par n="Jaime__np"/></e> 
+ <e lm="Nicolás"><i>Nicolás</i><par n="Jaime__np"/></e> 
+ <e lm="Jorge"><i>Jorge</i><par n="Jaime__np"/></e> 
+ <e lm="Omar"><i>Omar</i><par n="Jaime__np"/></e> 
+ <e lm="Paúl"><i>Paúl</i><par n="Jaime__np"/></e> 
+ <e lm="Andrés"><i>Andrés</i><par n="Jaime__np"/></e> 
+ <e lm="Julián"><i>Julián</i><par n="Jaime__np"/></e> 
+ <e lm="Josué"><i>Josué</i><par n="Jaime__np"/></e> 
+ <e lm="Román"><i>Román</i><par n="Jaime__np"/></e> 
+ <e lm="Fernando"><i>Fernando</i><par n="Jaime__np"/></e> 
+ <e lm="Javier"><i>Javier</i><par n="Jaime__np"/></e> 
+ <e lm="Abraham"><i>Abraham</i><par n="Jaime__np"/></e> 
+ <e lm="Ricardo"><i>Ricardo</i><par n="Jaime__np"/></e> 
+ <e lm="Francisco"><i>Francisco</i><par n="Jaime__np"/></e> 
+ <e lm="César"><i>César</i><par n="Jaime__np"/></e> 
+ <e lm="Mario"><i>Mario</i><par n="Jaime__np"/></e> 
+ <e lm="Manuel"><i>Manuel</i><par n="Jaime__np"/></e> 
+ <e lm="Édgar"><i>Édgar</i><par n="Jaime__np"/></e> 
+ <e lm="Alexis"><i>Alexis</i><par n="Jaime__np"/></e> 
+ <e lm="Israel"><i>Israel</i><par n="Jaime__np"/></e> 
+ <e lm="Mateo"><i>Mateo</i><par n="Jaime__np"/></e> 
+ <e lm="Héctor"><i>Héctor</i><par n="Jaime__np"/></e> 
+ <e lm="Sergio"><i>Sergio</i><par n="Jaime__np"/></e> 
+ <e lm="Emiliano"><i>Emiliano</i><par n="Jaime__np"/></e> 
+ <e lm="Simón"><i>Simón</i><par n="Jaime__np"/></e> 
+ <e lm="Rafael"><i>Rafael</i><par n="Jaime__np"/></e> 
+ <e lm="Martín"><i>Martín</i><par n="Jaime__np"/></e> 
+ <e lm="Marco"><i>Marco</i><par n="Jaime__np"/></e> 
+ <e lm="Roberto"><i>Roberto</i><par n="Jaime__np"/></e> 
+ <e lm="Pedro"><i>Pedro</i><par n="Jaime__np"/></e> 
+ <e lm="Emanuel"><i>Emanuel</i><par n="Jaime__np"/></e> 
+ <e lm="Abel"><i>Abel</i><par n="Jaime__np"/></e> 
+ <e lm="Rubén"><i>Rubén</i><par n="Jaime__np"/></e> 
+ <e lm="Fabián"><i>Fabián</i><par n="Jaime__np"/></e> 
+ <e lm="Emilio"><i>Emilio</i><par n="Jaime__np"/></e> 
+ <e lm="Joaquín"><i>Joaquín</i><par n="Jaime__np"/></e> 
+ <e lm="Marcos"><i>Marcos</i><par n="Jaime__np"/></e> 
+ <e lm="Lorenzo"><i>Lorenzo</i><par n="Jaime__np"/></e> 
+ <e lm="Armando"><i>Armando</i><par n="Jaime__np"/></e> 
+ <e lm="Adán"><i>Adán</i><par n="Jaime__np"/></e> 
+ <e lm="Raúl"><i>Raúl</i><par n="Jaime__np"/></e> 
+ <e lm="Julio"><i>Julio</i><par n="Jaime__np"/></e> 
+ <e lm="Enrique"><i>Enrique</i><par n="Jaime__np"/></e> 
+ <e lm="Gerardo"><i>Gerardo</i><par n="Jaime__np"/></e> 
+ <e lm="Pablo"><i>Pablo</i><par n="Jaime__np"/></e> 
+ <e lm="Jaime"><i>Jaime</i><par n="Jaime__np"/></e> 
+ <e lm="Saúl"><i>Saúl</i><par n="Jaime__np"/></e> 
+ <e lm="Esteban"><i>Esteban</i><par n="Jaime__np"/></e> 
+ <e lm="Gustavo"><i>Gustavo</i><par n="Jaime__np"/></e> 
+ <e lm="Rodrigo"><i>Rodrigo</i><par n="Jaime__np"/></e> 
+ <e lm="Arturo"><i>Arturo</i><par n="Jaime__np"/></e> 
+ <e lm="Mauricio"><i>Mauricio</i><par n="Jaime__np"/></e> 
+ <e lm="Orlando"><i>Orlando</i><par n="Jaime__np"/></e> 
+ <e lm="Hugo"><i>Hugo</i><par n="Jaime__np"/></e> 
+ <e lm="Salvador"><i>Salvador</i><par n="Jaime__np"/></e> 
+ <e lm="Alfredo"><i>Alfredo</i><par n="Jaime__np"/></e> 
+ <e lm="Maximiliano"><i>Maximiliano</i><par n="Jaime__np"/></e> 
+ <e lm="Ramón"><i>Ramón</i><par n="Jaime__np"/></e> 
+ <e lm="Ernesto"><i>Ernesto</i><par n="Jaime__np"/></e> 
+ <e lm="Tobías"><i>Tobías</i><par n="Jaime__np"/></e> 
+ <e lm="Abram"><i>Abram</i><par n="Jaime__np"/></e> 
+ <e lm="Noé"><i>Noé</i><par n="Jaime__np"/></e> 
+ <e lm="Guillermo"><i>Guillermo</i><par n="Jaime__np"/></e> 
+ <e lm="Ezequiel"><i>Ezequiel</i><par n="Jaime__np"/></e> 
+ <e lm="Lucián"><i>Lucián</i><par n="Jaime__np"/></e> 
+ <e lm="Alonzo"><i>Alonzo</i><par n="Jaime__np"/></e> 
+ <e lm="Felipe"><i>Felipe</i><par n="Jaime__np"/></e> 
+ <e lm="Matías"><i>Matías</i><par n="Jaime__np"/></e> 
+ <e lm="Tomás"><i>Tomás</i><par n="Jaime__np"/></e> 
+ <e lm="Jairo"><i>Jairo</i><par n="Jaime__np"/></e> 
     
    <!-- SECCIÓN: Adverbios -->
     <e lm="yaa"><i>yaa</i><par n="yaa__adv"/></e>
@@ -404,7 +619,8 @@
 
     <!-- SECCIÓN: Verbos -->
     <e lm="jalaa"><i>jala</i><par n="jala/a__vblex"/></e>
-
+    <e lm="achumajaa"><i>achumaja</i><par n="jala/a__vblex"/></e>
+    <e lm="aa'inraa"><i>aa'inraa</i><par n="jala/a__vblex"/></e>
   </section>
   <section id="final" type="inconditional">
     <e><par n="numeros"/></e>
