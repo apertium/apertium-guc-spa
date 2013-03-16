@@ -77,7 +77,7 @@
     </pardef>
 
     <pardef n="juya__n">
-      <e><p><l></l><r><s n="n"/><s n="m"/></r></p></e>
+      <e><p><l></l><r><s n="n"/><s n="m"/><s n="sg"/></r></p></e>
     </pardef>
 
     <pardef n="Jaime__np">
@@ -353,8 +353,11 @@
     <e lm="José"><i>José</i><par n="Jaime__np"/></e>
     <e lm="Dayana"><i>Dayana</i><par n="María__np"/></e>
     <e lm="Ornela"><i>Ornela</i><par n="María__np"/></e>
+    <e lm="Manuel"><i>Manuel</i><par n="Jaime__np"/></e>  
+    <e lm="Juan"><i>Juan</i><par n="Jaime__np"/></e>
+    <e lm="Camilo"><i>Camilo</i><par n="Jaime__np"/></e>    
     
-    <!-- SECCIÓN: Adverbios -->
+   <!-- SECCIÓN: Adverbios -->
     <e lm="yaa"><i>yaa</i><par n="yaa__adv"/></e>
     <e lm="nnojo"><i>nnojo</i><par n="hoy__adv"/></e>
     <e lm="joolu'u"><i>joolu'u</i><par n="hoy__adv"/></e>

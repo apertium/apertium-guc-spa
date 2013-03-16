@@ -87,7 +87,7 @@
     <e><p><l>o'uyaajana<s n="n"/></l><r>acompañante<s n="n"/><s n="m"/></r></p></e> <!--  -->
     <e><p><l>ale'e<s n="ina"/></l><r>abdomen<s n="n"/><s n="m"/></r></p></e> <!--  -->
     <e><p><l>o'u<s n="n"/></l><r>abertura<s n="n"/><s n="f"/></r></p></e> <!--  -->
-    <e><p><l>pütchipü'ü<s n="n"/></l><r>abogado<s n="n"/><s n="m"/></r></p></e> <!-- estar de acuerdo| acuerdo, abogado, -da  -->
+    <e><p><l>pütchipü'ü<s n="n"/><s n="m"/><s n="sg"/></l><r>abogado<s n="n"/><s n="m"/><s n="sg"/></r></p></e> <!-- estar de acuerdo| acuerdo, abogado, -da  -->
     <e><p><l>pütchipü'ü<s n="n"/></l><r>acuerdo<s n="n"/><s n="m"/></r></p></e> <!-- estar de acuerdo| acuerdo, abogado, -da  -->
     <e><p><l>atuushi<s n="ina"/></l><r>abuelo<s n="n"/><s n="m"/></r></p></e> <!-- | abuelo, -la  -->
     <e><p><l>taata<s n="ina"/></l><r>abuelo<s n="n"/><s n="m"/></r></p></e> <!-- | abuelo, -la  -->
@@ -768,6 +768,9 @@
     <e><p><l>José<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>José<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
     <e><p><l>Dayana<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Dayana<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
     <e><p><l>Ornela<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Ornela<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
+    <e><p><l>Manuel<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Manuel<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><p><l>Camilo<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Camilo<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><p><l>Juan<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Juan<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
 
     <!-- SECCIÓN: Adverbios -->
     <e><p><l>jalaa<s n="vblex"/></l><r>dónde<s n="adv"/></r></p></e> <!-- verbo de estado en Wayunaiki-->
