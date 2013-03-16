@@ -12,6 +12,7 @@
     <sdef n="p2"      c="Segunda persona"/>
     <sdef n="p3"      c="Tercera persona"/>
     <sdef n="adv"     c="Adverbio"/>
+    <sdef n="adj"     c="Adjetivo"/>
     <sdef n="itg"     c="Interrogativo"/>
     <sdef n="np"      c="Nombre propio"/>
     <sdef n="cnjcoo"  c="Conjunción coordinada"/>
@@ -125,7 +126,12 @@
     <pardef n="hoy__adv">
       <e><p><l></l><r><s n="adv"/></r></p></e>
     </pardef>
+ 
+    <!--SECCIÓN: Adjetivos -->
 
+     <pardef n="jemiai__adj">
+       <e><p><l></l><r><s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
+     </pardef>
 
     <!-- SECCIÓN: Verbos -->
 
@@ -1034,7 +1040,7 @@
 <e lm="achikijee"><i>achikijee</i><par n="aashin__n"/></e>
 <e lm="kasa"><i>kasa</i><par n="aashin__n"/></e>
 <e lm="aka"><i>aka</i><par n="juma'a__cnjcoo"/></e>
-
+<e lm="jemiai"><i>jemiai</i><par n="jemiai__adj"/></e>
 
   </section>
   <section id="final" type="inconditional">

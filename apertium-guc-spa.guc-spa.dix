@@ -9,6 +9,7 @@
     <sdef n="np"        c="Nombre propio"/>
     <sdef n="num"       c="Número"/>
     <sdef n="adv"       c="Adverbios"/>
+    <sdef n="adj"       c="Adjetivo"/>
     <sdef n="vblex"     c="Verbos"/>
     <sdef n="vbtra"     c="Verbos Transitivos"/>
     <sdef n="vbintra"   c="Verbos Intrasitivos"/>
@@ -1035,7 +1036,7 @@
     <e><p><l>yala<s n="adv"/></l><r>allá<s n="adv"/></r></p></e>
     <e><p><l>saasa<s n="adv"/></l><r>allá<s n="adv"/></r></p></e>
     <e><p><l>eera<s n="adv"/></l><r>quizás<s n="adv"/></r></p></e>
-
+        
     <!-- SECCIÓN: Verbos -->
     <e><p><l>achumajaa<s n="vblex"/></l><r>celar<s n="vblex"/></r></p></e>
     <e><p><l>eewaa ama'na<s n="vblex"/></l><r>tener<s n="vblex"/><s n="vbtuno"/><s n="vbact"/></r></p></e>
@@ -1141,6 +1142,7 @@
    <e><p><l>apa'ajanaa<s n="n"/><s n="m"/><s n="sg"/></l><r>fondo<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
    <e><p><l>apülajane'ipa<s n="n"/><s n="m"/><s n="sg"/></l><r>volúmen<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
 
+   <e><p><l>jemiai<s n="adj"/><s n="m"/><s n="sg"/></l><r>frío<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
 
     <!-- SECCIÓN: Punctuación -->
     <e><re>[.\?;:!·]</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>
