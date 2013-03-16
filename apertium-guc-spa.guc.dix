@@ -621,6 +621,43 @@
     <e lm="jalaa"><i>jala</i><par n="jala/a__vblex"/></e>
     <e lm="achumajaa"><i>achumaja</i><par n="jala/a__vblex"/></e>
     <e lm="aa'inraa"><i>aa'inraa</i><par n="jala/a__vblex"/></e>
+    
+    <!-- SECCIÓN: Interjecciones -->
+<e lm="jamaya"><i>jamaya</i><par n="jamaya__ij"/></e>
+<e lm="watta'a maalü"><i>watta'a<b/>maalü</i><par n="jamaya__ij"/></e>
+<e lm="aliika"><i>aliika</i><par n="jamaya__ij"/></e>
+<e lm="aipa'a"><i>aipa'a</i><par n="jamaya__ij"/></e>
+<e lm="ounus taya"><i>ounus<b/>taya</i><par n="jamaya__ij"/></e>
+<e lm="wa'lee"><i>wa'lee</i><par n="jamaya__ij"/></e> 
+<e lm="anaa"><i>anaa</i><par n="jamaya__ij"/></e>
+<e lm="atak"><i>atak</i><par n="jamaya__ij"/></e>
+<e lm="jalia"><i>jalia</i><par n="jamaya__ij"/></e>
+<e lm="joo'uya"><i>joo'uya</i><par n="jamaya__ij"/></e>
+<e lm="anayawachijaa"><i>anayawachijaa</i><par n="jamaya__ij"/></e>
+<e lm="tia"><i>tia</i><par n="jamaya__ij"/></e>
+<e lm="antüshi pia"><i>antüshi<b/>pia</i><par n="jamaya__ij"/></e>
+<e lm="antüsu pia"><i>antüsu<b/>pia</i><par n="jamaya__ij"/></e>
+<e lm="antüshii jia"><i>antüshii<b/>jia</i><par n="jamaya__ij"/></e>
+
+
+<e lm="wa'leekai"><i>wa'leekai</i><par n="jamaya__ij"/></e>
+<e lm="tane"><i>tane</i><par n="jamaya__ij"/></e>
+<e lm="wa'ira"><i>wa'ira</i><par n="jamaya__ij"/></e>
+<e lm="nii wa'ira"><i>nii wa'ira</i><par n="jamaya__ij"/></e>
+<e lm="atek"><i>atek</i><par n="jamaya__ij"/></e>
+<e lm="aa she"><i>aa<b/>she</i><par n="jamaya__ij"/></e>
+<e lm="antüsü taya"><i>antüsü<b/>taya</i><par n="jamaya__ij"/></e>
+<e lm="anaa"><i>anaa</i><par n="jamaya__ij"/></e>
+<e lm="anii"><i>anii</i><par n="jamaya__ij"/></e>
+<e lm="anuu"><i>anuu</i><par n="jamaya__ij"/></e>
+<e lm="jalaichi"><i>jalaichi</i><par n="jamaya__ij"/></e>
+<e lm="jalairü"><i>jalairü</i><par n="jamaya__ij"/></e>
+<e lm="jalaina"><i>jalaina</i><par n="jamaya__ij"/></e>
+<e lm="kaatei"><i>kaatei</i><par n="jamaya__ij"/></e>
+<e lm="na"><i>na</i><par n="jamaya__ij"/></e>
+<e lm="jamaya pü'lapüin"><i>jamaya<b/>pü'lapüin</i><par n="jamaya__ij"/></e>
+
+
   </section>
   <section id="final" type="inconditional">
     <e><par n="numeros"/></e>
