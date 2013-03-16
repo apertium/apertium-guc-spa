@@ -68,7 +68,7 @@
     </pardef>
 
     <pardef n="aashin__n">
-      <e><p><l></l><r><s n="pr"/></r></p></e>
+      <e><p><l></l><r><s n="post"/></r></p></e>
     </pardef>
 
     <!-- SECCIÓN: Nombres -->
@@ -141,7 +141,10 @@
       <e><p><l>sü</l><r>a<s n="vblex"/><s n="pri"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
       <e><p><l>shii</l><r>a<s n="vblex"/><s n="pri"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>
     </pardef>
-   
+
+    <pardef n="achumajaa__vblex">
+      <e><p><l></l><r><s n="vblex"/><s n="inf"/></r></p></e>
+    </pardef>   
     <pardef n="jamaya__ij">
       <e><p><l></l><r><s n="ij"/></r></p></e>
     </pardef>    
@@ -154,11 +157,74 @@
     <e lm="juma'a"><i>juma'a</i><par n="juma'a__cnjcoo"/></e>
 
     <!-- SECCIÓN: Nombres -->
-    
+<e lm="aleewaa"><i>aleewaa</i><par n="juya__n"/></e>
+<e lm="jolotoo"><i>jolotoo</i><par n="juya__n"/></e>
+<e lm="aa'in"><i>aa'in</i><par n="juya__n"/></e>
+<e lm="walekerü"><i>walekerü</i><par n="juya__n"/></e>
+<e lm="jasai"><i>jasai</i><par n="juya__n"/></e>
+<e lm="a'apüla"><i>a'apüla</i><par n="juya__n"/></e>
+<e lm="apü"><i>apü</i><par n="juya__n"/></e>
+<e lm="ko'oi"><i>ko'oi</i><par n="juya__n"/></e>
+<e lm="kousüla"><i>kousüla</i><par n="juya__n"/></e>
+<e lm="e'iima"><i>e'iima</i><par n="juya__n"/></e>
+<e lm="ale'e"><i>ale'e</i><par n="juya__n"/></e>
+<e lm="emechi"><i>emechi</i><par n="juya__n"/></e>
+<e lm="sarulu"><i>sarulu</i><par n="juya__n"/></e>
+<e lm="ase"><i>ase</i><par n="juya__n"/></e>
+<e lm="maraaja"><i>maraaja</i><par n="juya__n"/></e>
+<e lm="woowira"><i>woowira</i><par n="juya__n"/></e>
+<e lm="ekii"><i>ekii</i><par n="juya__n"/></e>
+<e lm="kaa'ula"><i>kaa'ula</i><par n="juya__n"/></e>
+<e lm="kaleena"><i>kaleena</i><par n="juya__n"/></e>
+<e lm="ase'ewain"><i>ase'ewain</i><par n="juya__n"/></e>
+<e lm="wüirü"><i>wüirü</i><par n="juya__n"/></e>
+<e lm="jayeechi"><i>jayeechi</i><par n="juya__n"/></e>
+<e lm="ee'irain"><i>ee'irain</i><par n="juya__n"/></e>
+<e lm="kaatset"><i>kaatset</i><par n="juya__n"/></e>
+<e lm="püreesaapüle"><i>püreesaapüle</i><par n="juya__n"/></e>
+<e lm="achisa"><i>achisa</i><par n="juya__n"/></e>
+<e lm="asala"><i>asala</i><par n="juya__n"/></e>
+<e lm="e'iruku"><i>e'iruku</i><par n="juya__n"/></e>
+<e lm="asalaa"><i>asalaa</i><par n="juya__n"/></e>
+<e lm="awachira"><i>awachira</i><par n="juya__n"/></e>
+<e lm="pali'i"><i>pali'i</i><par n="juya__n"/></e>
+<e lm="mapase"><i>mapase</i><par n="juya__n"/></e>
+<e lm="karateera"><i>karateera</i><par n="juya__n"/></e>
+<e lm="karatiiya"><i>karatiiya</i><par n="juya__n"/></e>
+<e lm="miichi"><i>miichi</i><par n="juya__n"/></e>
+<e lm="epia"><i>epia</i><par n="juya__n"/></e>
+<e lm="o'utala"><i>o'utala</i><par n="juya__n"/></e>
+<e lm="ata"><i>ata</i><par n="juya__n"/></e>
+<e lm="e'iruku"><i>e'iruku</i><par n="juya__n"/></e>
+<e lm="asipala"><i>asipala</i><par n="juya__n"/></e>
+<e lm="asi"><i>asi</i><par n="juya__n"/></e>
+<e lm="ase'eru'u"><i>ase'eru'u</i><par n="juya__n"/></e>
+<e lm="asa'a"><i>asa'a</i><par n="juya__n"/></e>
+<e lm="pueulo"><i>pueulo</i><par n="juya__n"/></e>
+<e lm="aanala"><i>aanala</i><par n="juya__n"/></e>
+<e lm="sütaa"><i>sütaa</i><par n="juya__n"/></e>
+<e lm="eküülü"><i>eküülü</i><par n="juya__n"/></e>
+<e lm="kosinapia"><i>kosinapia</i><par n="juya__n"/></e>
+<e lm="kasa"><i>kasa</i><par n="juya__n"/></e>
+<e lm="akuaippa"><i>akuaippa</i><par n="juya__n"/></e>
+<e lm="a'ttia"><i>a'ttia</i><par n="juya__n"/></e>
+<e lm="awatse"><i>awatse</i><par n="juya__n"/></e>
+<e lm="akuaippa"><i>akuaippa</i><par n="juya__n"/></e>
+<e lm="aralo'u"><i>aralo'u</i><par n="juya__n"/></e>
+<e lm="wüi"><i>wüi</i><par n="juya__n"/></e>
+<e lm="asirü"><i>asirü</i><par n="juya__n"/></e>
+<e lm="ekiipala"><i>ekiipala</i><par n="juya__n"/></e>
+<e lm="ata"><i>ata</i><par n="juya__n"/></e>
+<e lm="aajuna"><i>aajuna</i><par n="juya__n"/></e>
+<e lm="jiiku"><i>jiiku</i><par n="juya__n"/></e>
+<e lm="apü"><i>apü</i><par n="juya__n"/></e>
+<e lm="ajuyaala"><i>ajuyaala</i><par n="juya__n"/></e>
+<e lm="e'iijaa"><i>e'iijaa</i><par n="juya__n"/></e>
+    <e lm="wutia"><i>wutia</i><par n="juya__n"/></e>
     <e lm="seita"><i>seita</i><par n="juya__n"/></e>
     <e lm="maawüi"><i>maawüi</i><par n="teclado__n"/></e>
     <e lm="wüin"><i>wüin</i><par n="juya__n"/></e>
-    <e lm="atünajutü"><i>atünajutü</i><par n="juya__n"/></e>
+    <e lm="atünajutü"><i>atünajutü</i><par n="jemiai__adj"/></e>
     <e lm="eküülü"><i>eküülü</i><par n="teclado__n"/></e>
     <e lm="ipa'"><i>ipa'</i><par n="ipa'__n"/></e>
     <e lm="wopu"><i>wopu</i><par n="ipa'__n"/></e>
@@ -189,7 +255,7 @@
     <e lm="katünasü"><i>katünasü</i><par n="juya__n"/></e>
     <e lm="suukala"><i>suukala</i><par n="juya__n"/></e>
     <e lm="jo'uu"><i>jo'uu</i><par n="juya__n"/></e>
-    <e lm="yonna"><i>kyonna</i><par n="juya__n"/></e>
+    <e lm="yonna"><i>kyonna</i><par n="teclado__n"/></e>
     <e lm="woola"><i>woola</i><par n="juya__n"/></e>
     <e lm="anuwa"><i>anuwa</i><par n="juya__n"/></e>
     <e lm="pootshi"><i>pootshi</i><par n="juya__n"/></e>
@@ -261,7 +327,7 @@
     <e lm="ai"><i>ai</i><par n="juya__n"/></e>
     <e lm="aamaka"><i>aamaka</i><par n="juya__n"/></e>
     <e lm="neerü"><i>neerü</i><par n="juya__n"/></e>
-    <e lm="Maleiwa"><i>Maleiwa</i><par n="maleiwa__n"/></e>
+    <e lm="maleiwa"><i>maleiwa</i><par n="maleiwa__n"/></e>
     <e lm="ana"><i>ana</i><par n="juya__n"/></e>
     <e lm="ano'u"><i>ano'u</i><par n="juya__n"/></e>
     <e lm="isashii"><i>isashii</i><par n="juya__n"/></e>
@@ -961,7 +1027,7 @@
 
     <!-- SECCIÓN: Verbos -->
     <e lm="jalaa"><i>jala</i><par n="jala/a__vblex"/></e>
-    <e lm="achumajaa"><i>achumaja</i><par n="jala/a__vblex"/></e>
+    <e lm="achumajaa"><i>achumaja</i><par n="achumajaa__vblex"/></e>
     <e lm="aa'inraa"><i>aa'inraa</i><par n="jala/a__vblex"/></e>
     
     <!-- SECCIÓN: Interjecciones -->
