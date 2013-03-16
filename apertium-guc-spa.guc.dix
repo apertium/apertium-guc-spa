@@ -30,6 +30,7 @@
     <sdef n="sent"    c="Etiqueta de fin de oración"/>
     <sdef n="ij"      c="Interjección"/>
     <sdef n="pr"      c="Preposición"/>
+    <sdef n="post"    c="Postposición"/>
   </sdefs>
   <pardefs>
     <!-- SECTION: Punctuación -->
@@ -109,6 +110,11 @@
        <e><p><l></l><r><s n="n"/><s n="f"/><s n="sg"/></r></p></e>
        <e><p><l>ka</l><r><s n="n"/><s n="f"/><s n="pl"/></r></p></e> 	
      </pardef>
+
+     <pardef n="maleiwa__n">    
+      <e><p><l></l><r><s n="n"/><s n="m"/><s n="sg"/></r> </p></e>
+     </pardef>
+
 
     <!-- SECCIÓN: Adverbios -->
 
@@ -249,7 +255,7 @@
     <e lm="ai"><i>ai</i><par n="juya__n"/></e>
     <e lm="aamaka"><i>aamaka</i><par n="juya__n"/></e>
     <e lm="neerü"><i>neerü</i><par n="juya__n"/></e>
-    <e lm="Maleiwa"><i>Maleiwa</i><par n="juya__n"/></e>
+    <e lm="Maleiwa"><i>Maleiwa</i><par n="maleiwa__n"/></e>
     <e lm="ana"><i>ana</i><par n="juya__n"/></e>
     <e lm="ano'u"><i>ano'u</i><par n="juya__n"/></e>
     <e lm="isashii"><i>isashii</i><par n="juya__n"/></e>
@@ -1027,7 +1033,7 @@
 <e lm="jümaa"><i>jümaa</i><par n="aashin__n"/></e>
 <e lm="achikijee"><i>achikijee</i><par n="aashin__n"/></e>
 <e lm="kasa"><i>kasa</i><par n="aashin__n"/></e>
-<e lm="aka"><i>aka</i><par n="aashin__n"/></e>
+<e lm="aka"><i>aka</i><par n="juma'a__cnjcoo"/></e>
 
 
   </section>
