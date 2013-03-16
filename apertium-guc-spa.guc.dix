@@ -19,6 +19,8 @@
     <sdef n="ant"     c="Antroponim"/>
     <sdef n="nn"      c="Inanimado"/>
     <sdef n="aa"      c="Animado"/>
+    <sdef n="ali"     c="Nombre Alineable"/>
+    <sdef n="ina"     c="Inanileable"/>
     <sdef n="ut"      c="No masculino"/>
     <sdef n="sg"      c="Singular"/>
     <sdef n="pl"      c="Plural"/>
@@ -27,6 +29,7 @@
     <sdef n="guio"    c="Guión"/>
     <sdef n="sent"    c="Etiqueta de fin de oración"/>
     <sdef n="ij"      c="Interjección"/>
+    <sdef n="pr"      c="Preposición"/>
   </sdefs>
   <pardefs>
     <!-- SECTION: Punctuación -->
@@ -62,6 +65,10 @@
       <e><p><l></l><r><s n="cnjcoo"/></r></p></e>
     </pardef>
 
+    <pardef n="aashin__n">
+      <e><p><l></l><r><s n="pr"/></r></p></e>
+    </pardef>
+
     <!-- SECCIÓN: Nombres -->
 
     <pardef n="ipa'__n">
@@ -80,9 +87,9 @@
     <pardef n="juya__n">
       <e><p><l></l><r><s n="n"/><s n="sg"/></r></p></e>
     </pardef>
-
-    <pardef n="wüin__n">
-      <e><p><l></l><r><s n="nn"/><s n="f"/><s n="sg"/></r></p></e>
+    
+    <pardef n="seita__n">
+      <e><p><l></l><r><s n="n"/><s n="m"/><s n="sg"/></r></p></e>
     </pardef>
     
     <pardef n="Jaime__np">
@@ -135,8 +142,12 @@
     <e lm="juma'a"><i>juma'a</i><par n="juma'a__cnjcoo"/></e>
 
     <!-- SECCIÓN: Nombres -->
-
-    <e lm="wüin"><i>wüin</i><par n="wüin__n"/></e>
+    
+    <e lm="seita"><i>seita</i><par n="juya__n"/></e>
+    <e lm="maawüi"><i>maawüi</i><par n="teclado__n"/></e>
+    <e lm="wüin"><i>wüin</i><par n="juya__n"/></e>
+    <e lm="atünajutü"><i>atünajutü</i><par n="juya__n"/></e>
+    <e lm="eküülü"><i>eküülü</i><par n="teclado__n"/></e>
     <e lm="ipa'"><i>ipa'</i><par n="ipa'__n"/></e>
     <e lm="wopu"><i>wopu</i><par n="ipa'__n"/></e>
     <e lm="kulala"><i>kulala</i><par n="juya__n"/></e>
@@ -325,6 +336,325 @@
     <e lm="kashi"><i>kashi</i><par n="juya__n"/></e>
     <e lm="eema"><i>eema</i><par n="juya__n"/></e>
     <e lm="o'uluku"><i>o'uluku</i><par n="juya__n"/></e>
+<e lm="kulala"><i>kulala</i><par n="juya__n"/></e>
+<e lm="o'uyaajana"><i>o'uyaajana</i><par n="juya__n"/></e>
+<e lm="ale'e"><i>ale'e</i><par n="juya__n"/></e>
+<e lm="pütchipü'ü"><i>pütchipü'ü</i><par n="juya__n"/></e>
+<e lm="jouktai"><i>jouktai</i><par n="juya__n"/></e>
+<e lm="je'yulu"><i>je'yulu</i><par n="juya__n"/></e>
+<e lm="lania"><i>lania</i><par n="juya__n"/></e>
+<e lm="süttiija"><i>süttiija</i><par n="juya__n"/></e>
+<e lm="mürülü"><i>mürülü</i><par n="juya__n"/></e>
+<e lm="atuushi"><i>atuushi</i><par n="juya__n"/></e>
+<e lm="kachueera"><i>kachueera</i><par n="juya__n"/></e>
+<e lm="kulira"><i>kulira</i><par n="juya__n"/></e>
+<e lm="kulira"><i>kulira</i><par n="juya__n"/></e>
+<e lm="kaarai"><i>kaarai</i><par n="juya__n"/></e>
+<e lm="juya"><i>juya</i><par n="juya__n"/></e>
+<e lm="rülipi"><i>rülipi</i><par n="juya__n"/></e>
+<e lm="luwopu"><i>luwopu</i><par n="juya__n"/></e>
+<e lm="roo'"><i>roo</i><par n="juya__n"/></e>
+<e lm="alerajaa"><i>alerajaa</i><par n="juya__n"/></e>
+<e lm="einase"><i>einase</i><par n="juya__n"/></e>
+<e lm="wunu'u"><i>wunu'u</i><par n="juya__n"/></e>
+<e lm="uraichi"><i>uraichi</i><par n="juya__n"/></e>
+<e lm="che'esaa"><i>che'esaa</i><par n="juya__n"/></e>
+<e lm="kemion"><i>kemion</i><par n="juya__n"/></e>
+<e lm="katünasü"><i>katünasü</i><par n="juya__n"/></e>
+<e lm="suukala"><i>suukala</i><par n="juya__n"/></e>
+<e lm="jo'uu"><i>jo'uu</i><par n="juya__n"/></e>
+<e lm="yonna"><i>kyonna</i><par n="juya__n"/></e>
+<e lm="woola"><i>woola</i><par n="juya__n"/></e>
+<e lm="anuwa"><i>anuwa</i><par n="juya__n"/></e>
+<e lm="pootshi"><i>pootshi</i><par n="juya__n"/></e>
+<e lm="atüna"><i>atüna</i><par n="juya__n"/></e>
+<e lm="olu"><i>olu</i><par n="juya__n"/></e>
+<e lm="wuna'apü"><i>wuna'apü</i><par n="juya__n"/></e>
+<e lm="monkulonseerü"><i>monkulonseerü</i><par n="juya__n"/></e>
+<e lm="samulu"><i>samulu</i><par n="juya__n"/></e>
+<e lm="püliiki"><i>püliiki</i><par n="juya__n"/></e>
+<e lm="pisaalü"><i>pisaalü</i><par n="juya__n"/></e>
+<e lm="aa'ayula"><i>aa'ayula</i><par n="juya__n"/></e>
+<e lm="ama"><i>ama</i><par n="juya__n"/></e>
+<e lm="shaakuma"><i>shaakuma</i><par n="juya__n"/></e>
+<e lm="apü"><i>apü</i><par n="juya__n"/></e>
+<e lm="epi"><i>epi</i><par n="juya__n"/></e>
+<e lm="wopu"><i>wopu</i><par n="juya__n"/></e>
+<e lm="apüna"><i>apüna</i><par n="juya__n"/></e>
+<e lm="kepein"><i>kepein</i><par n="juya__n"/></e>
+<e lm="kojee"><i>kojee</i><par n="juya__n"/></e>
+<e lm="e'ira"><i>e'ira</i><par n="juya__n"/></e>
+<e lm="warutta"><i>warutta</i><par n="juya__n"/></e>
+<e lm="si'warai"><i>si'warai</i><par n="juya__n"/></e>
+<e lm="era"><i>era</i><par n="juya__n"/></e>
+<e lm="koucha"><i>koucha</i><par n="juya__n"/></e>
+<e lm="amanee"><i>amanee</i><par n="juya__n"/></e>
+<e lm="amuuyuu"><i>amuuyuu</i><par n="juya__n"/></e>
+<e lm="aamaka"><i>aamaka</i><par n="juya__n"/></e>
+<e lm="püülükü"><i>püülükü</i><par n="juya__n"/></e>
+<e lm="ekiisholoin"><i>ekiisholoin</i><par n="juya__n"/></e>
+<e lm="namüna"><i>namüna</i><par n="juya__n"/></e>
+<e lm="uuchi"><i>uuchi</i><par n="juya__n"/></e>
+<e lm="e'ejena"><i>e'ejena</i><par n="juya__n"/></e>
+<e lm="perulaa"><i>perulaa</i><par n="juya__n"/></e>
+<e lm="kaa'ula"><i>kaa'ula</i><par n="juya__n"/></e>
+<e lm="shunui"><i>shunui</i><par n="juya__n"/></e>
+<e lm="asatala"><i>asatala</i><par n="juya__n"/></e>
+<e lm="siruma"><i>siruma</i><par n="juya__n"/></e>
+<e lm="koleejia"><i>koleejia</i><par n="juya__n"/></e>
+<e lm="kasipa"><i>kasipa</i><par n="juya__n"/></e>
+<e lm="chünü'ü"><i>chünü'ü</i><par n="juya__n"/></e>
+<e lm="kakuuna"><i>kakuuna</i><par n="juya__n"/></e>
+<e lm="aüliijana"><i>aüliijana</i><par n="juya__n"/></e>
+<e lm="sirapü"><i>sirapü</i><par n="juya__n"/></e>
+<e lm="o'u"><i>o'u</i><par n="juya__n"/></e>
+<e lm="alaülashi"><i>alaülashi</i><par n="juya__n"/></e>
+<e lm="-sü"><i>-sü</i><par n="juya__n"/></e>
+<e lm="kulaala"><i>kulaala</i><par n="juya__n"/></e>
+<e lm="atpanaa"><i>atpanaa</i><par n="juya__n"/></e>
+<e lm="aa'in"><i>aa'in</i><par n="juya__n"/></e>
+<e lm="o'uwa"><i>ko'uwa</i><par n="juya__n"/></e>
+<e lm="ata"><i>ata</i><par n="juya__n"/></e>
+<e lm="paa'ata"><i>paa'ata</i><par n="juya__n"/></e>
+<e lm="e'iruku"><i>e'iruku</i><par n="juya__n"/></e>
+<e lm="apü'üya"><i>apü'üya</i><par n="juya__n"/></e>
+<e lm="pünajüt"><i>pünajüt</i><par n="juya__n"/></e>
+<e lm="a'ttia"><i>a'ttia</i><par n="juya__n"/></e>
+<e lm="aleshi"><i>aleshi</i><par n="juya__n"/></e>
+<e lm="outshi"><i>outshi</i><par n="juya__n"/></e>
+<e lm="rüi"><i>rüi</i><par n="juya__n"/></e>
+<e lm="akua"><i>akua</i><par n="juya__n"/></e>
+<e lm="anulu"><i>anulu</i><par n="juya__n"/></e>
+<e lm="kaainjalaa"><i>kaainjalaa</i><par n="juya__n"/></e>
+<e lm="yolujaa"><i>yolujaa</i><par n="juya__n"/></e>
+<e lm="wanülüü"><i>wanülüü</i><par n="juya__n"/></e>
+<e lm="ejepira"><i>ejepira</i><par n="juya__n"/></e>
+<e lm="eemerawaa"><i>eemerawaa</i><par n="juya__n"/></e>
+<e lm="oo'uliwo'u"><i>oo'uliwo'u</i><par n="juya__n"/></e>
+<e lm="yolujaa"><i>yolujaa</i><par n="juya__n"/></e>
+<e lm="ai"><i>ai</i><par n="juya__n"/></e>
+<e lm="aamaka"><i>aamaka</i><par n="juya__n"/></e>
+<e lm="neerü"><i>neerü</i><par n="juya__n"/></e>
+<e lm="Maleiwa"><i>Maleiwa</i><par n="juya__n"/></e>
+<e lm="ana"><i>ana</i><par n="juya__n"/></e>
+<e lm="ano'u"><i>ano'u</i><par n="juya__n"/></e>
+<e lm="isashii"><i>isashii</i><par n="juya__n"/></e>
+<e lm="aalin"><i>aalin</i><par n="juya__n"/></e>
+<e lm="laülaa"><i>laülaa</i><par n="juya__n"/></e>
+<e lm="a'ünüü"><i>a'ünüü</i><par n="juya__n"/></e>
+<e lm="miichi"><i>miichi</i><par n="juya__n"/></e>
+<e lm="ayaakua"><i>ayaakua</i><par n="juya__n"/></e>
+<e lm="alijunaiki"><i>alijunaiki</i><par n="juya__n"/></e>
+<e lm="rouya"><i>rouya</i><par n="juya__n"/></e>
+<e lm="piuuna"><i>piuuna</i><par n="juya__n"/></e>
+<e lm="yolujaa"><i>yolujaa</i><par n="juya__n"/></e>
+<e lm="a'wayuuse"><i>a'wayuuse</i><par n="juya__n"/></e>
+<e lm="acha'a"><i>acha'a</i><par n="juya__n"/></e>
+<e lm="ayolojo"><i>ayolojo</i><par n="juya__n"/></e>
+<e lm="o'u"><i>o'u</i><par n="juya__n"/></e>
+<e lm="pitshuushi"><i>pitshuushi</i><par n="juya__n"/></e>
+<e lm="achon"><i>achon</i><par n="juya__n"/></e>
+<e lm="einalu'u"><i>einalu'u</i><par n="juya__n"/></e>
+<e lm="siki"><i>siki</i><par n="juya__n"/></e>
+<e lm="asema"><i>asema</i><par n="juya__n"/></e>
+<e lm="pooporo"><i>pooporo</i><par n="juya__n"/></e>
+<e lm="juleena"><i>juleena</i><par n="juya__n"/></e>
+<e lm="si'ya"><i>si'ya</i><par n="juya__n"/></e>
+<e lm="kootole'era"><i>kootole'era</i><par n="juya__n"/></e>
+<e lm="ju'i"><i>ju'i</i><par n="juya__n"/></e>
+<e lm="paa'a"><i>paa'a</i><par n="juya__n"/></e>
+<e lm="warulapai"><i>warulapai</i><par n="juya__n"/></e>
+<e lm="senkeyuu"><i>senkeyuu</i><par n="juya__n"/></e>
+<e lm="ekiisa"><i>ekiisa</i><par n="juya__n"/></e>
+<e lm="ekiipü'ü"><i>ekiipü'ü</i><par n="juya__n"/></e>
+<e lm="jokoma"><i>jokoma</i><par n="juya__n"/></e>
+<e lm="apü'üya"><i>apü'üya</i><par n="juya__n"/></e>
+<e lm="awala"><i>awala</i><par n="juya__n"/></e>
+<e lm="kachueera"><i>kachueera</i><par n="juya__n"/></e>
+<e lm="apana"><i>apana</i><par n="juya__n"/></e>
+<e lm="achonyaashi"><i>achonyaashi</i><par n="juya__n"/></e>
+<e lm="aainjala"><i>aainjala</i><par n="juya__n"/></e>
+<e lm="achon"><i>achon</i><par n="juya__n"/></e>
+<e lm="jiirü"><i>jiirü</i><par n="juya__n"/></e>
+<e lm="ishi"><i>ishi</i><par n="juya__n"/></e>
+<e lm="e'ichi"><i>e'ichi</i><par n="juya__n"/></e>
+<e lm="toolo"><i>toolo</i><par n="juya__n"/></e>
+<e lm="jiipü"><i>jiipü</i><par n="juya__n"/></e>
+<e lm="eipüse"><i>eipüse</i><par n="juya__n"/></e>
+<e lm="asa'a"><i>asa'a</i><par n="juya__n"/></e>
+<e lm="e'iyou"><i>e'iyou</i><par n="juya__n"/></e>
+<e lm="ashuku"><i>ashuku</i><par n="juya__n"/></e>
+<e lm="amüsain"><i>amüsain</i><par n="juya__n"/></e>
+<e lm="sutta"><i>sutta</i><par n="juya__n"/></e>
+<e lm="anüiki"><i>anüiki</i><par n="juya__n"/></e>
+<e lm="ayülain"><i>ayülain</i><par n="juya__n"/></e>
+<e lm="yaawala"><i>yaawala</i><par n="juya__n"/></e>
+<e lm="era"><i>kera</i><par n="juya__n"/></e>
+<e lm="laa"><i>laa</i><par n="juya__n"/></e>
+<e lm="emi'ira"><i>emi'ira</i><par n="juya__n"/></e>
+<e lm="türiiya"><i>türiiya</i><par n="juya__n"/></e>
+<e lm="jaarü"><i>jaarü</i><par n="juya__n"/></e>
+<e lm="laülaa"><i>laülaa</i><par n="juya__n"/></e>
+<e lm="alaülashi"><i>alaülashi</i><par n="juya__n"/></e>
+<e lm="jima'ai"><i>jima'ai</i><par n="juya__n"/></e>
+<e lm="ka'ruwarai"><i>ka'ruwarai</i><par n="juya__n"/></e>
+<e lm="eimata"><i>eimata</i><par n="juya__n"/></e>
+<e lm="lamuuna"><i>lamuuna</i><par n="juya__n"/></e>
+<e lm="karaloukta"><i>karaloukta</i><par n="juya__n"/></e>
+<e lm="laapi"><i>laapi</i><par n="juya__n"/></e>
+<e lm="o'ula"><i>o'ula</i><par n="juya__n"/></e>
+<e lm="e'ira"><i>e'ira</i><par n="juya__n"/></e>
+<e lm="apülee"><i>apülee</i><par n="juya__n"/></e>
+<e lm="mma"><i>mma</i><par n="juya__n"/></e>
+<e lm="ewein"><i>ewein</i><par n="juya__n"/></e>
+<e lm="kane'ewa"><i>kane'ewa</i><par n="juya__n"/></e>
+<e lm="chajaruuta"><i>chajaruuta</i><par n="juya__n"/></e>
+<e lm="monku"><i>monku</i><par n="juya__n"/></e>
+<e lm="maikki"><i>maikki</i><par n="juya__n"/></e><e lm="kulala"><i>kulala</i><par n="juya__n"/></e>
+<e lm="palaa"><i>palaa</i><par n="juya__n"/></e>
+<e lm="eechin"><i>eechin</i><par n="juya__n"/></e>
+<e lm="tottoolu"><i>tottoolu</i><par n="juya__n"/></e>
+<e lm="anüiki"><i>anüiki</i><par n="juya__n"/></e>
+<e lm="moliina"><i>moliina</i><par n="juya__n"/></e>
+<e lm="wuna'apü"><i>wuna'apü</i><par n="juya__n"/></e>
+<e lm="e'iyeise"><i>e'iyeise</i><par n="juya__n"/></e>
+<e lm="metkaalü"><i>metkaalü</i><par n="juya__n"/></e>
+<e lm="kashi"><i>kashi</i><par n="juya__n"/></e>
+<e lm="eema"><i>eema</i><par n="juya__n"/></e>
+<e lm="o'uluku"><i>o'uluku</i><par n="juya__n"/></e>
+
+<e lm="tepichi"><i>tepichi</i><par n="juya__n"/></e>
+<e lm="waana"><i>waana</i><par n="juya__n"/></e>
+<e lm="muula"><i>muula</i><par n="juya__n"/></e>
+<e lm="püsichi"><i>püsichi</i><par n="juya__n"/></e>
+<e lm="apü'ü"><i>apü'ü</i><par n="juya__n"/></e>
+<e lm="osho'o"><i>osho'o</i><par n="juya__n"/></e>
+<e lm="jo'uu"><i>jo'uu</i><par n="juya__n"/></e>
+<e lm="epia"><i>epia</i><par n="juya__n"/></e>
+<e lm="alüin"><i>alüin</i><par n="juya__n"/></e>
+<e lm="aikeyuu"><i>aikeyuu</i><par n="juya__n"/></e>
+<e lm="ai."><i>ai.</i><par n="juya__n"/></e>
+<e lm="anülia"><i>anülia</i><par n="juya__n"/></e>
+<e lm="palaapünaa"><i>palaapünaa</i><par n="juya__n"/></e>
+<e lm="amüraajüin"><i>amüraajüin</i><par n="juya__n"/></e>
+<e lm="ache'e"><i>ache'e</i><par n="juya__n"/></e>
+<e lm="o'u"><i>o'u</i><par n="juya__n"/></e>
+<e lm="wiinnaa"><i>wiinnaa</i><par n="juya__n"/></e>
+<e lm="ekii"><i>ekii</i><par n="juya__n"/></e>
+<e lm="eejuu"><i>eejuu</i><par n="juya__n"/></e>
+<e lm="ooro"><i>ooro</i><par n="juya__n"/></e>
+<e lm="omocho"><i>omocho</i><par n="juya__n"/></e>
+<e lm="acha'a"><i>acha'a</i><par n="juya__n"/></e>
+<e lm="ashiyaashi"><i>ashiyaashi</i><par n="juya__n"/></e>
+<e lm="ashi"><i>ashi</i><par n="juya__n"/></e>
+<e lm="apüshi"><i>apüshi</i><par n="juya__n"/></e>
+<e lm="a'alijawaa"><i>a'alijawaa</i><par n="juya__n"/></e>
+<e lm="asapia"><i>asapia</i><par n="juya__n"/></e>
+<e lm="akua"><i>akua</i><par n="juya__n"/></e>
+<e lm="alama"><i>alama</i><par n="juya__n"/></e>
+<e lm="walaashi"><i>walaashi</i><par n="juya__n"/></e>
+<e lm="mma"><i>mma</i><par n="juya__n"/></e>
+<e lm="wuchii"><i>wuchii</i><par n="juya__n"/></e>
+<e lm="wunu'u"><i>wunu'u</i><par n="juya__n"/></e>
+<e lm="pan"><i>pan</i><par n="juya__n"/></e>
+<e lm="taata"><i>taata</i><par n="juya__n"/></e>
+<e lm="karaloukta"><i>karaloukta</i><par n="juya__n"/></e>
+<e lm="paatia"><i>paatia</i><par n="juya__n"/></e>
+<e lm="aainjala"><i>aainjala</i><par n="juya__n"/></e>
+<e lm="e'e"><i>e'e</i><par n="juya__n"/></e>
+<e lm="kalekale"><i>kalekale</i><par n="juya__n"/></e>
+<e lm="aluuwain"><i>aluuwain</i><par n="juya__n"/></e>
+<e lm="pirijirü"><i>pirijirü</i><par n="juya__n"/></e>
+<e lm="e'ipa"><i>e'ipa</i><par n="juya__n"/></e>
+<e lm="a'ata"><i>a'ata</i><par n="juya__n"/></e>
+<e lm="erü"><i>erü</i><par n="juya__n"/></e>
+<e lm="jime"><i>jime</i><par n="juya__n"/></e>
+<e lm="aawain"><i>aawain</i><par n="juya__n"/></e>
+<e lm="kaasü"><i>kaasü</i><par n="juya__n"/></e>
+<e lm="jime"><i>jime</i><par n="juya__n"/></e>
+<e lm="e'ichi"><i>e'ichi</i><par n="juya__n"/></e>
+<e lm="oo'ui"><i>oo'ui</i><par n="juya__n"/></e>
+<e lm="mapüi"><i>mapüi</i><par n="juya__n"/></e>
+<e lm="apa'a"><i>apa'a</i><par n="juya__n"/></e>
+<e lm="paasta"><i>paasta</i><par n="juya__n"/></e>
+<e lm="püla'ana"><i>püla'ana</i><par n="juya__n"/></e>
+<e lm="plato"><i>plato</i><par n="juya__n"/></e>
+<e lm="ishi"><i>ishi</i><par n="juya__n"/></e>
+<e lm="alia"><i>alia</i><par n="juya__n"/></e>
+<e lm="jaarü"><i>jaarü</i><par n="juya__n"/></e>
+<e lm="mma"><i>mma</i><par n="juya__n"/></e>
+<e lm="apülee"><i>apülee</i><par n="juya__n"/></e>
+<e lm="e'iruma"><i>e'iruma</i><par n="juya__n"/></e>
+<e lm="jayapa"><i>jayapa</i><par n="juya__n"/></e>
+<e lm="ososo"><i>ososo</i><par n="juya__n"/></e>
+<e lm="ajü"><i>ajü</i><par n="juya__n"/></e>
+<e lm="keesü"><i>keesü</i><par n="juya__n"/></e>
+<e lm="raawia"><i>raawia</i><par n="juya__n"/></e>
+<e lm="kusu"><i>kusu</i><par n="juya__n"/></e>
+<e lm="achikanain"><i>achikanain</i><par n="juya__n"/></e>
+<e lm="oo'ui"><i>oo'ui</i><par n="juya__n"/></e>
+<e lm="pejeewa"><i>pejeewa</i><par n="juya__n"/></e>
+<e lm="kookooche'erü"><i>kookooche'erü</i><par n="juya__n"/></e>
+<e lm="okolojoo"><i>okolojoo</i><par n="juya__n"/></e>
+<e lm="okolojoo"><i>okolojoo</i><par n="juya__n"/></e>
+<e lm="ayaa"><i>ayaa</i><par n="juya__n"/></e>
+<e lm="achiki"><i>achiki</i><par n="juya__n"/></e>
+<e lm="epi"><i>epi</i><par n="juya__n"/></e>
+<e lm="asapain"><i>asapain</i><par n="juya__n"/></e>
+<e lm="o'upünaa"><i>o'upünaa</i><par n="juya__n"/></e>
+<e lm="jutkataa"><i>jutkataa</i><par n="juya__n"/></e>
+<e lm="riwoolü"><i>riwoolü</i><par n="juya__n"/></e>
+<e lm="e'ira"><i>e'ira</i><par n="juya__n"/></e>
+<e lm="achü'ü"><i>achü'ü</i><par n="juya__n"/></e>
+<e lm="süchi"><i>süchi</i><par n="juya__n"/></e>
+<e lm="e'ipolo"><i>e'ipolo</i><par n="juya__n"/></e>
+<e lm="e'ejü"><i>e'ejü</i><par n="juya__n"/></e>
+<e lm="wopu"><i>wopu</i><par n="juya__n"/></e>
+<e lm="apüna"><i>apüna</i><par n="juya__n"/></e>
+<e lm="achira"><i>achira</i><par n="juya__n"/></e>
+<e lm="eperü'üi"><i>eperü'üi</i><par n="juya__n"/></e>
+<e lm="ekiisholoin"><i>ekiisholoin</i><par n="juya__n"/></e>
+<e lm="ashimia"><i>ashimia</i><par n="juya__n"/></e>
+<e lm="ayaawase"><i>ayaawase</i><par n="juya__n"/></e>
+<e lm="piuuna"><i>piuuna</i><par n="juya__n"/></e>
+<e lm="apülee"><i>apülee</i><par n="juya__n"/></e>
+<e lm="akanain"><i>akanain</i><par n="juya__n"/></e>
+<e lm="lapü"><i>lapü</i><par n="juya__n"/></e>
+<e lm="a'ata"><i>a'ata</i><par n="juya__n"/></e>
+<e lm="ka'i"><i>ka'ir</i><par n="juya__n"/></e>
+<e lm="surulaalü"><i>surulaalü</i><par n="juya__n"/></e>
+<e lm="ee'iraka"><i>ee'iraka</i><par n="juya__n"/></e>
+<e lm="uuchipünaa"><i>uuchipünaa</i><par n="juya__n"/></e>
+<e lm="uwon"><i>uwon</i><par n="juya__n"/></e>
+<e lm="e'ira"><i>e'ira</i><par n="juya__n"/></e>
+<e lm="ee'iraka"><i>ee'iraka</i><par n="juya__n"/></e>
+<e lm="yüi"><i>yüi</i><par n="juya__n"/></e>
+<e lm="kaasha"><i>kaasha</i><par n="juya__n"/></e>
+<e lm="erouse"><i>erouse</i><par n="juya__n"/></e>
+<e lm="aajuna"><i>aajuna</i><par n="juya__n"/></e>
+<e lm="anülü"><i>anülü</i><par n="juya__n"/></e>
+<e lm="asüla"><i>asüla</i><par n="juya__n"/></e>
+<e lm="ashi"><i>ashi</i><par n="juya__n"/></e>
+<e lm="aaluwain"><i>aaluwain</i><par n="juya__n"/></e>
+<e lm="chocho"><i>chocho</i><par n="juya__n"/></e>
+<e lm="ekii"><i>ekii</i><par n="juya__n"/></e>
+<e lm="atürüla"><i>atürüla</i><par n="juya__n"/></e>
+<e lm="a'yatawaa"><i>a'yatawaa</i><par n="juya__n"/></e>
+<e lm="ekia"><i>ekia</i><par n="juya__n"/></e>
+<e lm="ajutu"><i>ajutu</i><par n="juya__n"/></e>
+<e lm="alia"><i>alia</i><par n="juya__n"/></e>
+<e lm="e'ejena"><i>e'ejena</i><par n="juya__n"/></e>
+<e lm="irama"><i>irama</i><par n="juya__n"/></e>
+<e lm="o'u"><i>o'u</i><par n="juya__n"/></e>
+<e lm="akua"><i>akua</i><par n="juya__n"/></e>
+<e lm="o'unaa"><i>o'unaa</i><par n="juya__n"/></e>
+<e lm="maraaja"><i>maraaja</i><par n="juya__n"/></e>
+<e lm="jouktai"><i>jouktai</i><par n="juya__n"/></e>
+<e lm="ale'e"><i>ale'e</i><par n="juya__n"/></e>
+<e lm="ashimia"><i>ashimia</i><par n="juya__n"/></e>
+<e lm="sapaata"><i>sapaata</i><par n="juya__n"/></e>
+<e lm="kwalirü"><i>walirü</i><par n="juya__n"/></e>
+<e lm="mei"><i>mei</i><par n="juya__n"/></e>
     <e lm="shüliuala"><i>shüliuala</i><par n="ipa'__n"/></e>
     <e lm="kai"><i>kai</i><par n="ipa'__n"/></e>
     <e lm="lapu'"><i>lapu'</i><par n="ipa'__n"/></e>
@@ -656,6 +986,48 @@
 <e lm="kaatei"><i>kaatei</i><par n="jamaya__ij"/></e>
 <e lm="na"><i>na</i><par n="jamaya__ij"/></e>
 <e lm="jamaya pü'lapüin"><i>jamaya<b/>pü'lapüin</i><par n="jamaya__ij"/></e>
+
+<!-- Adposiciones -->
+
+<e lm="aashin"><i>aashin</i><par n="aashin__n"/></e>
+<e lm="aajüin"><i>aajüin</i><par n="aashin__n"/></e>
+<e lm="aalii"><i>aalii</i><par n="aashin__n"/></e>
+<e lm="aalin"><i>aalii</i><par n="aashin__n"/></e>
+<e lm="achiirua"><i>achiirua</i><par n="aashin__n"/></e>
+<e lm="ainküin"><i>ainküin</i><par n="aashin__n"/></e>
+<e lm="airu'u"><i>airu'u</i><par n="aashin__n"/></e>
+<e lm="aka"><i>aka</i><par n="aashin__n"/></e>
+<e lm="akajee"><i>akajee</i><par n="aashin__n"/></e>
+<e lm="a'ato'u"><i>a'ato'u</i><par n="aashin__n"/></e>
+<e lm="a'ütpa'a"><i>a'ütpa'a</i><par n="aashin__n"/></e>
+<e lm="ale'eru'u"><i>ale'eru'u</i><par n="aashin__n"/></e>
+<e lm="alu'u"><i>alu'u</i><par n="aashin__n"/></e>
+<e lm="alu'u"><i>alu'u</i><par n="aashin__n"/></e>
+<e lm="amüin"><i>amüin</i><par n="aashin__n"/></e>
+<e lm="amaa"><i>amaa</i><par n="aashin__n"/></e>
+<e lm="anain"><i>anain</i><par n="aashin__n"/></e>
+<e lm="anainjee"><i>anainjee</i><par n="aashin__n"/></e>
+<e lm="anainmüin"><i>anainmüin</i><par n="aashin__n"/></e>
+<e lm="anainmüinre'eya"><i>anainmüinre'eya</i><par n="aashin__n"/></e>
+<e lm="apücho'u"><i>apücho'u</i><par n="aashin__n"/></e>
+<e lm="apüla"><i>apüla</i><par n="aashin__n"/></e>
+<e lm="apülapünaa"><i>apülapünaa</i><par n="aashin__n"/></e>
+<e lm="apüleerua"><i>apüleerua</i><par n="aashin__n"/></e>
+<e lm="asala"><i>asala</i><par n="aashin__n"/></e>
+<e lm="atüma"><i>atüma</i><par n="aashin__n"/></e>
+<e lm="ee'iree"><i>ee'iree</i><par n="aashin__n"/></e>
+<e lm="einalu'u"><i>einalu'u</i><par n="aashin__n"/></e>
+<e lm="e'ipajee"><i>e'ipajee</i><par n="aashin__n"/></e>
+<e lm="eroku"><i>eroku</i><par n="aashin__n"/></e>
+<e lm="o'upala"><i>o'upala</i><par n="aashin__n"/></e>
+<e lm="o'utpünaa"><i>o'utpüna</i><par n="aashin__n"/></e>
+<e lm="o'unnaa"><i>o'unnaa</i><par n="aashin__n"/></e>
+<e lm="oulia"><i>oulia</i><par n="aashin__n"/></e>
+<e lm="oupünaa"><i>oupünaa</i><par n="aashin__n"/></e>
+<e lm="jümaa"><i>jümaa</i><par n="aashin__n"/></e>
+<e lm="achikijee"><i>achikijee</i><par n="aashin__n"/></e>
+<e lm="kasa"><i>kasa</i><par n="aashin__n"/></e>
+<e lm="aka"><i>aka</i><par n="aashin__n"/></e>
 
 
   </section>
