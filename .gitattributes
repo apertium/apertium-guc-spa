@@ -23,3 +23,8 @@ dev/cuento.spa.txt -text
 dev/dict.py -text
 /modes.xml -text
 /spa-guc.prob -text
+*.dix linguist-language=XML linguist-detectable=true
+*.lrx linguist-language=XML linguist-detectable=true
+*.lsx linguist-language=XML linguist-detectable=true
+*.tsx linguist-language=XML linguist-detectable=true
+*.t[[:digit:]]x linguist-language=XML linguist-detectable=true
