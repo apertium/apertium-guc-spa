@@ -1,34 +1,28 @@
 AC_PREREQ(2.52)
 
-AC_INIT([apertium-guc-spa], [0.1.0], [unknown@users.sourceforge.net])
-AM_INIT_AUTOMAKE([apertium-guc-spa], [0.1.0], no-define)
-AC_PROG_LN_S
+AC_INIT([Apertium Wayuu-Spanish], [0.1.0], [unknown@users.sourceforge.net], [apertium-guc-spa], [http://wiki.apertium.org/wiki/Apertium-guc-spa])
+AM_INIT_AUTOMAKE
 AC_PROG_AWK
 
-m4_define([required_apertium_version], [3.2.0])
-PKG_CHECK_MODULES(APERTIUM,   apertium >= required_apertium_version, [], [PKG_CHECK_MODULES(APERTIUM,   apertium-3.2 >= required_apertium_version)])
-                          
+PKG_CHECK_MODULES(APERTIUM, apertium >= 3.6.1)
+PKG_CHECK_MODULES(LTTOOLBOX, lttoolbox >= 3.5.1)
 
-AC_PATH_PROG(LRXCOMP, lrx-comp, no)
-if test x$ac_cv_path_LRXCOMP = x
-then
-  AC_MSG_ERROR([You don't have lrx-comp installed.])
-fi
-if test x$ac_cv_path_LRXCOMP = xno
-then
-  AC_MSG_ERROR([You don't have lrx-comp installed.])
-fi
+PKG_CHECK_MODULES(CG3, cg3 >= 1.3.1)
+PKG_CHECK_MODULES(APERTIUM_LEX_TOOLS, apertium-lex-tools >= 0.2.3)
 
-AC_PATH_PROG(LRXPROC, lrx-proc, no)
-if test x$ac_cv_path_LRXPROC = x
-then
-  AC_MSG_ERROR([You don't have lrx-proc installed.])
-fi
-if test x$ac_cv_path_LRXPROC = xno
-then
-  AC_MSG_ERROR([You don't have lrx-proc installed.])
-fi
 
+
+
+AC_PATH_PROGS(ZCAT, [gzcat zcat], [false])
+AS_IF([test x$ZCAT = xfalse], [AC_MSG_ERROR([You don't have zcat nor gzcat installed])])
+
+m4_ifdef([AP_CHECK_LING],[],[AC_MSG_ERROR([AP_CHECK_LING not defined, is apertium.m4 in ACLOCAL_PATH? See: http://wiki.apertium.org/wiki/Installation_troubleshooting])])
+
+
+#AP_CHECK_LING([1], [apertium-guc])
+
+#AP_CHECK_LING([2], [apertium-spa])
+
+AP_MKINCLUDE
 
 AC_OUTPUT([Makefile])
-
